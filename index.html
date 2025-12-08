@@ -183,9 +183,9 @@
             
             <!-- Model Performance Comparison removed per request -->
 
-            <!-- Performance charts: show R² and RMSE across models and SHAP summary (no model cards) -->
+            <!-- Performance charts: R² and RMSE side-by-side, SHAP summary below -->
             <div class="subsection">
-                <div class="grid grid-3">
+                <div class="grid grid-2">
                     <div>
                         <h3>R² Scores Across Models</h3>
                         <div id="r2-chart" class="chart-container"></div>
@@ -194,11 +194,11 @@
                         <h3>RMSE Across Models</h3>
                         <div id="rmse-chart" class="chart-container"></div>
                     </div>
-                    <div>
-                        <h3>SHAP Summary (Model Explainability)</h3>
-                        <p class="description">If available, SHAP mean absolute values show per-feature contribution to predictions.</p>
-                        <div id="shap-summary" class="chart-container"></div>
-                    </div>
+                </div>
+                <div style="margin-top:1.25rem;">
+                    <h3>SHAP Summary (Model Explainability)</h3>
+                    <p class="description">If available, SHAP mean absolute values show per-feature contribution to predictions.</p>
+                    <div id="shap-summary" class="chart-container"></div>
                 </div>
             </div>
 

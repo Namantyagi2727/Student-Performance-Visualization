@@ -1,0 +1,39 @@
+{
+  "total_records": 999,
+  "total_features": 27,
+  "numeric_features": 18,
+  "categorical_features": 9,
+  "missing_values": 0,
+  "target_variable": "semester_gpa",
+  "numeric_features_list": [
+    "age",
+    "years_in_us",
+    "family_income_usd",
+    "work_hours_per_week",
+    "study_hours_per_week",
+    "attendance_percentage",
+    "sleep_hours_per_day",
+    "screen_time_hours",
+    "campus_activity_participation",
+    "library_usage_hours",
+    "stress_level",
+    "homesickness_level",
+    "academic_pressure",
+    "social_support_score",
+    "work_restriction_impact",
+    "prev_sem_gpa",
+    "english_proficiency_score",
+    "semester_gpa"
+  ],
+  "categorical_features_list": [
+    "gender",
+    "race/ethnicity",
+    "parental level of education",
+    "lunch",
+    "country_region",
+    "financial_support",
+    "scholarship_status",
+    "housing_type",
+    "visa_type"
+  ]
+}

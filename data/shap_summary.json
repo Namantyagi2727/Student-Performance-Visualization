@@ -1,0 +1,30 @@
+{
+  "shap_summary": {
+    "gender": 0.0,
+    "race/ethnicity": 0.0,
+    "parental level of education": 1.364817260691635e-05,
+    "lunch": 1.3130878272743489e-06,
+    "age": 0.0018746439257807208,
+    "country_region": 0.0,
+    "years_in_us": 0.0,
+    "family_income_usd": 0.0,
+    "financial_support": 0.0,
+    "work_hours_per_week": 0.0005029515454664583,
+    "scholarship_status": 0.0,
+    "housing_type": 2.526973652334248e-05,
+    "study_hours_per_week": 3.3004485048409724,
+    "attendance_percentage": 4.713549371275799,
+    "sleep_hours_per_day": 0.41243760407948693,
+    "screen_time_hours": 0.0,
+    "campus_activity_participation": 0.0,
+    "library_usage_hours": 0.0,
+    "stress_level": 0.6286591889810459,
+    "homesickness_level": 0.6216672032911373,
+    "academic_pressure": 0.6286933780873685,
+    "social_support_score": 0.622982867947164,
+    "visa_type": 0.0,
+    "work_restriction_impact": 0.0005099625558905788,
+    "prev_sem_gpa": 0.3449455873300735,
+    "english_proficiency_score": 0.0009987962735199685
+  }
+}

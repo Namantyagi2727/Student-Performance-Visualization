@@ -1,0 +1,1000 @@
+gender,race/ethnicity,parental level of education,lunch,age,country_region,years_in_us,family_income_usd,financial_support,work_hours_per_week,scholarship_status,housing_type,study_hours_per_week,attendance_percentage,sleep_hours_per_day,screen_time_hours,campus_activity_participation,library_usage_hours,stress_level,homesickness_level,academic_pressure,social_support_score,visa_type,work_restriction_impact,prev_sem_gpa,english_proficiency_score,semester_gpa
+female,group B,bachelor's degree,standard,24.0,Other,4.0,131193.0,Scholarship,16.0,Yes,Off-campus,27.0,72.0,7.4,2.5,1.0,9.7,8.0,9.0,7.0,9.0,F1,10.0,3.6,81.8,2.49
+female,group C,some college,standard,21.0,Nigeria,4.0,23471.0,Loan,2.0,Yes,Off-campus,33.0,90.0,8.4,9.4,1.0,5.3,10.0,7.0,10.0,3.0,F1,2.0,3.57,103.6,2.36
+female,group B,master's degree,standard,28.0,Germany,3.0,127332.0,Loan,25.0,No,On-campus,25.0,95.0,5.5,9.0,3.0,13.8,2.0,10.0,6.0,1.0,J1,5.0,2.73,108.9,2.26
+male,group A,associate's degree,free/reduced,25.0,South Korea,1.0,140312.0,Self-funded,14.0,No,Off-campus,31.0,60.0,4.4,6.6,1.0,2.0,9.0,8.0,10.0,1.0,F1,1.0,3.98,110.9,1.98
+male,group C,some college,standard,22.0,Germany,4.0,143379.0,Loan,3.0,No,With relatives,17.0,78.0,5.5,2.1,1.0,10.1,3.0,6.0,4.0,7.0,F1,9.0,3.19,86.0,2.57
+female,group B,associate's degree,standard,24.0,Germany,2.0,115804.0,Family,3.0,No,On-campus,27.0,83.0,7.4,4.1,4.0,0.1,6.0,9.0,3.0,5.0,Other,10.0,2.8,97.8,2.47
+female,group B,some college,standard,27.0,Germany,0.0,28329.0,Scholarship,17.0,No,On-campus,20.0,95.0,5.6,5.3,0.0,13.9,6.0,6.0,9.0,1.0,J1,10.0,3.67,87.1,2.25
+male,group B,some college,free/reduced,20.0,UK,0.0,54865.0,Loan,16.0,Yes,Off-campus,34.0,60.0,5.4,5.7,2.0,1.7,2.0,7.0,10.0,6.0,F1,9.0,3.46,106.5,2.48
+male,group D,high school,free/reduced,24.0,Other,0.0,66850.0,Scholarship,18.0,No,Off-campus,8.0,64.0,4.9,4.4,0.0,1.4,7.0,7.0,4.0,6.0,F1,6.0,3.5,86.3,2.14
+female,group B,high school,free/reduced,28.0,UK,1.0,74220.0,Family,10.0,No,On-campus,20.0,60.0,6.5,2.3,3.0,5.0,9.0,9.0,8.0,4.0,F1,9.0,2.39,116.2,1.75
+male,group C,associate's degree,standard,28.0,India,3.0,132234.0,Loan,19.0,No,With relatives,35.0,60.0,5.4,6.7,0.0,5.6,10.0,8.0,1.0,7.0,F1,3.0,2.94,89.2,2.43
+male,group D,associate's degree,standard,25.0,UK,4.0,113808.0,Self-funded,2.0,No,Off-campus,29.0,60.0,7.7,6.2,1.0,3.2,1.0,1.0,7.0,7.0,Other,4.0,3.72,91.7,3.0
+female,group B,high school,standard,22.0,South Korea,2.0,128381.0,Scholarship,7.0,No,Off-campus,16.0,81.0,4.4,4.3,3.0,8.8,8.0,4.0,6.0,9.0,F1,6.0,3.01,114.0,2.36
+male,group A,some college,standard,21.0,South Korea,2.0,26397.0,Family,13.0,No,With relatives,30.0,72.0,7.3,2.3,0.0,6.6,2.0,7.0,1.0,1.0,J1,4.0,3.37,98.3,2.72
+female,group A,master's degree,standard,25.0,UK,1.0,117909.0,Scholarship,25.0,No,With relatives,37.0,60.0,5.2,10.0,3.0,0.5,1.0,8.0,4.0,5.0,F1,1.0,3.18,81.0,2.66
+female,group C,some high school,standard,25.0,Other,0.0,149004.0,Loan,0.0,No,On-campus,32.0,75.0,6.4,5.9,2.0,4.8,8.0,7.0,5.0,10.0,Other,7.0,3.68,99.8,2.75
+male,group C,high school,standard,20.0,Brazil,1.0,55525.0,Loan,13.0,No,With relatives,13.0,89.0,5.4,8.0,0.0,12.2,2.0,3.0,8.0,3.0,F1,5.0,2.57,83.4,2.28
+female,group B,some high school,free/reduced,23.0,Nigeria,3.0,73072.0,Self-funded,1.0,Yes,On-campus,16.0,60.0,7.6,5.6,1.0,10.3,6.0,4.0,4.0,7.0,F1,8.0,3.15,119.4,2.49
+male,group C,master's degree,free/reduced,22.0,Other,3.0,110106.0,Family,28.0,No,With relatives,9.0,60.0,8.7,2.3,3.0,10.9,6.0,7.0,3.0,4.0,F1,9.0,2.25,103.5,2.05
+female,group C,associate's degree,free/reduced,19.0,UK,4.0,103820.0,Family,22.0,Yes,Off-campus,32.0,60.0,8.6,4.5,4.0,10.5,5.0,8.0,2.0,4.0,F1,5.0,3.38,90.3,2.66
+male,group D,high school,standard,25.0,Germany,4.0,104530.0,Self-funded,3.0,No,On-campus,39.0,69.0,6.9,4.6,3.0,4.7,8.0,7.0,4.0,1.0,F1,8.0,3.46,102.5,2.48
+female,group B,some college,free/reduced,29.0,China,3.0,43284.0,Self-funded,23.0,Yes,On-campus,9.0,75.0,6.3,8.7,4.0,1.5,3.0,6.0,10.0,1.0,J1,1.0,2.09,83.1,1.76
+male,group D,some college,standard,23.0,Nigeria,3.0,81330.0,Family,26.0,No,On-campus,38.0,60.0,8.1,7.2,1.0,4.1,10.0,9.0,4.0,10.0,F1,1.0,3.35,112.0,2.64
+female,group C,some high school,standard,19.0,Nigeria,3.0,103369.0,Scholarship,28.0,No,With relatives,38.0,73.0,7.4,4.2,2.0,12.5,4.0,9.0,10.0,2.0,F1,7.0,2.83,117.0,2.26
+male,group D,bachelor's degree,free/reduced,29.0,South Korea,1.0,45122.0,Scholarship,18.0,No,Off-campus,17.0,71.0,4.9,9.7,4.0,14.7,7.0,7.0,5.0,2.0,F1,6.0,2.25,115.0,1.87
+male,group A,master's degree,free/reduced,22.0,Nigeria,3.0,90553.0,Self-funded,5.0,Yes,On-campus,18.0,74.0,8.1,4.6,2.0,7.4,7.0,8.0,7.0,1.0,F1,5.0,2.84,93.7,2.0
+male,group B,some college,standard,18.0,UK,2.0,101906.0,Scholarship,24.0,Yes,On-campus,15.0,60.0,6.1,10.0,3.0,0.1,8.0,6.0,9.0,8.0,Other,5.0,2.39,93.0,1.93
+female,group C,bachelor's degree,standard,29.0,Germany,0.0,114788.0,Family,0.0,Yes,On-campus,8.0,69.0,4.9,10.0,1.0,2.1,2.0,1.0,2.0,6.0,F1,9.0,2.83,81.4,2.56
+male,group C,high school,standard,27.0,Germany,3.0,82812.0,Loan,16.0,Yes,On-campus,37.0,70.0,5.4,3.5,4.0,4.8,2.0,1.0,5.0,6.0,F1,1.0,2.77,106.1,2.89
+female,group D,master's degree,standard,23.0,India,0.0,27999.0,Loan,7.0,Yes,Off-campus,11.0,70.0,5.3,4.5,3.0,8.7,4.0,6.0,10.0,10.0,F1,8.0,3.48,101.4,2.32
+female,group D,some college,standard,29.0,Germany,1.0,42436.0,Scholarship,18.0,No,With relatives,12.0,74.0,6.6,5.9,0.0,1.1,10.0,2.0,9.0,10.0,F1,2.0,3.55,98.4,2.39
+female,group B,some college,standard,26.0,Other,0.0,62963.0,Self-funded,20.0,Yes,Off-campus,14.0,65.0,5.2,7.3,3.0,14.2,9.0,8.0,3.0,9.0,J1,7.0,3.21,116.3,2.23
+female,group E,master's degree,free/reduced,18.0,Germany,1.0,22096.0,Self-funded,0.0,Yes,On-campus,19.0,72.0,4.6,6.2,2.0,5.5,10.0,1.0,1.0,5.0,F1,6.0,2.05,86.7,2.25
+male,group D,some college,standard,28.0,South Korea,2.0,149940.0,Self-funded,4.0,No,Off-campus,19.0,60.0,4.6,9.8,1.0,13.7,9.0,2.0,2.0,4.0,F1,10.0,3.86,80.4,2.46
+male,group E,some college,standard,28.0,Germany,1.0,133737.0,Self-funded,26.0,No,On-campus,9.0,87.0,6.9,7.8,1.0,11.7,4.0,8.0,6.0,6.0,J1,2.0,3.37,82.9,2.36
+male,group E,associate's degree,standard,27.0,India,1.0,45279.0,Self-funded,15.0,No,With relatives,33.0,81.0,7.7,3.7,3.0,11.3,9.0,6.0,5.0,8.0,F1,3.0,2.07,88.9,2.46
+female,group D,associate's degree,standard,29.0,China,4.0,141092.0,Scholarship,5.0,No,With relatives,23.0,81.0,5.6,2.8,0.0,9.1,3.0,10.0,1.0,1.0,F1,4.0,3.64,81.3,2.49
+female,group D,some high school,free/reduced,29.0,UK,3.0,128899.0,Loan,7.0,No,With relatives,14.0,64.0,4.2,7.5,2.0,9.4,5.0,2.0,1.0,7.0,Other,7.0,2.4,100.1,2.42
+female,group D,associate's degree,free/reduced,20.0,South Korea,3.0,134245.0,Loan,12.0,Yes,On-campus,16.0,90.0,4.6,3.3,3.0,9.6,10.0,2.0,4.0,8.0,F1,8.0,3.16,92.6,2.5
+male,group B,associate's degree,free/reduced,29.0,Other,2.0,46201.0,Scholarship,15.0,No,Off-campus,8.0,60.0,8.6,8.3,3.0,9.4,9.0,7.0,4.0,9.0,J1,2.0,2.93,87.2,2.21
+male,group C,associate's degree,free/reduced,24.0,China,2.0,39715.0,Self-funded,29.0,No,With relatives,35.0,61.0,6.5,4.5,1.0,8.3,6.0,5.0,6.0,8.0,F1,8.0,2.84,110.0,2.59
+female,group C,associate's degree,standard,21.0,South Korea,3.0,49309.0,Scholarship,2.0,Yes,On-campus,22.0,73.0,6.3,4.6,2.0,14.8,3.0,5.0,6.0,7.0,J1,9.0,3.78,88.2,2.72
+female,group B,associate's degree,standard,26.0,Brazil,4.0,35078.0,Loan,18.0,No,On-campus,20.0,60.0,4.2,2.1,0.0,11.0,10.0,8.0,10.0,3.0,J1,7.0,2.87,107.5,1.62
+male,group B,some college,free/reduced,20.0,Nigeria,3.0,76614.0,Family,11.0,Yes,Off-campus,29.0,65.0,7.6,7.6,1.0,11.7,9.0,7.0,6.0,2.0,F1,1.0,2.15,94.0,1.99
+female,group E,associate's degree,free/reduced,22.0,Brazil,4.0,25105.0,Scholarship,15.0,Yes,With relatives,27.0,60.0,6.6,2.9,3.0,13.1,6.0,9.0,1.0,3.0,F1,6.0,3.89,100.5,2.52
+male,group B,associate's degree,standard,20.0,Germany,2.0,137666.0,Self-funded,26.0,No,On-campus,16.0,60.0,5.0,8.2,1.0,3.2,4.0,4.0,10.0,4.0,F1,8.0,3.84,117.4,2.23
+female,group A,associate's degree,standard,24.0,China,0.0,114848.0,Loan,10.0,No,Off-campus,38.0,65.0,4.6,5.9,1.0,1.3,4.0,10.0,9.0,4.0,F1,5.0,3.37,81.5,2.28
+female,group C,high school,standard,22.0,Germany,2.0,22839.0,Loan,9.0,No,With relatives,7.0,71.0,5.9,8.3,4.0,7.2,8.0,4.0,7.0,6.0,F1,2.0,2.94,100.0,2.06
+female,group D,associate's degree,free/reduced,26.0,Nigeria,2.0,88920.0,Loan,24.0,Yes,Off-campus,13.0,74.0,8.2,6.7,1.0,7.7,7.0,2.0,7.0,7.0,F1,5.0,2.19,114.2,2.28
+male,group C,high school,standard,24.0,South Korea,1.0,63619.0,Loan,19.0,No,Off-campus,22.0,84.0,8.3,2.7,1.0,12.4,1.0,3.0,7.0,4.0,F1,8.0,3.58,103.5,2.84
+male,group E,some college,standard,19.0,Nigeria,1.0,62821.0,Self-funded,3.0,No,On-campus,39.0,60.0,7.0,8.1,2.0,6.7,6.0,1.0,2.0,10.0,Other,2.0,2.15,91.1,2.93
+male,group E,associate's degree,free/reduced,21.0,India,1.0,145736.0,Family,11.0,No,On-campus,38.0,69.0,7.6,2.6,1.0,8.6,8.0,1.0,2.0,6.0,F1,1.0,2.14,95.9,2.75
+male,group C,some college,standard,26.0,Nigeria,1.0,33493.0,Loan,22.0,No,On-campus,18.0,60.0,4.6,5.8,0.0,7.9,3.0,7.0,6.0,9.0,F1,4.0,3.07,107.2,2.37
+male,group D,high school,standard,29.0,India,4.0,37069.0,Scholarship,1.0,Yes,Off-campus,8.0,78.0,6.9,3.4,3.0,0.6,9.0,5.0,7.0,6.0,F1,4.0,2.32,115.6,1.96
+female,group C,some high school,free/reduced,19.0,Nigeria,3.0,132443.0,Family,23.0,Yes,On-campus,33.0,84.0,7.3,8.0,2.0,9.2,10.0,3.0,3.0,3.0,F1,9.0,2.02,81.6,2.41
+female,group C,high school,free/reduced,27.0,UK,0.0,27531.0,Loan,21.0,No,Off-campus,19.0,60.0,5.0,9.3,1.0,12.4,2.0,7.0,4.0,1.0,F1,3.0,2.85,82.9,2.16
+female,group E,associate's degree,standard,26.0,India,2.0,57051.0,Family,18.0,No,Off-campus,32.0,85.0,8.4,6.4,0.0,2.4,6.0,2.0,3.0,10.0,F1,4.0,2.27,93.0,2.98
+male,group D,associate's degree,standard,27.0,China,4.0,27736.0,Scholarship,24.0,No,On-campus,20.0,60.0,5.0,6.2,3.0,8.9,1.0,3.0,7.0,10.0,J1,3.0,2.32,89.3,2.51
+male,group D,some college,standard,22.0,Germany,0.0,27710.0,Loan,4.0,No,With relatives,16.0,60.0,5.6,8.1,2.0,8.9,2.0,1.0,7.0,5.0,Other,2.0,2.15,90.6,2.28
+female,group C,some high school,free/reduced,19.0,Other,4.0,87155.0,Scholarship,7.0,No,With relatives,9.0,60.0,7.1,2.0,0.0,2.5,5.0,8.0,4.0,10.0,F1,4.0,2.41,88.9,2.21
+male,group E,bachelor's degree,free/reduced,21.0,Germany,4.0,33975.0,Self-funded,6.0,Yes,With relatives,38.0,74.0,7.2,9.3,1.0,1.9,1.0,2.0,7.0,10.0,F1,8.0,3.43,87.8,3.22
+male,group A,some high school,free/reduced,29.0,Brazil,2.0,82424.0,Loan,13.0,No,Off-campus,5.0,60.0,7.5,3.6,4.0,14.7,8.0,7.0,5.0,3.0,F1,1.0,3.62,85.2,2.01
+male,group A,associate's degree,free/reduced,29.0,Germany,3.0,65603.0,Loan,23.0,Yes,Off-campus,36.0,61.0,4.6,9.9,4.0,5.9,1.0,9.0,1.0,8.0,F1,8.0,2.91,117.4,2.77
+female,group C,associate's degree,standard,24.0,South Korea,1.0,43252.0,Loan,22.0,No,Off-campus,30.0,80.0,8.2,7.9,2.0,3.4,9.0,6.0,10.0,10.0,F1,8.0,3.01,85.8,2.5
+female,group D,some high school,standard,29.0,UK,3.0,100797.0,Loan,2.0,No,On-campus,21.0,60.0,6.7,8.2,0.0,2.6,10.0,2.0,4.0,1.0,F1,3.0,2.07,88.2,1.99
+male,group B,some high school,standard,25.0,Nigeria,2.0,21431.0,Self-funded,17.0,No,Off-campus,31.0,64.0,6.4,7.2,3.0,10.0,3.0,2.0,7.0,2.0,F1,10.0,2.14,89.9,2.36
+male,group D,some high school,free/reduced,20.0,Brazil,2.0,94603.0,Loan,15.0,No,On-campus,28.0,60.0,8.9,5.8,0.0,9.1,2.0,9.0,2.0,3.0,F1,10.0,2.52,117.3,2.48
+female,group C,some college,standard,18.0,South Korea,2.0,57481.0,Family,22.0,Yes,On-campus,39.0,72.0,7.7,6.6,4.0,9.7,1.0,10.0,2.0,3.0,F1,6.0,3.09,110.2,2.78
+male,group B,associate's degree,free/reduced,21.0,South Korea,0.0,112573.0,Loan,18.0,Yes,With relatives,30.0,60.0,4.6,2.4,2.0,1.3,9.0,8.0,1.0,8.0,F1,4.0,3.48,111.6,2.51
+female,group C,associate's degree,standard,19.0,India,3.0,29557.0,Self-funded,18.0,Yes,With relatives,27.0,64.0,7.8,7.0,1.0,13.4,4.0,9.0,2.0,5.0,F1,1.0,3.21,84.2,2.58
+female,group D,some college,free/reduced,25.0,Germany,3.0,94971.0,Loan,17.0,No,With relatives,26.0,63.0,4.5,7.0,0.0,5.8,1.0,4.0,10.0,8.0,J1,1.0,2.78,113.5,2.44
+male,group D,some college,standard,21.0,China,4.0,123302.0,Family,19.0,No,On-campus,8.0,60.0,4.1,9.1,4.0,4.7,1.0,4.0,8.0,6.0,Other,5.0,2.24,96.3,2.03
+female,group A,associate's degree,free/reduced,19.0,Other,4.0,20162.0,Self-funded,15.0,No,On-campus,13.0,60.0,6.0,6.0,3.0,6.9,7.0,2.0,8.0,2.0,F1,8.0,3.56,90.5,2.13
+male,group C,some high school,free/reduced,23.0,China,4.0,54742.0,Self-funded,7.0,Yes,On-campus,8.0,60.0,9.0,2.6,2.0,5.9,2.0,10.0,8.0,4.0,F1,1.0,2.73,103.0,1.99
+male,group C,some high school,standard,23.0,Brazil,2.0,39675.0,Family,27.0,No,Off-campus,11.0,60.0,4.9,4.4,1.0,13.0,7.0,1.0,1.0,9.0,F1,2.0,3.47,112.9,2.64
+male,group B,associate's degree,free/reduced,27.0,UK,3.0,93997.0,Family,0.0,No,On-campus,27.0,60.0,7.4,7.2,0.0,13.9,7.0,10.0,1.0,4.0,F1,7.0,3.03,111.1,2.34
+male,group E,some high school,standard,21.0,China,2.0,37015.0,Family,16.0,No,With relatives,6.0,60.0,4.9,3.9,3.0,4.6,10.0,4.0,10.0,5.0,F1,8.0,3.48,115.6,1.8
+male,group A,bachelor's degree,standard,23.0,Nigeria,0.0,70057.0,Family,11.0,No,With relatives,28.0,78.0,7.6,4.2,1.0,13.0,9.0,10.0,4.0,5.0,F1,3.0,3.81,117.1,2.47
+female,group D,some high school,standard,19.0,China,4.0,52591.0,Family,29.0,No,On-campus,35.0,74.0,6.5,8.6,4.0,11.7,7.0,10.0,6.0,10.0,F1,8.0,3.84,89.5,2.71
+female,group E,master's degree,standard,27.0,Brazil,2.0,113583.0,Self-funded,20.0,No,On-campus,35.0,68.0,7.4,6.7,4.0,14.0,1.0,8.0,8.0,8.0,F1,1.0,3.07,97.0,2.72
+female,group B,associate's degree,standard,29.0,Other,2.0,146133.0,Self-funded,10.0,Yes,With relatives,38.0,60.0,5.0,6.1,3.0,3.7,8.0,2.0,2.0,6.0,F1,9.0,3.02,80.6,2.72
+male,group B,high school,free/reduced,19.0,China,0.0,120318.0,Loan,4.0,No,On-campus,28.0,60.0,7.7,4.5,4.0,8.7,8.0,8.0,3.0,10.0,Other,2.0,2.53,115.2,2.47
+male,group A,some college,free/reduced,27.0,Nigeria,1.0,29833.0,Loan,26.0,Yes,With relatives,30.0,60.0,9.0,7.8,2.0,4.1,4.0,1.0,6.0,7.0,F1,2.0,3.87,86.2,3.02
+male,group E,associate's degree,standard,21.0,India,3.0,27896.0,Scholarship,11.0,No,Off-campus,20.0,64.0,7.3,4.3,3.0,12.4,8.0,1.0,10.0,6.0,F1,4.0,2.92,114.5,2.27
+male,group D,high school,free/reduced,25.0,UK,1.0,52972.0,Loan,16.0,No,With relatives,17.0,60.0,6.5,7.9,4.0,0.1,4.0,4.0,4.0,5.0,F1,10.0,2.26,93.2,2.28
+female,group C,some college,standard,24.0,Brazil,4.0,69733.0,Loan,5.0,No,Off-campus,19.0,80.0,8.6,2.6,0.0,8.5,8.0,7.0,2.0,5.0,F1,3.0,2.87,94.7,2.44
+female,group C,some college,free/reduced,29.0,India,2.0,140363.0,Family,0.0,No,On-campus,31.0,83.0,4.1,8.9,4.0,5.1,5.0,9.0,7.0,3.0,F1,4.0,2.25,81.6,2.08
+female,group D,associate's degree,standard,26.0,India,0.0,61800.0,Family,4.0,No,On-campus,8.0,71.0,7.6,6.0,2.0,4.8,4.0,5.0,4.0,7.0,F1,6.0,3.01,93.1,2.45
+female,group A,some college,standard,25.0,India,0.0,116044.0,Loan,24.0,No,Off-campus,20.0,70.0,8.4,5.5,1.0,9.7,6.0,2.0,8.0,10.0,F1,7.0,3.12,115.5,2.68
+female,group D,some high school,standard,22.0,South Korea,3.0,25347.0,Scholarship,27.0,No,On-campus,34.0,86.0,4.3,6.9,1.0,12.8,2.0,7.0,8.0,5.0,F1,5.0,2.68,81.0,2.47
+female,group C,bachelor's degree,standard,19.0,UK,1.0,79063.0,Family,13.0,No,Off-campus,34.0,72.0,6.3,7.0,4.0,9.1,2.0,2.0,7.0,7.0,F1,2.0,2.14,96.3,2.69
+male,group C,high school,free/reduced,22.0,Other,3.0,115850.0,Loan,4.0,No,On-campus,7.0,60.0,5.0,3.1,1.0,12.8,2.0,9.0,10.0,2.0,F1,3.0,3.89,81.3,1.91
+male,group C,high school,standard,25.0,Germany,2.0,22643.0,Loan,21.0,No,With relatives,26.0,79.0,6.8,8.0,4.0,4.0,9.0,9.0,9.0,9.0,F1,10.0,3.55,94.8,2.36
+male,group C,associate's degree,free/reduced,27.0,UK,3.0,60785.0,Self-funded,23.0,No,On-campus,26.0,60.0,7.2,4.2,2.0,7.8,10.0,3.0,4.0,8.0,F1,3.0,3.68,86.9,2.65
+female,group B,some college,standard,26.0,South Korea,0.0,38681.0,Scholarship,26.0,No,With relatives,16.0,86.0,5.5,9.2,1.0,6.8,3.0,8.0,7.0,5.0,F1,5.0,2.73,90.1,2.23
+male,group C,associate's degree,free/reduced,29.0,Germany,0.0,70026.0,Self-funded,0.0,No,With relatives,25.0,81.0,6.3,8.5,0.0,0.2,10.0,4.0,10.0,2.0,F1,5.0,3.52,115.1,2.16
+male,group B,some high school,standard,29.0,UK,4.0,123864.0,Scholarship,29.0,No,Off-campus,8.0,66.0,5.4,4.8,4.0,8.4,4.0,3.0,10.0,6.0,F1,4.0,2.97,97.4,2.11
+female,group E,some college,standard,29.0,India,4.0,35892.0,Family,17.0,Yes,On-campus,35.0,72.0,5.8,8.5,1.0,9.9,10.0,1.0,1.0,8.0,F1,8.0,2.4,91.0,2.73
+female,group D,some college,free/reduced,26.0,Brazil,2.0,67299.0,Scholarship,15.0,Yes,Off-campus,35.0,67.0,4.8,4.9,2.0,8.9,8.0,5.0,4.0,7.0,Other,6.0,2.25,103.6,2.39
+female,group D,bachelor's degree,standard,18.0,Germany,1.0,37073.0,Loan,8.0,No,On-campus,27.0,67.0,8.4,2.8,2.0,11.0,4.0,4.0,2.0,8.0,J1,6.0,2.69,85.7,2.84
+male,group B,some college,standard,26.0,Nigeria,3.0,122304.0,Loan,18.0,Yes,With relatives,24.0,67.0,4.1,9.7,0.0,8.6,10.0,1.0,9.0,4.0,F1,1.0,2.28,90.4,1.96
+male,group D,bachelor's degree,standard,24.0,Nigeria,2.0,50682.0,Scholarship,21.0,No,With relatives,19.0,74.0,8.4,7.2,2.0,1.0,10.0,10.0,5.0,3.0,J1,6.0,4.0,101.8,2.22
+female,group D,associate's degree,standard,26.0,China,4.0,117798.0,Scholarship,4.0,No,On-campus,27.0,91.0,6.9,5.6,2.0,1.7,7.0,8.0,3.0,7.0,F1,3.0,2.1,89.5,2.44
+male,group B,high school,standard,25.0,Germany,3.0,146021.0,Scholarship,26.0,No,On-campus,32.0,60.0,5.7,5.2,1.0,8.9,5.0,8.0,4.0,2.0,Other,6.0,2.88,107.2,2.27
+male,group C,some college,standard,18.0,Brazil,4.0,116894.0,Self-funded,1.0,No,Off-campus,20.0,86.0,7.6,4.6,4.0,4.1,9.0,8.0,6.0,5.0,F1,10.0,2.9,99.7,2.21
+female,group C,some college,standard,29.0,Other,3.0,144302.0,Scholarship,29.0,No,On-campus,25.0,67.0,6.5,9.9,3.0,1.2,4.0,3.0,10.0,7.0,F1,6.0,2.6,110.9,2.39
+female,group D,master's degree,standard,25.0,South Korea,1.0,34289.0,Family,14.0,No,On-campus,19.0,100.0,6.5,3.1,2.0,6.4,3.0,6.0,1.0,1.0,F1,2.0,3.14,117.9,2.64
+male,group E,associate's degree,standard,25.0,India,2.0,135359.0,Self-funded,6.0,No,On-campus,21.0,63.0,4.6,4.5,2.0,8.3,2.0,7.0,7.0,4.0,F1,1.0,2.3,84.6,2.08
+female,group B,associate's degree,free/reduced,28.0,China,3.0,27927.0,Self-funded,3.0,No,Off-campus,17.0,76.0,5.9,5.9,3.0,4.9,1.0,9.0,8.0,2.0,F1,3.0,3.57,93.4,2.25
+female,group B,some high school,standard,20.0,Nigeria,0.0,68330.0,Scholarship,0.0,No,On-campus,23.0,64.0,5.2,5.8,2.0,10.8,6.0,5.0,7.0,6.0,J1,5.0,2.66,92.8,2.21
+female,group D,associate's degree,free/reduced,18.0,South Korea,0.0,86707.0,Family,12.0,Yes,With relatives,34.0,89.0,4.1,5.8,1.0,9.7,10.0,9.0,7.0,1.0,F1,4.0,3.18,86.0,2.06
+male,group C,high school,standard,25.0,South Korea,3.0,140279.0,Self-funded,19.0,No,Off-campus,22.0,60.0,5.8,3.4,1.0,5.0,2.0,6.0,9.0,7.0,F1,7.0,3.43,112.4,2.43
+male,group A,associate's degree,standard,20.0,India,3.0,97454.0,Loan,21.0,No,Off-campus,18.0,60.0,4.4,3.2,3.0,11.3,8.0,10.0,4.0,3.0,F1,4.0,3.78,110.4,2.02
+female,group D,some college,standard,20.0,Other,3.0,127439.0,Self-funded,6.0,No,With relatives,24.0,60.0,5.3,4.0,2.0,9.7,6.0,10.0,7.0,1.0,F1,8.0,3.67,99.4,2.01
+female,group E,bachelor's degree,standard,18.0,Other,0.0,124646.0,Scholarship,14.0,No,With relatives,23.0,100.0,4.5,9.3,2.0,9.6,5.0,10.0,9.0,8.0,F1,7.0,3.22,101.5,2.35
+male,group C,high school,standard,28.0,Germany,0.0,85428.0,Family,22.0,No,With relatives,11.0,77.0,4.5,2.9,4.0,8.3,2.0,4.0,5.0,7.0,F1,10.0,2.78,82.4,2.42
+female,group B,bachelor's degree,free/reduced,22.0,Nigeria,3.0,70601.0,Scholarship,13.0,No,On-campus,8.0,85.0,5.0,8.1,2.0,0.2,7.0,1.0,2.0,2.0,F1,9.0,3.01,102.2,2.33
+female,group D,bachelor's degree,standard,27.0,Other,4.0,97465.0,Loan,22.0,No,With relatives,38.0,82.0,9.0,8.1,1.0,10.4,2.0,1.0,5.0,7.0,F1,1.0,3.54,111.7,3.33
+female,group D,some high school,standard,24.0,Brazil,4.0,22539.0,Loan,18.0,Yes,On-campus,6.0,63.0,4.0,8.5,0.0,5.6,5.0,10.0,4.0,3.0,F1,5.0,3.76,103.0,1.96
+female,group C,some college,standard,27.0,Other,1.0,122263.0,Loan,21.0,Yes,Off-campus,9.0,69.0,7.2,9.1,0.0,14.1,2.0,5.0,8.0,9.0,F1,4.0,2.21,90.6,2.27
+female,group C,bachelor's degree,standard,26.0,South Korea,2.0,131487.0,Scholarship,28.0,No,Off-campus,14.0,92.0,4.7,4.1,0.0,12.3,10.0,3.0,5.0,8.0,F1,6.0,2.77,106.7,2.32
+male,group B,associate's degree,standard,29.0,India,4.0,42669.0,Self-funded,23.0,No,With relatives,36.0,89.0,8.6,3.8,0.0,8.8,2.0,5.0,9.0,5.0,J1,1.0,3.55,94.5,2.93
+female,group C,some college,standard,24.0,Brazil,0.0,90968.0,Scholarship,19.0,No,On-campus,17.0,93.0,4.5,5.7,2.0,3.8,7.0,5.0,9.0,7.0,F1,6.0,2.86,101.8,2.22
+male,group D,high school,free/reduced,26.0,Germany,4.0,40644.0,Family,28.0,No,With relatives,9.0,60.0,8.8,4.1,2.0,3.1,9.0,1.0,3.0,3.0,F1,1.0,2.66,99.5,2.22
+male,group E,some college,standard,25.0,Nigeria,1.0,38745.0,Self-funded,23.0,No,With relatives,14.0,80.0,7.1,7.9,4.0,5.1,5.0,8.0,10.0,1.0,F1,1.0,2.82,95.2,1.89
+female,group B,high school,standard,29.0,Germany,1.0,140852.0,Loan,17.0,No,On-campus,14.0,95.0,4.0,7.1,2.0,7.1,7.0,5.0,6.0,1.0,F1,8.0,3.21,108.8,2.12
+male,group B,some high school,standard,19.0,South Korea,2.0,148081.0,Scholarship,9.0,Yes,With relatives,31.0,68.0,8.5,9.0,0.0,4.4,4.0,5.0,6.0,2.0,F1,2.0,4.0,115.4,2.73
+male,group D,some college,standard,18.0,Brazil,4.0,48228.0,Loan,8.0,No,Off-campus,25.0,77.0,6.6,2.7,3.0,7.7,2.0,9.0,4.0,8.0,F1,10.0,2.99,80.2,2.65
+male,group D,master's degree,standard,24.0,Brazil,0.0,138358.0,Loan,24.0,Yes,With relatives,12.0,82.0,5.3,9.3,3.0,2.5,3.0,8.0,10.0,1.0,F1,6.0,2.42,117.3,1.79
+female,group A,bachelor's degree,standard,24.0,Brazil,0.0,54521.0,Family,7.0,Yes,On-campus,5.0,60.0,7.8,4.3,1.0,14.7,2.0,1.0,3.0,5.0,F1,6.0,2.33,100.5,2.41
+male,group D,master's degree,standard,25.0,South Korea,3.0,142788.0,Self-funded,25.0,No,On-campus,32.0,84.0,8.6,5.9,1.0,1.6,5.0,3.0,1.0,9.0,F1,6.0,2.08,108.0,2.98
+male,group C,some high school,free/reduced,22.0,South Korea,0.0,117239.0,Family,29.0,Yes,Off-campus,18.0,60.0,6.4,5.5,2.0,14.0,6.0,7.0,7.0,9.0,F1,8.0,3.12,114.2,2.3
+male,group E,some college,free/reduced,20.0,Germany,2.0,46928.0,Family,28.0,Yes,On-campus,25.0,74.0,5.6,8.1,3.0,13.7,7.0,1.0,5.0,2.0,F1,4.0,3.09,98.7,2.45
+female,group C,some college,standard,29.0,China,2.0,38322.0,Family,9.0,Yes,On-campus,34.0,81.0,7.9,5.4,0.0,7.9,3.0,1.0,10.0,7.0,F1,3.0,2.41,113.4,2.75
+male,group D,bachelor's degree,free/reduced,25.0,Germany,0.0,77714.0,Loan,16.0,No,Off-campus,25.0,79.0,7.4,9.5,0.0,10.9,4.0,5.0,7.0,1.0,F1,6.0,3.39,87.1,2.46
+male,group C,bachelor's degree,standard,23.0,Nigeria,0.0,107896.0,Family,1.0,No,With relatives,13.0,60.0,8.4,9.2,0.0,6.5,8.0,9.0,1.0,3.0,F1,4.0,3.48,86.4,2.22
+male,group B,some high school,standard,28.0,India,3.0,82292.0,Family,5.0,No,Off-campus,21.0,60.0,7.5,9.0,2.0,9.5,4.0,6.0,8.0,6.0,J1,2.0,2.52,106.3,2.23
+male,group E,high school,standard,20.0,Brazil,0.0,49055.0,Self-funded,25.0,No,With relatives,9.0,60.0,5.2,2.6,2.0,5.1,7.0,10.0,3.0,9.0,F1,6.0,2.69,114.8,2.02
+female,group C,associate's degree,standard,18.0,China,3.0,62891.0,Self-funded,4.0,No,Off-campus,35.0,66.0,8.7,8.8,4.0,4.5,6.0,2.0,7.0,10.0,F1,10.0,3.98,115.7,3.1
+male,group D,some college,standard,20.0,India,3.0,101912.0,Family,27.0,No,With relatives,23.0,61.0,4.5,8.3,0.0,8.7,7.0,9.0,3.0,2.0,F1,5.0,2.75,105.7,1.98
+female,group D,some high school,standard,22.0,China,0.0,26588.0,Self-funded,29.0,Yes,Off-campus,37.0,72.0,5.3,2.8,0.0,7.5,1.0,6.0,3.0,7.0,F1,9.0,3.52,101.0,3.01
+female,group C,some college,free/reduced,20.0,Other,1.0,110536.0,Self-funded,8.0,No,With relatives,17.0,62.0,6.6,2.9,2.0,8.7,3.0,5.0,10.0,4.0,F1,6.0,2.91,93.3,2.14
+female,group E,some college,free/reduced,18.0,Other,1.0,26304.0,Family,4.0,No,Off-campus,18.0,60.0,6.8,2.8,2.0,4.3,6.0,5.0,9.0,2.0,F1,3.0,3.59,119.2,2.13
+male,group A,high school,standard,22.0,UK,3.0,27345.0,Loan,17.0,No,With relatives,37.0,60.0,4.1,2.1,4.0,5.5,3.0,3.0,2.0,3.0,F1,5.0,3.54,92.8,2.81
+male,group D,some college,standard,27.0,Other,0.0,49300.0,Family,25.0,No,Off-campus,33.0,73.0,7.9,6.4,4.0,1.3,7.0,6.0,4.0,6.0,F1,10.0,3.34,109.8,2.71
+female,group C,some college,free/reduced,24.0,Germany,1.0,44259.0,Self-funded,19.0,No,On-campus,14.0,60.0,5.8,9.8,1.0,0.8,9.0,4.0,6.0,10.0,F1,8.0,3.71,101.3,2.41
+male,group B,some high school,standard,24.0,Other,0.0,111006.0,Loan,8.0,No,With relatives,35.0,84.0,6.0,5.5,3.0,3.8,3.0,10.0,3.0,9.0,F1,9.0,3.88,104.3,2.99
+male,group C,associate's degree,free/reduced,28.0,South Korea,0.0,108553.0,Scholarship,16.0,No,Off-campus,10.0,68.0,8.0,6.3,0.0,1.1,1.0,2.0,10.0,8.0,F1,8.0,3.16,95.7,2.55
+female,group D,bachelor's degree,standard,26.0,Brazil,0.0,35352.0,Loan,26.0,No,With relatives,5.0,75.0,5.9,9.7,0.0,1.6,10.0,3.0,10.0,10.0,J1,3.0,2.47,118.6,1.96
+male,group E,associate's degree,free/reduced,27.0,Germany,4.0,149350.0,Self-funded,16.0,No,With relatives,11.0,100.0,4.2,4.0,4.0,12.2,6.0,9.0,7.0,9.0,F1,9.0,2.8,102.9,2.19
+male,group A,some high school,standard,27.0,India,0.0,53365.0,Loan,11.0,No,Off-campus,31.0,67.0,4.9,8.9,4.0,0.6,1.0,9.0,7.0,4.0,J1,3.0,3.52,117.5,2.47
+male,group A,bachelor's degree,standard,29.0,UK,4.0,39446.0,Family,6.0,No,With relatives,25.0,67.0,8.8,6.4,1.0,9.9,1.0,6.0,5.0,4.0,Other,8.0,3.3,80.3,2.71
+female,group B,associate's degree,standard,20.0,UK,3.0,22336.0,Scholarship,26.0,No,Off-campus,32.0,70.0,4.4,6.6,3.0,4.1,8.0,10.0,3.0,9.0,Other,10.0,2.36,102.9,2.29
+male,group D,bachelor's degree,standard,24.0,UK,1.0,82032.0,Scholarship,2.0,Yes,On-campus,20.0,60.0,5.8,4.7,1.0,13.1,9.0,10.0,2.0,8.0,J1,9.0,2.1,108.7,2.02
+male,group D,some high school,standard,18.0,India,1.0,95415.0,Scholarship,9.0,No,With relatives,27.0,67.0,6.5,6.5,3.0,7.3,2.0,9.0,4.0,2.0,F1,7.0,3.37,109.8,2.45
+female,group C,some college,standard,21.0,India,1.0,117852.0,Self-funded,1.0,Yes,On-campus,24.0,89.0,6.5,2.6,0.0,4.6,9.0,4.0,4.0,8.0,F1,4.0,2.5,116.2,2.52
+female,group E,high school,free/reduced,21.0,India,1.0,118876.0,Self-funded,24.0,No,With relatives,29.0,74.0,4.0,8.1,1.0,7.8,5.0,5.0,8.0,1.0,F1,10.0,3.0,80.2,2.18
+male,group B,some college,free/reduced,22.0,India,1.0,27521.0,Scholarship,2.0,No,With relatives,32.0,60.0,6.5,4.3,4.0,5.7,8.0,10.0,8.0,9.0,F1,9.0,3.49,80.0,2.35
+female,group B,associate's degree,standard,24.0,UK,1.0,91707.0,Loan,15.0,No,With relatives,9.0,86.0,5.9,9.1,1.0,8.5,7.0,6.0,5.0,9.0,J1,3.0,3.13,98.9,2.38
+male,group D,associate's degree,free/reduced,24.0,UK,1.0,43481.0,Scholarship,1.0,Yes,Off-campus,25.0,62.0,8.9,4.9,1.0,1.7,7.0,9.0,6.0,8.0,Other,3.0,2.17,81.2,2.22
+male,group B,associate's degree,free/reduced,28.0,China,3.0,38474.0,Loan,27.0,No,On-campus,22.0,78.0,4.8,3.1,0.0,15.0,4.0,5.0,8.0,5.0,F1,2.0,2.37,119.0,2.21
+female,group E,some college,free/reduced,21.0,Germany,0.0,66760.0,Loan,23.0,Yes,With relatives,10.0,88.0,5.8,7.6,4.0,6.4,2.0,8.0,1.0,5.0,F1,10.0,2.44,88.9,2.38
+male,group B,master's degree,free/reduced,24.0,Brazil,2.0,75718.0,Self-funded,9.0,No,Off-campus,33.0,60.0,6.1,3.3,4.0,5.2,5.0,1.0,5.0,3.0,F1,3.0,2.52,98.9,2.51
+male,group C,high school,standard,28.0,Other,4.0,64629.0,Loan,5.0,No,With relatives,23.0,60.0,6.0,8.0,2.0,10.7,3.0,5.0,4.0,5.0,F1,1.0,3.13,82.4,2.52
+female,group E,master's degree,standard,20.0,Other,2.0,65232.0,Scholarship,21.0,No,Off-campus,37.0,92.0,7.3,9.7,2.0,5.5,9.0,10.0,4.0,4.0,F1,4.0,3.01,100.9,2.47
+female,group C,bachelor's degree,standard,23.0,South Korea,2.0,106544.0,Self-funded,25.0,No,With relatives,5.0,100.0,5.1,8.2,2.0,12.5,6.0,1.0,2.0,1.0,F1,8.0,2.41,95.2,2.26
+male,group C,high school,free/reduced,29.0,UK,0.0,87169.0,Family,10.0,No,On-campus,7.0,60.0,5.1,2.2,0.0,6.8,1.0,10.0,10.0,9.0,J1,5.0,2.14,81.8,1.84
+female,group B,master's degree,free/reduced,19.0,South Korea,0.0,147941.0,Family,22.0,Yes,On-campus,25.0,76.0,7.6,6.8,1.0,10.8,3.0,6.0,1.0,10.0,F1,2.0,2.34,93.4,2.84
+female,group B,high school,standard,27.0,Germany,0.0,70669.0,Self-funded,6.0,No,With relatives,39.0,83.0,6.5,7.6,4.0,1.6,4.0,7.0,6.0,4.0,J1,3.0,3.97,95.7,2.85
+female,group C,some college,free/reduced,26.0,Germany,1.0,98021.0,Scholarship,26.0,No,Off-campus,7.0,75.0,6.1,8.6,4.0,12.7,9.0,5.0,7.0,3.0,F1,1.0,2.94,119.6,1.89
+male,group A,high school,standard,22.0,South Korea,3.0,129153.0,Family,28.0,No,With relatives,29.0,73.0,4.8,2.4,1.0,11.0,6.0,1.0,5.0,6.0,J1,2.0,3.73,88.3,2.79
+male,group E,some high school,standard,23.0,UK,1.0,89184.0,Family,14.0,No,Off-campus,24.0,88.0,4.9,5.8,4.0,3.2,4.0,6.0,8.0,1.0,F1,1.0,3.7,101.8,2.37
+female,group D,some college,standard,29.0,South Korea,3.0,67945.0,Loan,5.0,Yes,With relatives,38.0,86.0,4.1,6.3,1.0,2.2,1.0,10.0,9.0,5.0,J1,2.0,3.02,119.5,2.47
+female,group C,associate's degree,standard,29.0,Other,3.0,33140.0,Loan,19.0,No,Off-campus,25.0,67.0,4.5,3.4,0.0,4.7,8.0,5.0,2.0,7.0,F1,3.0,3.41,111.7,2.54
+female,group C,bachelor's degree,free/reduced,29.0,China,2.0,146468.0,Scholarship,26.0,No,On-campus,27.0,60.0,6.8,4.6,0.0,14.6,2.0,6.0,4.0,2.0,F1,1.0,2.39,119.7,2.35
+female,group C,master's degree,standard,29.0,Other,2.0,103457.0,Self-funded,8.0,No,With relatives,10.0,91.0,8.5,5.5,0.0,3.9,8.0,10.0,9.0,10.0,F1,9.0,3.38,118.7,2.27
+female,group B,high school,free/reduced,21.0,Nigeria,3.0,34357.0,Scholarship,21.0,Yes,On-campus,17.0,60.0,5.4,8.7,1.0,6.8,6.0,7.0,5.0,9.0,J1,10.0,2.54,99.6,2.2
+female,group C,associate's degree,standard,28.0,UK,3.0,131672.0,Self-funded,19.0,Yes,On-campus,27.0,77.0,5.6,9.4,1.0,0.5,8.0,7.0,3.0,6.0,F1,5.0,3.66,107.9,2.57
+female,group B,master's degree,free/reduced,27.0,UK,1.0,88673.0,Family,11.0,No,With relatives,13.0,70.0,4.6,7.0,3.0,6.0,6.0,2.0,6.0,2.0,F1,8.0,2.17,84.4,1.97
+female,group D,some high school,standard,24.0,Brazil,1.0,141673.0,Loan,18.0,No,With relatives,21.0,100.0,5.9,5.2,4.0,8.6,5.0,3.0,3.0,8.0,F1,5.0,3.55,97.6,2.97
+male,group C,master's degree,free/reduced,29.0,India,2.0,85633.0,Scholarship,19.0,Yes,Off-campus,6.0,68.0,4.2,4.0,4.0,14.3,5.0,6.0,5.0,8.0,F1,8.0,2.2,112.4,2.0
+female,group C,some college,free/reduced,26.0,Nigeria,0.0,96943.0,Scholarship,2.0,No,Off-campus,23.0,64.0,8.6,9.9,3.0,7.8,10.0,3.0,3.0,1.0,J1,7.0,3.76,100.2,2.46
+female,group E,high school,standard,24.0,Germany,3.0,116111.0,Self-funded,14.0,No,On-campus,23.0,60.0,7.4,9.9,3.0,12.3,10.0,2.0,6.0,1.0,F1,4.0,2.61,108.1,2.08
+female,group D,associate's degree,standard,18.0,UK,1.0,98258.0,Self-funded,1.0,No,Off-campus,11.0,69.0,9.0,9.4,0.0,8.2,8.0,4.0,10.0,1.0,F1,7.0,3.31,109.8,2.0
+male,group C,some high school,free/reduced,18.0,South Korea,2.0,32924.0,Scholarship,29.0,No,Off-campus,24.0,60.0,8.4,8.3,3.0,0.6,7.0,5.0,5.0,4.0,Other,6.0,2.98,90.1,2.37
+male,group C,associate's degree,free/reduced,26.0,Nigeria,1.0,89286.0,Self-funded,20.0,No,With relatives,13.0,67.0,6.4,4.6,1.0,4.7,8.0,10.0,9.0,4.0,F1,3.0,2.73,115.0,1.71
+male,group E,high school,standard,28.0,Brazil,3.0,113269.0,Scholarship,1.0,No,Off-campus,21.0,76.0,6.6,8.5,2.0,8.6,8.0,9.0,3.0,8.0,J1,9.0,3.29,98.4,2.44
+male,group D,some high school,standard,26.0,Germany,3.0,147563.0,Scholarship,21.0,No,On-campus,31.0,66.0,5.0,5.3,1.0,14.3,7.0,3.0,6.0,1.0,F1,10.0,3.9,88.4,2.46
+male,group B,some high school,free/reduced,21.0,India,4.0,94071.0,Scholarship,2.0,No,Off-campus,6.0,60.0,6.3,4.6,3.0,12.9,2.0,3.0,8.0,10.0,F1,9.0,2.08,114.6,2.23
+female,group C,bachelor's degree,standard,26.0,India,0.0,77326.0,Family,5.0,Yes,On-campus,23.0,88.0,8.5,8.0,4.0,3.4,9.0,6.0,7.0,3.0,F1,5.0,3.84,96.7,2.46
+female,group E,associate's degree,standard,20.0,Brazil,4.0,110023.0,Self-funded,14.0,Yes,With relatives,21.0,65.0,4.3,2.6,1.0,3.3,7.0,5.0,6.0,1.0,F1,8.0,3.22,110.0,2.06
+male,group D,some college,standard,24.0,Brazil,2.0,140101.0,Loan,26.0,No,On-campus,9.0,83.0,8.3,2.4,4.0,3.0,6.0,6.0,2.0,9.0,F1,7.0,3.61,101.9,2.72
+female,group B,some high school,standard,23.0,South Korea,1.0,50651.0,Loan,9.0,Yes,Off-campus,22.0,64.0,5.7,5.6,1.0,13.8,9.0,7.0,7.0,10.0,F1,9.0,2.77,95.3,2.2
+male,group D,some college,standard,25.0,UK,2.0,90202.0,Self-funded,8.0,No,With relatives,11.0,62.0,8.5,5.6,4.0,12.8,1.0,3.0,8.0,9.0,F1,7.0,2.94,112.4,2.58
+female,group C,master's degree,standard,28.0,India,3.0,68777.0,Scholarship,0.0,Yes,Off-campus,21.0,84.0,8.7,9.2,1.0,11.6,2.0,5.0,1.0,7.0,F1,4.0,3.74,103.4,3.11
+male,group D,associate's degree,standard,26.0,Germany,4.0,36994.0,Loan,15.0,Yes,With relatives,8.0,60.0,7.4,3.0,4.0,5.9,1.0,8.0,9.0,8.0,J1,4.0,2.83,95.6,2.17
+male,group C,some high school,free/reduced,22.0,Nigeria,4.0,87263.0,Loan,5.0,No,With relatives,29.0,69.0,7.3,3.0,2.0,7.6,10.0,4.0,4.0,1.0,F1,8.0,3.07,84.4,2.31
+male,group E,high school,free/reduced,18.0,Germany,4.0,79634.0,Self-funded,8.0,No,Off-campus,9.0,60.0,6.3,3.2,0.0,7.0,3.0,10.0,8.0,5.0,F1,6.0,2.04,115.8,1.74
+female,group B,some college,free/reduced,20.0,China,2.0,120158.0,Loan,26.0,No,Off-campus,34.0,60.0,8.2,2.2,1.0,3.8,5.0,2.0,10.0,2.0,J1,9.0,2.32,81.4,2.3
+female,group B,bachelor's degree,free/reduced,27.0,China,3.0,30800.0,Scholarship,3.0,Yes,With relatives,16.0,79.0,8.8,2.6,2.0,7.6,1.0,4.0,7.0,1.0,F1,10.0,3.28,114.5,2.52
+female,group C,associate's degree,standard,29.0,Brazil,1.0,57823.0,Self-funded,26.0,Yes,With relatives,8.0,84.0,7.9,7.3,0.0,0.5,4.0,2.0,10.0,3.0,F1,7.0,3.43,94.4,2.34
+female,group D,some college,free/reduced,25.0,South Korea,1.0,128575.0,Scholarship,27.0,No,Off-campus,28.0,81.0,7.1,5.5,1.0,2.0,8.0,3.0,7.0,7.0,Other,7.0,3.17,105.6,2.62
+male,group C,associate's degree,standard,28.0,China,2.0,83878.0,Loan,1.0,No,On-campus,33.0,77.0,7.0,8.1,2.0,13.3,6.0,4.0,2.0,1.0,Other,4.0,2.29,116.9,2.49
+female,group B,associate's degree,standard,23.0,India,4.0,38708.0,Loan,28.0,No,Off-campus,13.0,69.0,8.2,9.9,2.0,11.3,1.0,4.0,1.0,2.0,F1,3.0,2.89,86.1,2.59
+male,group C,some college,standard,25.0,Germany,0.0,32819.0,Scholarship,3.0,No,With relatives,8.0,60.0,6.7,7.3,2.0,6.3,1.0,10.0,4.0,2.0,F1,8.0,2.71,102.7,2.0
+male,group D,some high school,standard,26.0,Germany,2.0,94905.0,Family,0.0,No,Off-campus,28.0,71.0,8.0,2.4,3.0,7.8,3.0,9.0,2.0,4.0,F1,7.0,2.99,110.6,2.6
+male,group E,bachelor's degree,standard,21.0,Brazil,2.0,83870.0,Loan,18.0,No,On-campus,18.0,62.0,6.5,2.8,4.0,5.5,10.0,10.0,8.0,3.0,F1,4.0,3.74,110.3,1.88
+male,group E,high school,standard,18.0,UK,3.0,29283.0,Family,25.0,No,Off-campus,9.0,80.0,4.3,9.0,0.0,11.1,8.0,6.0,10.0,3.0,F1,4.0,3.55,101.0,1.88
+female,group B,some college,free/reduced,18.0,UK,1.0,50573.0,Loan,24.0,No,With relatives,22.0,81.0,5.9,6.2,4.0,11.8,8.0,9.0,7.0,10.0,F1,1.0,2.17,105.0,2.15
+female,group B,some college,free/reduced,27.0,Nigeria,2.0,98707.0,Family,9.0,No,Off-campus,23.0,61.0,6.2,8.6,4.0,11.4,3.0,4.0,8.0,5.0,F1,7.0,3.78,110.3,2.54
+male,group D,some high school,free/reduced,21.0,Brazil,2.0,50933.0,Family,20.0,No,With relatives,16.0,79.0,4.7,8.9,4.0,10.8,7.0,9.0,6.0,3.0,F1,1.0,2.94,113.6,1.95
+male,group C,some college,free/reduced,29.0,Other,4.0,25774.0,Family,14.0,No,With relatives,22.0,60.0,4.5,9.4,2.0,3.1,3.0,9.0,1.0,7.0,F1,10.0,3.49,110.5,2.55
+female,group C,high school,free/reduced,24.0,Nigeria,4.0,92055.0,Scholarship,26.0,No,Off-campus,21.0,62.0,6.7,9.6,4.0,5.1,4.0,6.0,9.0,5.0,F1,10.0,2.28,94.2,2.08
+male,group C,associate's degree,free/reduced,19.0,Other,0.0,30983.0,Family,21.0,Yes,With relatives,34.0,60.0,4.4,6.4,3.0,7.0,9.0,5.0,6.0,4.0,F1,4.0,3.34,119.9,2.29
+male,group E,high school,standard,20.0,UK,3.0,116468.0,Family,18.0,Yes,With relatives,28.0,91.0,5.5,4.7,1.0,5.0,4.0,3.0,10.0,3.0,F1,3.0,2.47,97.4,2.34
+male,group B,some high school,standard,18.0,Brazil,0.0,116334.0,Family,15.0,No,On-campus,15.0,83.0,7.7,9.7,2.0,11.3,3.0,5.0,1.0,4.0,F1,3.0,2.88,81.0,2.64
+female,group E,associate's degree,free/reduced,22.0,Other,4.0,38133.0,Loan,20.0,No,On-campus,39.0,86.0,8.8,6.4,0.0,4.9,5.0,3.0,1.0,2.0,F1,1.0,2.03,94.5,2.82
+female,group C,high school,free/reduced,18.0,Brazil,1.0,145555.0,Family,26.0,Yes,On-campus,27.0,60.0,7.6,2.5,1.0,2.1,7.0,5.0,8.0,1.0,F1,4.0,2.3,85.1,2.0
+male,group B,high school,free/reduced,25.0,Brazil,4.0,34939.0,Loan,23.0,No,On-campus,21.0,77.0,9.0,7.1,1.0,6.0,5.0,5.0,6.0,3.0,F1,1.0,2.18,84.9,2.29
+male,group B,some high school,standard,18.0,UK,3.0,20781.0,Family,21.0,No,With relatives,5.0,60.0,7.5,6.7,1.0,14.7,4.0,2.0,8.0,2.0,F1,8.0,2.48,91.3,1.98
+female,group D,high school,standard,28.0,Nigeria,4.0,134586.0,Family,3.0,No,Off-campus,19.0,68.0,5.5,9.2,4.0,3.4,8.0,9.0,8.0,1.0,F1,1.0,2.2,82.1,1.62
+male,group B,associate's degree,standard,18.0,Nigeria,3.0,76700.0,Scholarship,1.0,No,With relatives,36.0,85.0,7.4,7.2,4.0,9.2,4.0,7.0,8.0,1.0,F1,6.0,3.38,107.5,2.53
+female,group C,some high school,free/reduced,19.0,Brazil,3.0,47624.0,Loan,29.0,No,With relatives,13.0,65.0,7.5,4.8,2.0,6.5,2.0,6.0,10.0,2.0,F1,7.0,2.06,83.0,1.89
+male,group D,some high school,standard,19.0,China,3.0,26823.0,Family,24.0,Yes,With relatives,19.0,80.0,5.9,9.7,4.0,1.1,10.0,5.0,7.0,9.0,F1,10.0,3.24,88.1,2.36
+female,group B,associate's degree,standard,29.0,South Korea,3.0,38489.0,Loan,12.0,Yes,Off-campus,32.0,66.0,4.1,8.4,4.0,7.3,6.0,4.0,7.0,5.0,F1,2.0,2.28,83.7,2.23
+female,group E,master's degree,free/reduced,23.0,UK,3.0,138555.0,Loan,27.0,Yes,On-campus,28.0,60.0,7.5,7.0,4.0,10.5,2.0,8.0,10.0,9.0,F1,4.0,3.89,82.5,2.65
+female,group C,some college,standard,24.0,South Korea,1.0,59961.0,Self-funded,0.0,No,With relatives,39.0,72.0,4.1,4.3,2.0,7.7,3.0,2.0,4.0,8.0,F1,3.0,3.87,90.7,3.13
+male,group D,high school,standard,22.0,South Korea,0.0,139664.0,Scholarship,16.0,Yes,With relatives,26.0,60.0,7.2,5.0,2.0,13.1,1.0,8.0,9.0,6.0,F1,9.0,2.45,102.9,2.28
+male,group A,some high school,free/reduced,18.0,Nigeria,2.0,49118.0,Scholarship,12.0,No,On-campus,31.0,72.0,4.8,7.4,3.0,4.3,5.0,1.0,2.0,1.0,Other,7.0,3.23,118.6,2.68
+female,group C,some college,standard,18.0,Nigeria,0.0,120417.0,Scholarship,3.0,No,With relatives,23.0,95.0,6.8,2.6,3.0,1.3,9.0,10.0,9.0,10.0,F1,2.0,2.06,115.0,2.11
+male,group D,some college,standard,20.0,China,3.0,101816.0,Self-funded,6.0,No,Off-campus,16.0,64.0,6.5,4.1,3.0,14.0,2.0,1.0,10.0,5.0,F1,6.0,3.86,115.0,2.56
+male,group C,associate's degree,standard,19.0,South Korea,1.0,42263.0,Self-funded,16.0,Yes,With relatives,24.0,60.0,4.1,7.7,3.0,5.7,7.0,3.0,3.0,1.0,Other,9.0,3.05,87.0,2.23
+female,group B,bachelor's degree,standard,22.0,South Korea,4.0,33565.0,Scholarship,8.0,Yes,With relatives,5.0,86.0,5.8,5.8,1.0,8.6,5.0,5.0,2.0,7.0,J1,3.0,2.09,90.6,2.27
+male,group E,some high school,standard,29.0,Brazil,1.0,40354.0,Self-funded,3.0,Yes,On-campus,25.0,87.0,7.0,5.2,1.0,11.9,2.0,6.0,4.0,10.0,F1,6.0,2.68,83.1,2.86
+male,group C,bachelor's degree,standard,27.0,Nigeria,3.0,62951.0,Self-funded,18.0,No,With relatives,5.0,82.0,8.2,3.2,3.0,4.9,8.0,4.0,5.0,8.0,F1,3.0,2.15,111.1,2.2
+male,group D,associate's degree,standard,23.0,South Korea,1.0,111179.0,Self-funded,0.0,No,With relatives,14.0,75.0,8.4,5.5,3.0,10.7,6.0,7.0,2.0,8.0,F1,3.0,2.79,82.8,2.51
+male,group D,bachelor's degree,free/reduced,24.0,Germany,1.0,43648.0,Scholarship,9.0,Yes,Off-campus,36.0,66.0,6.4,8.2,0.0,2.0,4.0,7.0,1.0,7.0,F1,4.0,3.34,102.3,2.89
+female,group D,some high school,standard,21.0,China,3.0,70729.0,Scholarship,3.0,Yes,On-campus,26.0,60.0,7.6,4.1,1.0,4.4,4.0,2.0,10.0,2.0,F1,9.0,2.94,89.9,2.32
+male,group B,some college,standard,24.0,Other,1.0,61971.0,Scholarship,8.0,Yes,On-campus,22.0,60.0,5.6,2.0,0.0,2.2,2.0,2.0,5.0,5.0,F1,8.0,2.77,89.7,2.53
+male,group C,associate's degree,standard,28.0,Germany,2.0,38658.0,Self-funded,12.0,Yes,Off-campus,36.0,80.0,5.7,7.3,0.0,12.2,3.0,2.0,9.0,4.0,F1,1.0,2.24,119.6,2.52
+male,group D,high school,free/reduced,25.0,Germany,2.0,41253.0,Scholarship,13.0,No,With relatives,31.0,68.0,5.0,9.8,4.0,3.3,7.0,2.0,5.0,5.0,F1,1.0,2.49,110.3,2.43
+female,group E,bachelor's degree,standard,28.0,Other,1.0,84166.0,Self-funded,9.0,No,On-campus,32.0,83.0,6.8,6.9,2.0,10.8,3.0,9.0,10.0,10.0,F1,7.0,2.2,113.5,2.44
+female,group D,high school,standard,18.0,UK,4.0,68563.0,Family,5.0,No,On-campus,22.0,60.0,5.6,3.0,1.0,14.1,5.0,5.0,9.0,9.0,J1,3.0,3.61,102.9,2.46
+male,group E,some college,standard,23.0,UK,3.0,46390.0,Self-funded,15.0,No,With relatives,33.0,60.0,4.4,4.6,3.0,7.9,10.0,8.0,10.0,4.0,F1,7.0,2.27,114.8,1.74
+male,group D,some high school,standard,25.0,China,2.0,108664.0,Loan,5.0,Yes,With relatives,22.0,74.0,7.4,8.9,3.0,8.1,6.0,5.0,6.0,8.0,F1,9.0,3.19,105.8,2.58
+male,group C,associate's degree,standard,22.0,Germany,4.0,71578.0,Scholarship,16.0,No,On-campus,12.0,76.0,7.5,3.9,2.0,6.9,6.0,5.0,3.0,8.0,F1,3.0,2.69,117.8,2.47
+male,group E,associate's degree,standard,21.0,South Korea,1.0,99025.0,Scholarship,9.0,No,With relatives,35.0,76.0,5.8,6.9,1.0,4.9,4.0,1.0,4.0,2.0,F1,3.0,2.45,91.3,2.65
+female,group B,high school,standard,19.0,Nigeria,4.0,123850.0,Loan,17.0,No,On-campus,38.0,70.0,4.4,5.2,3.0,7.1,6.0,6.0,4.0,6.0,F1,2.0,3.28,103.8,2.64
+female,group B,high school,standard,23.0,China,0.0,52658.0,Self-funded,26.0,No,With relatives,11.0,64.0,6.1,3.7,3.0,9.0,3.0,4.0,1.0,5.0,Other,10.0,2.91,107.6,2.48
+male,group C,high school,standard,23.0,Brazil,2.0,26852.0,Family,21.0,Yes,With relatives,22.0,60.0,6.2,8.5,4.0,14.8,7.0,3.0,3.0,2.0,J1,1.0,2.8,95.7,2.29
+male,group A,some high school,standard,28.0,Other,1.0,147282.0,Loan,17.0,Yes,Off-campus,13.0,60.0,7.3,7.9,0.0,14.1,7.0,6.0,3.0,10.0,F1,9.0,3.19,115.2,2.48
+female,group D,some college,free/reduced,18.0,Germany,3.0,114986.0,Loan,2.0,Yes,With relatives,13.0,83.0,5.6,7.3,3.0,12.9,4.0,2.0,1.0,4.0,F1,6.0,2.98,119.2,2.62
+female,group B,some high school,standard,26.0,China,1.0,22551.0,Self-funded,19.0,No,Off-campus,12.0,70.0,7.4,3.9,1.0,13.3,2.0,8.0,9.0,7.0,F1,6.0,2.61,99.8,2.17
+male,group D,master's degree,standard,29.0,India,3.0,91947.0,Scholarship,26.0,No,With relatives,39.0,80.0,8.4,2.8,2.0,7.0,7.0,1.0,1.0,1.0,F1,8.0,3.12,95.6,2.94
+male,group D,high school,standard,28.0,India,1.0,81001.0,Self-funded,20.0,No,On-campus,22.0,60.0,5.2,6.6,4.0,9.9,3.0,9.0,9.0,9.0,F1,5.0,3.34,98.9,2.31
+female,group E,some college,standard,23.0,UK,4.0,69159.0,Loan,24.0,No,On-campus,9.0,73.0,8.9,6.4,1.0,13.4,1.0,8.0,1.0,10.0,F1,9.0,2.05,114.1,2.58
+female,group C,associate's degree,free/reduced,20.0,Other,4.0,142775.0,Loan,27.0,No,With relatives,18.0,73.0,5.9,3.5,4.0,5.9,2.0,1.0,2.0,1.0,F1,5.0,2.93,105.8,2.6
+male,group C,associate's degree,standard,21.0,Nigeria,4.0,71707.0,Scholarship,14.0,No,With relatives,32.0,77.0,5.3,2.4,0.0,14.4,10.0,10.0,2.0,5.0,F1,2.0,2.12,81.8,2.12
+female,group B,some college,standard,29.0,South Korea,0.0,53243.0,Scholarship,14.0,Yes,On-campus,34.0,75.0,6.1,2.6,3.0,6.2,9.0,9.0,6.0,7.0,F1,6.0,2.37,101.7,2.23
+female,group C,master's degree,free/reduced,28.0,Nigeria,3.0,41800.0,Scholarship,3.0,No,With relatives,8.0,81.0,4.5,9.9,1.0,9.0,8.0,2.0,7.0,8.0,Other,9.0,3.12,80.7,2.27
+female,group C,some high school,free/reduced,21.0,Nigeria,4.0,95939.0,Self-funded,28.0,Yes,Off-campus,24.0,79.0,4.6,8.3,2.0,10.6,6.0,3.0,1.0,2.0,F1,3.0,3.73,111.1,2.66
+male,group C,some college,standard,20.0,Nigeria,0.0,77828.0,Scholarship,26.0,No,Off-campus,29.0,79.0,6.1,9.4,0.0,14.3,6.0,2.0,3.0,4.0,F1,10.0,3.77,93.1,2.85
+female,group C,some high school,free/reduced,27.0,Other,3.0,27239.0,Loan,8.0,No,Off-campus,32.0,60.0,7.8,3.6,0.0,3.7,1.0,8.0,2.0,2.0,F1,4.0,2.14,98.9,2.45
+female,group E,high school,standard,20.0,Nigeria,1.0,26710.0,Loan,26.0,Yes,Off-campus,16.0,93.0,8.5,9.7,4.0,11.2,2.0,2.0,8.0,4.0,F1,10.0,2.84,111.9,2.62
+male,group D,high school,standard,20.0,Brazil,0.0,41384.0,Family,25.0,No,Off-campus,6.0,73.0,7.3,3.1,0.0,7.8,4.0,10.0,9.0,6.0,F1,8.0,3.17,81.9,2.01
+male,group D,some high school,free/reduced,21.0,Other,2.0,41038.0,Self-funded,18.0,No,With relatives,18.0,60.0,4.5,6.1,1.0,4.0,3.0,2.0,2.0,6.0,F1,6.0,2.29,86.3,2.45
+female,group C,bachelor's degree,standard,24.0,Brazil,0.0,60846.0,Family,23.0,No,With relatives,26.0,75.0,7.4,8.6,4.0,11.6,1.0,1.0,2.0,2.0,J1,7.0,3.53,95.9,2.99
+female,group D,high school,standard,21.0,Other,0.0,107983.0,Loan,27.0,No,Off-campus,35.0,72.0,7.2,4.8,0.0,8.3,8.0,7.0,10.0,4.0,F1,7.0,3.49,89.2,2.34
+female,group D,associate's degree,standard,26.0,UK,3.0,87821.0,Family,16.0,No,With relatives,27.0,92.0,8.0,5.4,2.0,9.9,7.0,2.0,9.0,4.0,F1,4.0,3.81,93.5,2.71
+female,group E,some college,free/reduced,18.0,China,1.0,57991.0,Loan,10.0,Yes,With relatives,24.0,76.0,8.1,3.0,1.0,4.8,4.0,10.0,4.0,1.0,F1,6.0,2.02,119.9,2.1
+male,group C,bachelor's degree,standard,25.0,India,2.0,99057.0,Family,24.0,Yes,Off-campus,8.0,63.0,8.3,3.0,2.0,7.2,9.0,5.0,5.0,2.0,J1,9.0,2.43,113.0,1.87
+male,group C,some college,standard,24.0,Nigeria,4.0,133193.0,Scholarship,8.0,Yes,With relatives,19.0,60.0,6.1,7.0,2.0,9.3,4.0,5.0,9.0,3.0,J1,3.0,3.65,115.4,2.25
+female,group D,associate's degree,free/reduced,19.0,UK,4.0,26971.0,Family,9.0,No,With relatives,28.0,60.0,7.5,7.4,4.0,6.1,1.0,3.0,6.0,5.0,F1,8.0,3.34,117.5,2.78
+female,group D,some college,standard,25.0,China,0.0,49139.0,Scholarship,17.0,Yes,With relatives,29.0,70.0,5.3,8.2,3.0,3.0,10.0,3.0,10.0,8.0,F1,7.0,3.79,93.6,2.45
+male,group B,some college,standard,18.0,India,3.0,105445.0,Scholarship,19.0,No,Off-campus,5.0,85.0,9.0,6.5,4.0,14.4,1.0,3.0,9.0,6.0,F1,4.0,2.11,91.9,2.33
+male,group C,bachelor's degree,standard,28.0,Germany,3.0,97067.0,Self-funded,12.0,No,With relatives,11.0,78.0,4.9,7.2,1.0,7.7,1.0,6.0,9.0,3.0,F1,10.0,3.19,89.4,2.17
+female,group C,some high school,standard,29.0,South Korea,4.0,100257.0,Scholarship,7.0,No,On-campus,35.0,92.0,4.1,2.1,1.0,11.0,1.0,4.0,7.0,6.0,F1,3.0,3.14,113.2,2.85
+female,group E,high school,standard,26.0,Brazil,2.0,104742.0,Scholarship,6.0,No,On-campus,16.0,63.0,4.7,3.3,4.0,6.2,4.0,3.0,10.0,7.0,F1,7.0,2.07,107.2,2.04
+female,group C,some high school,free/reduced,26.0,Germany,1.0,57711.0,Family,16.0,No,Off-campus,9.0,86.0,7.9,9.9,3.0,5.3,1.0,2.0,9.0,6.0,F1,10.0,3.03,89.4,2.57
+male,group B,bachelor's degree,free/reduced,19.0,Other,2.0,26530.0,Loan,20.0,No,On-campus,16.0,60.0,6.2,2.6,4.0,6.1,2.0,3.0,5.0,10.0,F1,9.0,3.22,95.1,2.72
+male,group D,high school,standard,24.0,India,1.0,31116.0,Self-funded,22.0,Yes,Off-campus,22.0,60.0,6.2,7.4,1.0,6.1,4.0,4.0,5.0,6.0,F1,10.0,2.38,100.3,2.36
+male,group D,high school,standard,27.0,Germany,4.0,85794.0,Scholarship,14.0,Yes,On-campus,6.0,60.0,8.8,3.4,3.0,8.2,7.0,6.0,8.0,1.0,J1,3.0,2.55,101.1,1.75
+female,group D,bachelor's degree,free/reduced,20.0,South Korea,1.0,20282.0,Self-funded,19.0,No,On-campus,14.0,79.0,8.6,7.7,1.0,8.2,2.0,4.0,10.0,3.0,F1,10.0,3.28,115.5,2.4
+female,group D,some college,free/reduced,24.0,UK,3.0,99473.0,Family,14.0,Yes,On-campus,19.0,78.0,5.6,7.6,3.0,7.5,8.0,8.0,4.0,7.0,F1,9.0,2.94,95.2,2.27
+female,group B,some high school,standard,29.0,India,0.0,21898.0,Scholarship,0.0,Yes,Off-campus,34.0,60.0,5.0,3.9,3.0,2.0,7.0,3.0,9.0,4.0,F1,8.0,3.72,116.3,2.44
+male,group B,associate's degree,standard,27.0,Germany,0.0,24135.0,Family,24.0,No,Off-campus,21.0,82.0,8.2,4.2,4.0,7.4,9.0,3.0,7.0,4.0,F1,3.0,2.68,97.7,2.31
+male,group E,associate's degree,standard,26.0,Brazil,4.0,26629.0,Self-funded,13.0,Yes,With relatives,8.0,82.0,8.5,7.2,4.0,2.5,6.0,3.0,7.0,7.0,F1,8.0,2.53,109.9,2.34
+female,group B,some high school,standard,21.0,Brazil,3.0,129472.0,Family,4.0,No,Off-campus,11.0,89.0,6.7,5.1,4.0,1.9,4.0,8.0,3.0,9.0,F1,4.0,3.97,117.2,2.75
+male,group B,bachelor's degree,free/reduced,29.0,China,2.0,145147.0,Self-funded,10.0,Yes,On-campus,35.0,75.0,7.1,3.6,3.0,14.0,6.0,4.0,4.0,2.0,F1,6.0,3.82,116.3,2.77
+male,group E,some high school,standard,18.0,Germany,3.0,105120.0,Family,15.0,No,On-campus,38.0,76.0,5.3,7.9,3.0,9.1,4.0,1.0,7.0,9.0,F1,10.0,2.06,82.3,2.75
+male,group C,associate's degree,standard,19.0,Nigeria,0.0,139798.0,Self-funded,1.0,No,Off-campus,10.0,70.0,8.0,3.2,1.0,9.9,7.0,2.0,5.0,3.0,F1,2.0,3.54,88.2,2.39
+male,group D,some high school,standard,18.0,Germany,0.0,109087.0,Loan,7.0,No,Off-campus,38.0,73.0,7.2,8.8,2.0,6.0,9.0,10.0,3.0,6.0,F1,8.0,2.22,99.1,2.33
+male,group C,some high school,standard,29.0,UK,3.0,85031.0,Family,10.0,No,Off-campus,19.0,60.0,6.5,6.1,4.0,13.6,3.0,2.0,1.0,4.0,Other,9.0,2.05,97.3,2.46
+female,group E,bachelor's degree,standard,22.0,India,3.0,53380.0,Family,28.0,No,With relatives,18.0,73.0,4.3,2.8,1.0,9.6,3.0,3.0,7.0,1.0,F1,7.0,2.55,105.6,2.13
+male,group D,high school,free/reduced,22.0,India,0.0,149951.0,Loan,17.0,Yes,On-campus,10.0,77.0,8.6,7.6,1.0,11.5,2.0,6.0,6.0,9.0,F1,8.0,2.54,117.8,2.5
+male,group B,associate's degree,free/reduced,28.0,UK,2.0,132507.0,Loan,2.0,No,With relatives,36.0,62.0,7.1,6.2,0.0,5.5,1.0,8.0,10.0,6.0,F1,7.0,3.64,84.5,2.64
+male,group A,some high school,standard,24.0,Germany,4.0,37071.0,Family,29.0,No,With relatives,7.0,60.0,5.0,4.4,4.0,14.4,1.0,1.0,7.0,8.0,J1,10.0,3.42,98.1,2.53
+male,group E,associate's degree,standard,26.0,UK,4.0,40074.0,Loan,25.0,No,On-campus,7.0,74.0,7.0,5.4,1.0,12.3,3.0,9.0,2.0,2.0,F1,4.0,3.96,87.7,2.37
+male,group C,high school,free/reduced,26.0,South Korea,3.0,110724.0,Scholarship,0.0,No,On-campus,26.0,60.0,7.4,4.4,0.0,12.8,7.0,1.0,4.0,7.0,F1,1.0,3.42,115.8,2.76
+male,group D,associate's degree,free/reduced,20.0,Other,4.0,87843.0,Self-funded,10.0,Yes,Off-campus,26.0,87.0,6.6,4.1,4.0,2.6,9.0,10.0,2.0,6.0,J1,3.0,2.84,118.6,2.37
+male,group A,some college,free/reduced,20.0,UK,0.0,59901.0,Self-funded,15.0,No,Off-campus,14.0,78.0,7.6,3.3,3.0,4.1,2.0,2.0,8.0,2.0,F1,7.0,3.4,99.1,2.5
+male,group D,some high school,free/reduced,20.0,Brazil,0.0,31205.0,Self-funded,17.0,No,With relatives,7.0,60.0,6.9,4.9,0.0,4.3,7.0,3.0,7.0,2.0,F1,7.0,4.0,84.2,2.17
+female,group C,associate's degree,standard,21.0,UK,3.0,75661.0,Scholarship,29.0,Yes,Off-campus,16.0,84.0,8.7,4.0,3.0,4.1,1.0,7.0,1.0,4.0,F1,3.0,3.42,111.4,2.81
+male,group B,associate's degree,standard,25.0,India,3.0,144661.0,Loan,15.0,No,Off-campus,33.0,76.0,4.3,7.5,2.0,12.8,2.0,9.0,2.0,4.0,J1,1.0,3.52,107.9,2.69
+female,group C,associate's degree,standard,23.0,Brazil,3.0,25906.0,Loan,22.0,Yes,On-campus,21.0,75.0,4.5,7.5,2.0,0.5,6.0,3.0,2.0,3.0,F1,10.0,3.88,94.2,2.62
+male,group A,some college,standard,25.0,India,2.0,22591.0,Family,9.0,Yes,On-campus,11.0,67.0,4.9,6.0,2.0,1.1,5.0,8.0,4.0,8.0,F1,9.0,2.23,115.5,2.07
+male,group E,some college,standard,18.0,China,4.0,145576.0,Loan,17.0,Yes,Off-campus,17.0,87.0,7.5,8.2,2.0,4.1,8.0,9.0,3.0,7.0,F1,6.0,3.41,119.0,2.47
+male,group C,some high school,standard,25.0,Nigeria,3.0,82987.0,Family,5.0,Yes,On-campus,6.0,60.0,7.2,8.7,1.0,3.0,2.0,10.0,1.0,2.0,F1,7.0,3.7,102.3,2.27
+female,group B,associate's degree,free/reduced,21.0,India,1.0,83370.0,Scholarship,18.0,No,Off-campus,8.0,71.0,8.5,6.6,2.0,3.5,1.0,7.0,2.0,3.0,F1,1.0,3.91,102.6,2.63
+female,group D,high school,free/reduced,28.0,Brazil,1.0,100685.0,Self-funded,3.0,Yes,On-campus,14.0,60.0,7.7,7.0,1.0,12.0,7.0,4.0,9.0,10.0,F1,1.0,2.42,91.9,2.2
+female,group B,associate's degree,standard,18.0,China,0.0,130454.0,Self-funded,26.0,No,On-campus,28.0,76.0,6.5,4.3,1.0,8.4,6.0,4.0,1.0,9.0,F1,4.0,3.01,103.4,2.89
+male,group B,bachelor's degree,standard,25.0,India,4.0,125487.0,Self-funded,12.0,No,On-campus,21.0,60.0,9.0,9.2,4.0,0.1,8.0,4.0,9.0,5.0,F1,7.0,3.36,97.6,2.31
+male,group D,bachelor's degree,standard,21.0,South Korea,3.0,74400.0,Loan,23.0,Yes,On-campus,10.0,61.0,5.3,2.2,1.0,6.4,8.0,6.0,7.0,2.0,F1,8.0,2.49,92.1,1.69
+female,group C,associate's degree,free/reduced,23.0,UK,1.0,45150.0,Family,13.0,No,Off-campus,23.0,67.0,8.2,4.8,1.0,6.1,2.0,4.0,2.0,3.0,J1,10.0,3.2,82.7,2.75
+female,group C,bachelor's degree,standard,25.0,Nigeria,4.0,51852.0,Family,2.0,No,With relatives,9.0,64.0,6.1,7.8,2.0,1.7,8.0,5.0,2.0,8.0,F1,9.0,2.52,90.1,2.21
+male,group C,high school,standard,21.0,India,0.0,62870.0,Scholarship,9.0,No,On-campus,36.0,66.0,7.2,2.6,1.0,10.1,6.0,9.0,5.0,4.0,J1,1.0,2.67,87.9,2.35
+female,group D,master's degree,standard,20.0,China,2.0,139796.0,Loan,5.0,Yes,Off-campus,14.0,82.0,7.6,3.5,3.0,10.5,9.0,7.0,5.0,2.0,F1,4.0,2.88,101.7,2.06
+male,group C,associate's degree,standard,26.0,South Korea,4.0,72756.0,Scholarship,0.0,No,Off-campus,13.0,72.0,7.2,6.7,2.0,10.8,7.0,8.0,4.0,2.0,F1,4.0,3.06,104.1,2.08
+male,group B,bachelor's degree,standard,20.0,Germany,4.0,135357.0,Family,22.0,No,On-campus,31.0,71.0,4.7,6.5,0.0,10.9,2.0,5.0,10.0,6.0,F1,3.0,2.9,104.3,2.44
+female,group D,associate's degree,free/reduced,26.0,China,2.0,139052.0,Family,23.0,Yes,With relatives,17.0,65.0,6.2,7.9,2.0,0.0,8.0,5.0,10.0,8.0,F1,7.0,2.99,95.5,2.12
+female,group C,high school,free/reduced,19.0,UK,4.0,76481.0,Self-funded,26.0,Yes,On-campus,23.0,79.0,6.8,8.5,1.0,14.3,9.0,7.0,3.0,7.0,Other,1.0,2.6,96.8,2.36
+female,group E,high school,standard,19.0,China,0.0,21283.0,Loan,13.0,No,Off-campus,25.0,86.0,8.2,3.0,3.0,12.2,7.0,8.0,4.0,4.0,J1,9.0,2.32,113.4,2.32
+female,group C,some college,standard,19.0,South Korea,0.0,53691.0,Family,7.0,Yes,With relatives,28.0,81.0,6.2,2.1,2.0,13.6,4.0,9.0,10.0,2.0,F1,8.0,2.09,99.0,1.96
+female,group C,some high school,free/reduced,23.0,China,2.0,21125.0,Self-funded,18.0,No,Off-campus,8.0,60.0,8.6,7.5,3.0,0.2,9.0,2.0,4.0,9.0,F1,2.0,2.39,119.5,2.3
+female,group C,high school,free/reduced,20.0,South Korea,3.0,87065.0,Loan,13.0,No,On-campus,28.0,60.0,6.2,4.4,0.0,14.0,4.0,3.0,2.0,4.0,F1,2.0,3.16,97.6,2.69
+female,group C,some college,standard,26.0,India,1.0,148734.0,Scholarship,9.0,No,With relatives,39.0,90.0,6.7,7.0,0.0,12.1,4.0,2.0,5.0,9.0,F1,8.0,3.57,106.0,3.26
+male,group C,some college,standard,21.0,Other,3.0,46170.0,Loan,16.0,No,Off-campus,7.0,61.0,8.0,3.2,4.0,12.6,9.0,10.0,5.0,5.0,F1,1.0,2.34,82.0,1.73
+male,group A,some college,free/reduced,18.0,South Korea,4.0,28438.0,Loan,8.0,Yes,Off-campus,8.0,60.0,6.9,5.8,4.0,1.4,8.0,7.0,5.0,7.0,F1,7.0,2.22,106.1,1.91
+male,group C,associate's degree,standard,21.0,South Korea,1.0,40095.0,Family,28.0,Yes,Off-campus,39.0,75.0,8.8,6.0,2.0,11.1,4.0,2.0,10.0,5.0,F1,9.0,3.5,114.1,2.89
+female,group B,some high school,standard,18.0,Nigeria,2.0,36154.0,Family,5.0,No,On-campus,35.0,60.0,7.3,6.7,4.0,14.4,8.0,2.0,1.0,2.0,F1,3.0,2.61,117.7,2.57
+male,group C,high school,standard,22.0,South Korea,2.0,28004.0,Loan,10.0,No,With relatives,29.0,60.0,6.6,6.1,3.0,10.2,8.0,2.0,6.0,6.0,J1,7.0,3.9,119.9,2.67
+male,group C,associate's degree,standard,21.0,South Korea,1.0,29752.0,Family,24.0,No,On-campus,17.0,60.0,4.1,6.0,4.0,8.6,7.0,4.0,2.0,7.0,J1,6.0,3.43,91.3,2.44
+male,group E,associate's degree,standard,25.0,Germany,0.0,75426.0,Family,6.0,Yes,On-campus,8.0,60.0,6.1,4.7,3.0,14.2,10.0,1.0,7.0,6.0,F1,7.0,2.65,103.0,2.0
+male,group B,associate's degree,standard,25.0,Other,1.0,128896.0,Family,16.0,Yes,On-campus,18.0,78.0,5.5,2.6,4.0,6.6,6.0,2.0,4.0,3.0,J1,7.0,2.58,98.0,2.34
+female,group C,bachelor's degree,standard,24.0,India,4.0,46819.0,Self-funded,27.0,Yes,With relatives,17.0,93.0,7.7,2.7,4.0,9.0,8.0,3.0,5.0,10.0,F1,10.0,3.05,102.6,2.73
+female,group B,some college,free/reduced,20.0,UK,0.0,122168.0,Self-funded,27.0,No,On-campus,31.0,68.0,5.0,5.5,4.0,7.1,7.0,7.0,5.0,8.0,F1,1.0,2.16,86.3,2.29
+male,group D,some high school,standard,18.0,Nigeria,2.0,112051.0,Loan,0.0,Yes,On-campus,10.0,70.0,5.0,4.8,1.0,14.0,5.0,10.0,5.0,3.0,F1,3.0,2.24,114.2,1.76
+male,group C,associate's degree,standard,18.0,Germany,1.0,147905.0,Family,21.0,No,On-campus,21.0,60.0,4.9,6.1,1.0,1.1,4.0,1.0,2.0,5.0,F1,10.0,2.35,116.4,2.48
+female,group B,some high school,free/reduced,29.0,Brazil,3.0,44217.0,Self-funded,4.0,No,On-campus,39.0,60.0,4.6,4.4,4.0,7.5,2.0,6.0,5.0,9.0,F1,1.0,3.55,98.0,2.9
+female,group D,some high school,free/reduced,28.0,Other,3.0,145949.0,Loan,8.0,No,Off-campus,21.0,60.0,5.6,7.5,3.0,10.3,8.0,3.0,3.0,5.0,J1,5.0,3.03,91.2,2.37
+male,group C,high school,free/reduced,20.0,India,4.0,108708.0,Family,17.0,No,On-campus,6.0,61.0,8.4,8.9,2.0,11.9,9.0,3.0,4.0,7.0,Other,3.0,2.02,85.6,2.07
+female,group C,high school,standard,23.0,India,3.0,52994.0,Scholarship,23.0,Yes,Off-campus,17.0,73.0,7.9,4.4,0.0,8.7,4.0,4.0,2.0,7.0,F1,1.0,3.35,107.4,2.79
+female,group B,high school,standard,24.0,Brazil,1.0,35036.0,Family,26.0,No,On-campus,6.0,76.0,7.7,3.5,1.0,13.6,4.0,4.0,4.0,5.0,F1,2.0,2.85,92.5,2.38
+male,group D,associate's degree,standard,23.0,UK,1.0,97275.0,Family,20.0,No,With relatives,32.0,72.0,8.0,2.9,4.0,14.1,5.0,7.0,9.0,2.0,F1,10.0,3.02,116.4,2.31
+male,group D,some college,standard,23.0,South Korea,3.0,117756.0,Self-funded,1.0,No,Off-campus,30.0,73.0,5.3,6.9,0.0,1.0,2.0,3.0,8.0,5.0,F1,5.0,2.43,106.8,2.49
+female,group C,high school,standard,23.0,Germany,1.0,69416.0,Loan,28.0,No,Off-campus,26.0,80.0,8.4,5.6,1.0,6.0,7.0,8.0,3.0,7.0,F1,3.0,3.1,105.8,2.62
+male,group B,some college,standard,20.0,China,4.0,29587.0,Loan,25.0,No,Off-campus,7.0,61.0,4.7,3.5,2.0,0.4,5.0,8.0,1.0,7.0,F1,6.0,3.96,102.4,2.39
+female,group C,bachelor's degree,standard,23.0,Nigeria,0.0,130053.0,Self-funded,10.0,Yes,Off-campus,39.0,94.0,5.7,7.2,3.0,4.9,6.0,7.0,1.0,4.0,F1,9.0,2.15,81.8,2.63
+male,group D,high school,free/reduced,25.0,China,4.0,115665.0,Family,26.0,Yes,With relatives,16.0,74.0,6.9,3.2,4.0,8.1,4.0,2.0,6.0,1.0,F1,6.0,2.57,117.3,2.26
+male,group E,associate's degree,standard,28.0,Brazil,4.0,20645.0,Scholarship,27.0,No,On-campus,28.0,74.0,4.5,6.4,2.0,13.7,8.0,5.0,3.0,6.0,F1,2.0,2.49,105.1,2.36
+female,group B,bachelor's degree,standard,28.0,India,1.0,50930.0,Family,5.0,No,Off-campus,9.0,65.0,7.7,6.2,1.0,12.7,8.0,6.0,4.0,3.0,F1,2.0,2.5,119.8,1.97
+male,group E,some college,standard,19.0,UK,0.0,101835.0,Family,25.0,Yes,With relatives,24.0,60.0,5.9,7.9,4.0,1.9,5.0,10.0,1.0,5.0,F1,8.0,2.76,101.5,2.29
+female,group C,some college,standard,22.0,India,1.0,142232.0,Scholarship,7.0,No,Off-campus,17.0,78.0,7.9,2.4,0.0,1.4,6.0,4.0,8.0,4.0,F1,8.0,3.64,108.4,2.44
+female,group C,associate's degree,standard,18.0,Nigeria,2.0,50090.0,Self-funded,3.0,No,On-campus,16.0,60.0,6.5,9.1,3.0,8.8,3.0,10.0,1.0,2.0,F1,6.0,3.83,82.2,2.37
+female,group C,some college,standard,29.0,India,1.0,107489.0,Loan,17.0,Yes,Off-campus,17.0,71.0,4.9,7.6,1.0,8.0,1.0,5.0,5.0,7.0,F1,10.0,2.4,105.3,2.42
+female,group B,bachelor's degree,standard,18.0,India,1.0,72142.0,Self-funded,27.0,No,With relatives,14.0,72.0,7.7,3.7,3.0,4.0,9.0,9.0,6.0,5.0,F1,7.0,3.09,110.6,2.04
+male,group A,associate's degree,standard,22.0,Nigeria,1.0,131979.0,Self-funded,10.0,No,On-campus,37.0,61.0,5.3,3.5,4.0,13.5,9.0,7.0,2.0,7.0,J1,1.0,3.27,111.1,2.57
+female,group C,some college,free/reduced,29.0,Germany,0.0,46475.0,Family,4.0,Yes,With relatives,20.0,66.0,6.5,5.5,2.0,13.9,3.0,2.0,7.0,9.0,F1,9.0,3.04,110.8,2.67
+male,group D,some college,free/reduced,20.0,Germany,1.0,38888.0,Loan,14.0,No,On-campus,39.0,62.0,4.4,8.5,3.0,6.0,4.0,1.0,7.0,4.0,F1,5.0,2.87,89.1,2.61
+female,group D,some college,standard,21.0,Nigeria,0.0,63732.0,Loan,27.0,No,On-campus,7.0,90.0,7.1,8.7,0.0,13.4,7.0,2.0,1.0,5.0,F1,9.0,2.38,119.0,2.44
+female,group B,high school,standard,20.0,UK,3.0,101623.0,Self-funded,17.0,No,On-campus,9.0,62.0,7.3,6.2,1.0,5.8,2.0,3.0,4.0,9.0,F1,2.0,2.98,119.8,2.63
+male,group B,some high school,standard,18.0,Brazil,2.0,66305.0,Scholarship,1.0,No,Off-campus,30.0,84.0,5.9,8.9,0.0,11.1,3.0,2.0,4.0,10.0,F1,8.0,2.8,83.0,3.02
+female,group C,some college,standard,18.0,Other,0.0,66037.0,Self-funded,21.0,No,With relatives,15.0,60.0,8.8,2.0,3.0,7.1,6.0,3.0,5.0,4.0,F1,7.0,3.59,117.5,2.49
+female,group D,some high school,free/reduced,29.0,India,3.0,29346.0,Scholarship,10.0,No,With relatives,11.0,60.0,8.4,2.3,2.0,1.8,8.0,10.0,1.0,5.0,Other,4.0,3.53,91.6,2.24
+male,group C,some college,standard,29.0,UK,0.0,20587.0,Loan,25.0,No,With relatives,14.0,60.0,7.5,9.3,2.0,13.9,1.0,9.0,1.0,5.0,F1,3.0,2.27,107.6,2.32
+male,group A,bachelor's degree,free/reduced,22.0,India,0.0,32763.0,Self-funded,24.0,No,On-campus,38.0,60.0,7.6,8.2,0.0,6.8,4.0,4.0,7.0,8.0,F1,4.0,2.18,93.5,2.62
+male,group C,high school,standard,23.0,Other,2.0,79165.0,Family,12.0,Yes,Off-campus,7.0,60.0,5.3,5.6,4.0,11.0,1.0,9.0,9.0,4.0,F1,4.0,3.82,118.7,2.06
+male,group C,bachelor's degree,free/reduced,20.0,Brazil,4.0,127481.0,Self-funded,3.0,Yes,On-campus,12.0,66.0,7.3,8.0,4.0,5.5,2.0,3.0,1.0,4.0,F1,10.0,3.07,84.1,2.63
+female,group A,some high school,free/reduced,29.0,Germany,4.0,89615.0,Loan,21.0,Yes,With relatives,35.0,64.0,5.0,9.6,2.0,0.3,8.0,1.0,2.0,7.0,F1,10.0,3.72,99.9,2.92
+female,group D,some high school,standard,26.0,UK,0.0,56116.0,Family,6.0,No,Off-campus,15.0,84.0,4.7,8.2,0.0,1.5,6.0,5.0,6.0,5.0,F1,8.0,2.12,97.1,2.08
+male,group E,some college,standard,22.0,South Korea,1.0,140987.0,Family,28.0,Yes,Off-campus,11.0,77.0,9.0,8.7,0.0,7.4,9.0,10.0,6.0,6.0,J1,4.0,3.05,93.0,2.08
+female,group C,some college,free/reduced,25.0,South Korea,3.0,105751.0,Scholarship,10.0,No,Off-campus,6.0,73.0,7.1,8.1,0.0,10.3,2.0,10.0,2.0,6.0,F1,5.0,3.08,105.8,2.34
+male,group D,some high school,standard,18.0,Other,1.0,111353.0,Family,21.0,Yes,With relatives,10.0,74.0,6.2,3.3,3.0,5.0,3.0,2.0,9.0,6.0,J1,2.0,3.72,85.2,2.49
+female,group D,some college,standard,22.0,South Korea,1.0,110301.0,Family,23.0,Yes,Off-campus,36.0,97.0,5.4,8.7,4.0,10.4,9.0,4.0,4.0,10.0,F1,4.0,2.2,108.7,2.72
+female,group D,bachelor's degree,standard,20.0,Germany,0.0,115648.0,Self-funded,3.0,No,Off-campus,24.0,70.0,7.0,3.6,4.0,10.5,9.0,2.0,7.0,5.0,F1,7.0,2.48,119.2,2.27
+male,group E,associate's degree,free/reduced,29.0,Other,0.0,45556.0,Loan,27.0,No,On-campus,38.0,60.0,4.2,9.1,3.0,10.6,6.0,2.0,6.0,5.0,F1,3.0,2.81,112.2,2.52
+female,group D,some high school,standard,18.0,Germany,0.0,79042.0,Scholarship,14.0,Yes,On-campus,20.0,90.0,4.5,5.7,1.0,7.4,3.0,3.0,3.0,9.0,F1,1.0,3.73,114.4,2.99
+female,group D,master's degree,free/reduced,21.0,Brazil,0.0,38099.0,Self-funded,0.0,No,Off-campus,29.0,95.0,4.2,7.4,3.0,13.7,5.0,5.0,8.0,8.0,J1,8.0,3.88,94.4,2.77
+female,group A,some high school,standard,22.0,India,4.0,129089.0,Family,22.0,No,Off-campus,16.0,83.0,6.5,6.0,0.0,7.3,2.0,4.0,7.0,4.0,F1,8.0,3.99,93.0,2.66
+male,group A,bachelor's degree,standard,24.0,Brazil,0.0,65096.0,Family,2.0,Yes,On-campus,11.0,64.0,7.0,2.8,3.0,6.8,7.0,2.0,9.0,7.0,F1,6.0,3.92,100.7,2.4
+female,group B,associate's degree,standard,18.0,Brazil,4.0,91986.0,Scholarship,13.0,No,On-campus,21.0,86.0,4.3,4.3,0.0,3.0,10.0,10.0,3.0,8.0,Other,7.0,2.01,81.8,2.02
+male,group C,associate's degree,standard,20.0,Germany,4.0,33230.0,Loan,5.0,No,On-campus,15.0,100.0,7.6,9.9,2.0,4.6,8.0,2.0,1.0,9.0,J1,10.0,2.1,117.8,2.7
+male,group C,master's degree,free/reduced,19.0,Other,0.0,49009.0,Scholarship,17.0,Yes,With relatives,10.0,81.0,5.2,9.7,0.0,0.6,6.0,6.0,2.0,5.0,F1,2.0,2.3,85.8,2.17
+female,group E,some high school,free/reduced,26.0,Other,2.0,90969.0,Self-funded,24.0,No,With relatives,27.0,60.0,7.4,4.6,4.0,9.5,8.0,7.0,1.0,3.0,J1,5.0,2.7,116.1,2.31
+female,group A,some high school,free/reduced,27.0,South Korea,3.0,53866.0,Scholarship,0.0,No,On-campus,31.0,60.0,8.9,10.0,3.0,3.7,2.0,10.0,5.0,4.0,F1,7.0,3.66,83.3,2.63
+female,group E,some college,standard,23.0,China,1.0,125400.0,Family,5.0,No,Off-campus,10.0,76.0,7.5,8.8,0.0,4.6,3.0,6.0,10.0,10.0,J1,9.0,3.79,112.9,2.54
+female,group E,bachelor's degree,standard,27.0,India,4.0,104246.0,Self-funded,5.0,Yes,On-campus,6.0,73.0,8.4,6.9,1.0,11.6,7.0,7.0,2.0,6.0,F1,1.0,2.37,86.1,2.18
+female,group C,associate's degree,free/reduced,20.0,Germany,3.0,96975.0,Family,20.0,Yes,With relatives,26.0,78.0,8.7,2.3,2.0,4.9,10.0,1.0,3.0,10.0,J1,3.0,3.24,81.5,2.93
+female,group D,high school,standard,25.0,South Korea,2.0,61855.0,Loan,15.0,No,Off-campus,24.0,64.0,6.4,9.2,1.0,3.6,1.0,6.0,8.0,5.0,F1,6.0,3.83,108.8,2.59
+male,group D,master's degree,standard,25.0,UK,1.0,101557.0,Family,28.0,Yes,With relatives,29.0,70.0,7.5,6.5,1.0,2.5,7.0,3.0,10.0,9.0,F1,7.0,2.93,91.2,2.53
+male,group E,some high school,free/reduced,19.0,China,1.0,26416.0,Family,4.0,No,Off-campus,19.0,67.0,8.3,8.9,1.0,11.6,6.0,1.0,5.0,3.0,F1,6.0,2.21,108.6,2.34
+female,group D,some college,standard,23.0,China,4.0,92516.0,Scholarship,16.0,No,With relatives,33.0,68.0,5.8,8.7,2.0,1.9,8.0,8.0,4.0,2.0,F1,1.0,2.92,102.2,2.22
+male,group E,some college,standard,24.0,Germany,0.0,75915.0,Family,9.0,No,Off-campus,12.0,67.0,5.3,8.7,2.0,6.8,7.0,4.0,5.0,6.0,F1,4.0,2.75,84.4,2.17
+male,group C,associate's degree,standard,19.0,Nigeria,2.0,38058.0,Self-funded,27.0,No,Off-campus,37.0,60.0,8.7,7.6,2.0,7.6,4.0,10.0,10.0,7.0,F1,6.0,3.16,117.3,2.45
+female,group C,some high school,standard,28.0,India,4.0,96637.0,Self-funded,20.0,No,Off-campus,26.0,74.0,7.6,4.3,2.0,10.3,3.0,8.0,6.0,5.0,J1,8.0,2.88,98.1,2.47
+male,group A,high school,free/reduced,27.0,China,2.0,60718.0,Loan,17.0,Yes,Off-campus,9.0,60.0,5.1,4.7,1.0,9.5,3.0,10.0,7.0,1.0,F1,10.0,2.03,109.4,1.57
+female,group B,high school,free/reduced,19.0,Germany,0.0,52602.0,Self-funded,6.0,No,With relatives,22.0,67.0,6.2,4.5,4.0,12.2,4.0,4.0,9.0,3.0,F1,4.0,3.99,100.0,2.45
+female,group C,associate's degree,standard,27.0,Germany,0.0,94658.0,Scholarship,2.0,Yes,With relatives,34.0,89.0,8.0,2.2,4.0,0.7,9.0,4.0,1.0,3.0,F1,7.0,3.09,104.2,2.78
+male,group B,some high school,standard,18.0,South Korea,4.0,98112.0,Loan,12.0,Yes,Off-campus,35.0,63.0,6.7,6.7,2.0,4.4,9.0,10.0,4.0,4.0,Other,3.0,2.95,92.1,2.23
+male,group D,some high school,standard,25.0,UK,0.0,78067.0,Self-funded,14.0,No,Off-campus,14.0,60.0,7.2,7.6,3.0,4.2,2.0,4.0,9.0,10.0,F1,8.0,3.91,88.0,2.67
+female,group C,some high school,standard,18.0,Nigeria,3.0,47516.0,Scholarship,19.0,No,With relatives,19.0,60.0,7.8,8.8,0.0,2.2,5.0,6.0,5.0,6.0,F1,1.0,2.31,101.7,2.25
+male,group A,some college,standard,26.0,India,1.0,149295.0,Self-funded,18.0,No,Off-campus,22.0,60.0,7.1,3.1,3.0,4.3,1.0,9.0,8.0,5.0,J1,4.0,2.38,97.6,2.16
+female,group A,some college,free/reduced,28.0,Other,4.0,107969.0,Self-funded,2.0,Yes,Off-campus,27.0,65.0,6.7,6.4,3.0,4.6,4.0,5.0,1.0,1.0,F1,8.0,3.62,95.6,2.66
+female,group D,high school,standard,23.0,Brazil,2.0,21089.0,Family,3.0,No,Off-campus,37.0,99.0,7.7,2.1,3.0,7.8,2.0,10.0,4.0,6.0,F1,10.0,2.52,106.9,2.8
+female,group C,high school,standard,24.0,UK,3.0,57346.0,Self-funded,4.0,Yes,On-campus,20.0,60.0,7.6,2.8,4.0,10.0,8.0,8.0,9.0,9.0,F1,4.0,3.6,107.6,2.28
+female,group C,some high school,standard,27.0,UK,4.0,94663.0,Self-funded,0.0,No,Off-campus,39.0,73.0,7.1,2.4,0.0,5.7,4.0,8.0,1.0,1.0,J1,2.0,2.54,81.8,2.57
+male,group B,associate's degree,standard,24.0,South Korea,0.0,30487.0,Scholarship,3.0,Yes,On-campus,38.0,65.0,5.8,7.8,3.0,10.8,5.0,4.0,1.0,8.0,F1,2.0,2.07,93.5,2.75
+female,group B,associate's degree,standard,27.0,Other,0.0,20155.0,Scholarship,11.0,No,Off-campus,32.0,80.0,6.0,2.6,2.0,5.0,4.0,10.0,4.0,8.0,F1,4.0,3.03,96.5,2.63
+female,group D,high school,free/reduced,20.0,China,0.0,143950.0,Family,27.0,No,With relatives,6.0,60.0,8.9,7.7,4.0,4.4,5.0,9.0,3.0,3.0,J1,4.0,2.39,83.9,1.96
+male,group D,associate's degree,standard,19.0,China,0.0,87494.0,Self-funded,26.0,No,On-campus,34.0,84.0,4.6,4.0,2.0,8.1,5.0,9.0,7.0,9.0,F1,2.0,3.52,89.4,2.64
+female,group D,master's degree,standard,26.0,South Korea,2.0,96229.0,Family,23.0,No,On-campus,17.0,71.0,5.3,9.0,2.0,0.4,5.0,5.0,3.0,8.0,F1,7.0,3.28,82.1,2.57
+male,group E,some college,standard,25.0,Germany,3.0,124648.0,Self-funded,9.0,No,Off-campus,20.0,83.0,6.5,8.5,3.0,1.2,3.0,6.0,1.0,3.0,J1,6.0,3.85,119.8,2.78
+male,group D,associate's degree,standard,29.0,China,1.0,58547.0,Loan,22.0,No,Off-campus,9.0,66.0,8.2,9.7,2.0,6.3,7.0,5.0,10.0,10.0,F1,3.0,3.57,109.5,2.33
+male,group B,some high school,standard,27.0,Nigeria,2.0,48795.0,Loan,24.0,Yes,On-campus,32.0,67.0,4.8,9.1,0.0,14.1,3.0,3.0,2.0,5.0,F1,8.0,2.36,83.5,2.65
+female,group C,bachelor's degree,free/reduced,24.0,India,2.0,75296.0,Family,20.0,Yes,With relatives,24.0,72.0,5.4,9.5,2.0,10.8,2.0,8.0,10.0,3.0,F1,8.0,3.6,80.8,2.27
+male,group E,high school,standard,26.0,UK,1.0,41447.0,Family,28.0,No,With relatives,28.0,73.0,4.3,8.9,3.0,1.3,3.0,9.0,4.0,5.0,J1,1.0,3.28,108.8,2.47
+male,group C,bachelor's degree,standard,21.0,UK,1.0,56598.0,Family,25.0,No,Off-campus,31.0,74.0,7.5,7.5,2.0,12.7,3.0,4.0,1.0,9.0,F1,3.0,3.34,97.6,3.15
+male,group C,associate's degree,standard,21.0,Nigeria,0.0,61814.0,Scholarship,19.0,No,With relatives,34.0,73.0,5.2,3.4,4.0,11.0,8.0,9.0,1.0,4.0,F1,5.0,3.66,111.5,2.55
+male,group D,some college,standard,18.0,Other,2.0,110751.0,Scholarship,23.0,Yes,With relatives,31.0,60.0,5.9,4.2,4.0,9.2,4.0,9.0,8.0,6.0,J1,2.0,3.15,116.9,2.32
+male,group E,high school,free/reduced,25.0,China,4.0,145118.0,Scholarship,24.0,No,Off-campus,30.0,60.0,6.2,3.7,4.0,12.3,3.0,7.0,7.0,3.0,F1,5.0,2.93,104.0,2.31
+female,group C,associate's degree,free/reduced,29.0,UK,1.0,95330.0,Family,12.0,No,With relatives,11.0,93.0,8.5,6.8,1.0,6.1,10.0,8.0,8.0,3.0,F1,10.0,3.27,87.5,2.03
+female,group D,high school,standard,20.0,Brazil,1.0,141347.0,Self-funded,22.0,No,Off-campus,9.0,60.0,6.1,6.0,4.0,3.3,5.0,3.0,4.0,5.0,Other,3.0,2.6,111.3,2.21
+female,group D,master's degree,free/reduced,24.0,Other,3.0,118745.0,Loan,13.0,No,On-campus,27.0,60.0,4.7,8.9,4.0,7.7,4.0,5.0,6.0,8.0,F1,9.0,2.37,118.2,2.37
+female,group A,some high school,standard,29.0,India,4.0,107960.0,Family,22.0,No,Off-campus,32.0,85.0,6.6,9.6,1.0,8.2,9.0,3.0,3.0,8.0,Other,1.0,3.23,103.2,2.85
+male,group B,some college,free/reduced,19.0,India,4.0,83278.0,Scholarship,4.0,Yes,On-campus,38.0,60.0,8.8,5.2,4.0,8.1,8.0,7.0,8.0,3.0,F1,4.0,2.47,107.3,2.22
+female,group C,some college,free/reduced,19.0,UK,1.0,75077.0,Scholarship,3.0,No,On-campus,19.0,67.0,7.0,6.1,3.0,8.5,7.0,6.0,4.0,8.0,F1,10.0,2.16,93.5,2.27
+male,group C,bachelor's degree,standard,24.0,South Korea,0.0,132782.0,Family,13.0,No,With relatives,36.0,83.0,8.9,9.8,4.0,14.2,8.0,3.0,3.0,8.0,F1,6.0,2.0,95.3,2.79
+male,group C,some high school,free/reduced,23.0,Other,3.0,142046.0,Family,9.0,No,With relatives,30.0,71.0,8.2,4.2,4.0,13.5,5.0,9.0,4.0,3.0,F1,9.0,3.22,109.4,2.48
+male,group A,some high school,free/reduced,20.0,UK,4.0,122932.0,Scholarship,16.0,Yes,With relatives,35.0,60.0,4.2,8.3,1.0,13.1,4.0,1.0,6.0,10.0,F1,3.0,2.72,117.1,2.78
+male,group C,some high school,free/reduced,26.0,South Korea,1.0,91906.0,Self-funded,9.0,Yes,Off-campus,23.0,63.0,7.3,3.8,3.0,12.0,7.0,10.0,7.0,10.0,F1,3.0,3.5,105.2,2.39
+male,group C,associate's degree,free/reduced,27.0,UK,4.0,29528.0,Scholarship,25.0,No,With relatives,13.0,66.0,5.4,7.5,2.0,14.2,1.0,3.0,7.0,2.0,J1,5.0,2.75,111.6,2.22
+female,group C,high school,standard,23.0,Brazil,3.0,113812.0,Scholarship,6.0,No,On-campus,33.0,72.0,6.8,4.0,0.0,1.5,6.0,10.0,4.0,10.0,F1,7.0,2.97,86.9,2.62
+male,group C,high school,standard,27.0,Other,3.0,70100.0,Family,15.0,No,With relatives,8.0,60.0,5.4,9.1,3.0,4.0,8.0,7.0,8.0,2.0,F1,5.0,2.81,88.5,1.64
+female,group A,some high school,free/reduced,27.0,Germany,2.0,129869.0,Self-funded,0.0,No,With relatives,7.0,60.0,5.7,6.5,2.0,7.4,7.0,3.0,7.0,9.0,F1,8.0,3.3,101.3,2.26
+male,group C,some high school,standard,23.0,India,1.0,28179.0,Scholarship,16.0,No,Off-campus,33.0,66.0,8.6,3.5,3.0,12.7,2.0,3.0,2.0,7.0,F1,5.0,2.71,87.1,3.02
+male,group C,some college,free/reduced,18.0,UK,3.0,68781.0,Scholarship,20.0,Yes,Off-campus,15.0,60.0,5.0,3.8,2.0,7.6,7.0,2.0,8.0,6.0,F1,7.0,3.93,105.4,2.35
+male,group D,associate's degree,standard,21.0,Brazil,2.0,75267.0,Loan,28.0,No,On-campus,37.0,68.0,8.4,6.0,2.0,11.2,6.0,9.0,9.0,7.0,F1,6.0,3.87,91.7,2.63
+male,group D,associate's degree,free/reduced,27.0,South Korea,2.0,102379.0,Family,8.0,No,Off-campus,15.0,66.0,4.2,9.7,3.0,2.1,5.0,4.0,5.0,8.0,F1,10.0,3.7,111.7,2.51
+male,group C,high school,standard,23.0,South Korea,4.0,43952.0,Loan,5.0,No,With relatives,31.0,60.0,4.5,8.2,1.0,3.8,4.0,10.0,4.0,1.0,F1,2.0,3.84,112.3,2.31
+male,group D,some high school,standard,23.0,India,4.0,73798.0,Loan,18.0,No,Off-campus,37.0,88.0,8.3,5.9,3.0,11.0,1.0,6.0,4.0,8.0,F1,3.0,2.9,98.6,3.11
+female,group C,some college,standard,28.0,Nigeria,2.0,118696.0,Scholarship,12.0,No,On-campus,25.0,81.0,7.2,4.7,3.0,2.5,2.0,2.0,4.0,3.0,F1,4.0,3.07,87.2,2.8
+female,group D,high school,standard,29.0,UK,4.0,130434.0,Family,2.0,No,With relatives,35.0,81.0,7.7,6.4,2.0,5.3,7.0,9.0,6.0,3.0,F1,5.0,3.48,105.9,2.49
+female,group A,some high school,free/reduced,22.0,Other,3.0,70939.0,Self-funded,6.0,No,On-campus,6.0,73.0,5.0,8.0,0.0,4.0,10.0,7.0,4.0,6.0,J1,9.0,3.39,119.7,2.03
+female,group B,associate's degree,standard,18.0,China,0.0,49516.0,Scholarship,21.0,Yes,Off-campus,31.0,83.0,6.7,8.3,2.0,5.2,3.0,10.0,7.0,4.0,F1,6.0,3.78,104.9,2.58
+male,group A,some high school,free/reduced,25.0,South Korea,3.0,76526.0,Self-funded,8.0,Yes,Off-campus,15.0,82.0,7.7,4.6,4.0,10.6,5.0,5.0,7.0,4.0,F1,1.0,3.43,81.4,2.43
+female,group C,some high school,standard,22.0,Other,2.0,30449.0,Self-funded,21.0,No,On-campus,22.0,74.0,7.1,7.8,3.0,5.5,8.0,7.0,5.0,4.0,F1,3.0,4.0,80.7,2.45
+male,group D,some college,free/reduced,29.0,Other,2.0,70290.0,Family,4.0,Yes,With relatives,5.0,66.0,6.4,7.3,3.0,8.3,8.0,4.0,5.0,10.0,F1,7.0,2.7,92.8,2.22
+male,group C,high school,standard,29.0,Germany,3.0,146688.0,Loan,9.0,Yes,Off-campus,39.0,81.0,8.8,9.7,1.0,1.5,6.0,10.0,10.0,9.0,F1,8.0,3.67,87.8,2.72
+male,group B,high school,standard,29.0,Other,4.0,106661.0,Family,22.0,No,Off-campus,39.0,60.0,7.4,9.4,2.0,12.1,5.0,7.0,8.0,8.0,Other,7.0,3.4,112.5,2.67
+male,group B,associate's degree,standard,22.0,Other,4.0,92954.0,Self-funded,16.0,No,With relatives,35.0,73.0,8.5,8.3,1.0,5.5,2.0,2.0,7.0,3.0,F1,5.0,3.38,113.8,2.9
+female,group C,some college,free/reduced,24.0,Germany,2.0,42746.0,Scholarship,11.0,No,Off-campus,32.0,85.0,7.6,7.8,3.0,9.7,9.0,7.0,7.0,1.0,F1,10.0,2.65,90.3,2.18
+female,group E,some college,standard,21.0,South Korea,1.0,87990.0,Self-funded,22.0,Yes,On-campus,5.0,92.0,7.7,4.2,2.0,10.9,1.0,4.0,6.0,1.0,F1,8.0,3.57,93.0,2.48
+female,group C,associate's degree,free/reduced,23.0,Other,4.0,78810.0,Scholarship,15.0,Yes,Off-campus,29.0,77.0,4.4,8.8,2.0,3.1,2.0,4.0,7.0,1.0,F1,9.0,3.8,89.4,2.57
+male,group C,some college,free/reduced,21.0,Nigeria,3.0,138362.0,Scholarship,2.0,Yes,Off-campus,24.0,60.0,5.8,5.4,4.0,13.3,1.0,1.0,7.0,4.0,J1,7.0,2.44,116.3,2.47
+female,group C,associate's degree,free/reduced,20.0,Nigeria,4.0,103297.0,Family,29.0,Yes,With relatives,7.0,61.0,8.3,4.2,4.0,9.2,4.0,3.0,10.0,6.0,F1,9.0,3.25,100.1,2.25
+male,group C,bachelor's degree,free/reduced,24.0,Brazil,3.0,35223.0,Self-funded,24.0,No,On-campus,6.0,60.0,5.2,5.1,0.0,6.4,4.0,5.0,2.0,4.0,F1,1.0,2.78,106.2,2.16
+female,group D,bachelor's degree,standard,25.0,Germany,2.0,92237.0,Loan,21.0,Yes,With relatives,22.0,89.0,4.6,8.7,4.0,2.7,5.0,5.0,10.0,3.0,F1,9.0,3.98,96.6,2.38
+male,group D,associate's degree,free/reduced,21.0,Brazil,4.0,22597.0,Self-funded,8.0,No,Off-campus,14.0,60.0,5.6,3.2,2.0,14.1,5.0,2.0,2.0,8.0,F1,3.0,2.96,105.2,2.57
+female,group E,bachelor's degree,standard,19.0,Germany,3.0,85677.0,Self-funded,28.0,Yes,Off-campus,9.0,100.0,5.1,5.6,4.0,11.3,8.0,4.0,10.0,8.0,F1,6.0,2.46,95.4,2.09
+male,group B,high school,standard,29.0,UK,2.0,22659.0,Loan,14.0,No,With relatives,13.0,65.0,8.6,5.9,0.0,3.1,3.0,1.0,7.0,6.0,J1,8.0,2.76,93.6,2.52
+male,group C,bachelor's degree,free/reduced,27.0,UK,1.0,106516.0,Family,4.0,No,With relatives,6.0,60.0,8.3,2.3,3.0,5.1,6.0,9.0,10.0,9.0,F1,3.0,3.31,105.4,2.04
+male,group B,some college,free/reduced,20.0,Other,3.0,94567.0,Self-funded,22.0,No,With relatives,38.0,60.0,6.5,3.6,4.0,12.1,3.0,1.0,7.0,10.0,F1,4.0,2.15,103.6,2.81
+female,group E,some college,standard,18.0,China,1.0,35037.0,Self-funded,12.0,No,On-campus,35.0,70.0,4.3,8.6,2.0,10.4,2.0,6.0,7.0,1.0,F1,7.0,3.21,91.7,2.42
+female,group C,some college,free/reduced,25.0,UK,1.0,146498.0,Scholarship,13.0,No,Off-campus,14.0,90.0,7.6,8.6,3.0,11.5,8.0,7.0,5.0,8.0,F1,7.0,3.86,86.0,2.58
+male,group A,bachelor's degree,standard,20.0,China,0.0,66738.0,Self-funded,19.0,Yes,With relatives,16.0,60.0,7.1,4.3,2.0,6.6,1.0,3.0,1.0,6.0,F1,4.0,3.7,94.7,2.9
+female,group C,some college,standard,29.0,UK,4.0,123965.0,Loan,14.0,No,Off-campus,25.0,87.0,8.9,9.0,3.0,10.7,9.0,1.0,2.0,1.0,F1,9.0,2.14,96.6,2.48
+female,group D,associate's degree,free/reduced,27.0,India,3.0,91678.0,Scholarship,15.0,No,On-campus,10.0,60.0,6.8,8.2,2.0,5.8,7.0,7.0,9.0,4.0,F1,3.0,3.99,105.1,2.05
+male,group A,high school,free/reduced,24.0,UK,1.0,32109.0,Family,22.0,No,On-campus,7.0,67.0,5.7,5.3,4.0,3.2,10.0,3.0,8.0,5.0,F1,8.0,3.4,116.6,2.0
+female,group A,high school,free/reduced,27.0,Brazil,0.0,42010.0,Scholarship,12.0,Yes,On-campus,14.0,88.0,6.6,8.0,4.0,9.5,4.0,10.0,8.0,7.0,J1,8.0,2.32,81.4,2.1
+male,group C,some college,standard,22.0,South Korea,2.0,28787.0,Loan,16.0,Yes,On-campus,9.0,74.0,8.9,9.7,0.0,14.6,3.0,6.0,10.0,8.0,F1,4.0,2.02,89.7,2.14
+female,group C,associate's degree,standard,27.0,Other,3.0,128400.0,Loan,22.0,No,Off-campus,30.0,85.0,7.5,5.7,3.0,4.7,6.0,6.0,1.0,9.0,F1,7.0,2.34,87.7,2.8
+female,group C,high school,standard,22.0,Brazil,1.0,28472.0,Scholarship,7.0,No,On-campus,25.0,69.0,7.4,3.9,0.0,6.9,9.0,4.0,6.0,6.0,F1,4.0,3.68,100.1,2.53
+female,group C,associate's degree,standard,24.0,South Korea,4.0,135111.0,Family,20.0,No,On-campus,30.0,86.0,5.2,9.5,1.0,10.1,9.0,6.0,9.0,10.0,F1,1.0,2.04,97.2,2.25
+female,group D,some high school,standard,26.0,Nigeria,0.0,43383.0,Scholarship,1.0,Yes,With relatives,30.0,67.0,7.7,6.8,4.0,8.1,4.0,10.0,8.0,9.0,F1,1.0,2.47,109.2,2.37
+female,group B,associate's degree,standard,29.0,Brazil,1.0,81709.0,Family,4.0,No,On-campus,12.0,90.0,7.8,2.8,3.0,12.7,10.0,4.0,3.0,4.0,J1,1.0,3.51,89.7,2.45
+female,group D,bachelor's degree,standard,22.0,Nigeria,4.0,89785.0,Scholarship,5.0,Yes,With relatives,9.0,76.0,5.6,6.6,0.0,11.4,5.0,8.0,4.0,8.0,F1,2.0,3.17,103.8,2.31
+male,group E,bachelor's degree,standard,18.0,China,1.0,133253.0,Loan,11.0,Yes,On-campus,19.0,62.0,6.4,6.0,0.0,0.9,9.0,9.0,3.0,3.0,F1,6.0,3.57,115.4,2.14
+male,group D,associate's degree,standard,27.0,China,3.0,54518.0,Self-funded,17.0,No,On-campus,20.0,68.0,5.5,8.8,1.0,15.0,2.0,2.0,6.0,4.0,F1,10.0,3.49,116.4,2.61
+female,group D,master's degree,standard,27.0,India,3.0,73909.0,Self-funded,29.0,Yes,With relatives,5.0,64.0,5.3,6.2,0.0,11.3,2.0,7.0,9.0,10.0,F1,5.0,2.1,118.4,1.99
+male,group E,associate's degree,standard,18.0,UK,3.0,38351.0,Family,21.0,Yes,On-campus,20.0,71.0,4.1,4.0,2.0,13.0,5.0,9.0,8.0,4.0,F1,2.0,3.79,110.9,2.15
+male,group B,high school,standard,19.0,Brazil,0.0,89624.0,Family,21.0,No,Off-campus,7.0,71.0,5.4,7.4,4.0,9.8,1.0,9.0,10.0,6.0,J1,8.0,2.45,116.2,1.9
+female,group D,associate's degree,free/reduced,23.0,Nigeria,3.0,73330.0,Family,0.0,Yes,Off-campus,35.0,60.0,6.8,6.3,0.0,12.8,8.0,5.0,4.0,9.0,F1,9.0,3.11,89.4,2.69
+male,group C,some college,free/reduced,26.0,South Korea,4.0,142477.0,Loan,29.0,Yes,On-campus,17.0,68.0,4.0,3.9,0.0,1.7,5.0,1.0,2.0,6.0,F1,7.0,3.29,87.9,2.62
+male,group A,high school,standard,25.0,China,1.0,35282.0,Scholarship,16.0,Yes,Off-campus,20.0,60.0,5.4,6.6,1.0,5.2,10.0,6.0,8.0,1.0,F1,9.0,2.34,80.3,1.65
+female,group B,associate's degree,standard,22.0,UK,2.0,104866.0,Loan,29.0,Yes,With relatives,25.0,60.0,8.4,8.6,2.0,13.1,2.0,8.0,8.0,5.0,F1,4.0,3.95,108.3,2.58
+male,group C,high school,standard,18.0,China,4.0,127945.0,Self-funded,10.0,Yes,On-campus,6.0,74.0,7.0,2.2,0.0,3.0,9.0,1.0,6.0,9.0,F1,7.0,2.98,117.5,2.36
+male,group D,some college,free/reduced,24.0,South Korea,4.0,41778.0,Family,9.0,No,On-campus,31.0,60.0,7.0,7.0,4.0,1.2,2.0,2.0,8.0,5.0,J1,5.0,2.12,87.5,2.48
+female,group C,associate's degree,free/reduced,22.0,UK,3.0,44264.0,Scholarship,18.0,Yes,With relatives,30.0,75.0,6.0,4.8,4.0,11.8,7.0,1.0,9.0,6.0,F1,5.0,3.87,105.5,2.7
+male,group B,some high school,standard,23.0,UK,0.0,79675.0,Self-funded,13.0,Yes,With relatives,29.0,60.0,7.4,4.3,0.0,12.5,8.0,5.0,1.0,3.0,J1,3.0,3.17,109.9,2.52
+male,group A,associate's degree,free/reduced,24.0,Nigeria,1.0,25075.0,Self-funded,25.0,No,With relatives,15.0,82.0,4.9,5.1,2.0,2.4,6.0,2.0,9.0,8.0,J1,9.0,3.4,117.1,2.45
+female,group A,associate's degree,free/reduced,20.0,Nigeria,0.0,95948.0,Self-funded,9.0,No,On-campus,12.0,85.0,8.1,4.7,4.0,12.8,7.0,10.0,2.0,10.0,F1,10.0,3.05,105.9,2.5
+female,group C,associate's degree,standard,29.0,Brazil,1.0,68454.0,Loan,14.0,No,With relatives,12.0,64.0,4.6,8.7,4.0,10.3,1.0,10.0,1.0,4.0,F1,5.0,3.67,118.8,2.38
+female,group C,some college,standard,27.0,Brazil,1.0,48365.0,Family,27.0,No,With relatives,37.0,83.0,7.3,4.2,2.0,7.8,4.0,4.0,8.0,4.0,F1,6.0,2.07,93.8,2.51
+female,group C,bachelor's degree,standard,20.0,Germany,0.0,92766.0,Self-funded,18.0,No,Off-campus,11.0,88.0,5.7,7.9,2.0,12.5,7.0,1.0,8.0,5.0,J1,3.0,2.54,94.0,2.21
+female,group B,high school,standard,22.0,Other,4.0,68200.0,Family,3.0,No,Off-campus,25.0,64.0,7.7,2.8,0.0,6.3,1.0,7.0,4.0,10.0,F1,10.0,2.94,101.7,2.81
+male,group D,high school,standard,23.0,Germany,1.0,31002.0,Loan,1.0,No,On-campus,12.0,64.0,6.7,9.6,3.0,2.9,1.0,8.0,8.0,9.0,F1,7.0,2.15,95.3,2.17
+female,group C,some college,standard,26.0,India,0.0,33947.0,Self-funded,8.0,No,Off-campus,25.0,60.0,6.3,7.0,1.0,4.3,6.0,5.0,7.0,8.0,F1,9.0,3.41,80.1,2.5
+female,group D,some college,free/reduced,29.0,China,1.0,99222.0,Loan,9.0,Yes,Off-campus,24.0,78.0,4.8,7.7,3.0,7.6,4.0,2.0,2.0,7.0,F1,9.0,2.79,109.3,2.76
+female,group B,some high school,standard,22.0,Brazil,2.0,114840.0,Loan,27.0,Yes,With relatives,12.0,69.0,7.2,4.4,3.0,8.0,3.0,8.0,5.0,5.0,F1,10.0,2.55,110.1,2.18
+male,group E,some college,standard,18.0,Nigeria,4.0,136219.0,Family,10.0,Yes,With relatives,35.0,71.0,8.9,5.3,4.0,12.1,5.0,1.0,10.0,9.0,F1,10.0,2.01,109.9,2.67
+female,group D,master's degree,standard,21.0,South Korea,3.0,98610.0,Self-funded,13.0,No,Off-campus,33.0,79.0,8.1,3.8,2.0,11.9,9.0,7.0,4.0,9.0,F1,5.0,3.44,93.8,2.78
+female,group B,associate's degree,standard,22.0,Nigeria,1.0,72142.0,Loan,6.0,No,Off-campus,13.0,87.0,4.3,9.5,4.0,8.7,10.0,1.0,3.0,10.0,J1,7.0,3.67,100.9,2.68
+male,group C,some college,free/reduced,29.0,China,2.0,76307.0,Self-funded,22.0,No,Off-campus,19.0,61.0,5.9,5.9,1.0,11.7,10.0,6.0,1.0,10.0,F1,3.0,2.79,94.4,2.39
+female,group E,associate's degree,standard,27.0,Germany,3.0,24493.0,Family,14.0,No,On-campus,34.0,89.0,8.6,7.0,0.0,2.9,10.0,6.0,5.0,2.0,F1,6.0,3.13,80.6,2.49
+female,group D,master's degree,free/reduced,27.0,Nigeria,3.0,144023.0,Loan,21.0,No,On-campus,30.0,60.0,6.5,7.9,1.0,0.8,3.0,5.0,10.0,4.0,J1,8.0,2.46,102.5,2.23
+female,group B,some high school,standard,22.0,Other,1.0,70085.0,Family,18.0,Yes,On-campus,14.0,82.0,7.3,5.0,4.0,13.1,5.0,2.0,8.0,8.0,F1,8.0,3.24,85.0,2.59
+male,group A,high school,standard,24.0,India,0.0,54228.0,Self-funded,21.0,Yes,Off-campus,33.0,70.0,8.6,7.8,4.0,1.1,10.0,2.0,9.0,1.0,J1,2.0,2.02,83.2,2.1
+male,group B,bachelor's degree,free/reduced,21.0,China,1.0,99676.0,Self-funded,14.0,No,Off-campus,20.0,60.0,8.4,7.4,4.0,3.7,5.0,9.0,7.0,5.0,F1,6.0,2.98,110.2,2.19
+male,group C,master's degree,standard,18.0,Germany,2.0,71875.0,Family,29.0,No,On-campus,24.0,78.0,6.5,7.6,4.0,10.4,9.0,5.0,1.0,8.0,F1,7.0,3.29,80.4,2.69
+female,group C,bachelor's degree,standard,22.0,Other,3.0,51655.0,Scholarship,27.0,No,On-campus,26.0,92.0,6.2,5.9,3.0,6.1,10.0,5.0,1.0,2.0,F1,7.0,3.84,118.4,2.63
+male,group D,some college,standard,24.0,South Korea,1.0,63472.0,Loan,23.0,No,Off-campus,11.0,71.0,5.7,5.1,0.0,13.1,4.0,7.0,1.0,2.0,F1,3.0,2.76,100.6,2.2
+male,group A,some high school,standard,27.0,Germany,0.0,69437.0,Self-funded,7.0,Yes,With relatives,27.0,60.0,7.6,3.8,3.0,4.5,1.0,6.0,2.0,8.0,J1,9.0,3.53,119.3,2.97
+male,group D,some high school,free/reduced,27.0,UK,1.0,69416.0,Self-funded,10.0,No,On-campus,33.0,60.0,5.4,8.6,4.0,0.2,10.0,2.0,1.0,10.0,F1,2.0,3.2,82.3,2.82
+female,group B,some high school,standard,23.0,Other,4.0,79711.0,Loan,28.0,No,Off-campus,20.0,61.0,5.2,6.9,2.0,4.5,5.0,1.0,4.0,9.0,F1,3.0,3.85,103.3,2.83
+female,group B,master's degree,free/reduced,22.0,Other,0.0,26816.0,Family,8.0,No,Off-campus,32.0,97.0,5.8,5.6,3.0,8.7,1.0,5.0,10.0,7.0,F1,2.0,2.8,94.0,2.72
+female,group C,some high school,standard,21.0,India,2.0,97175.0,Family,14.0,No,With relatives,35.0,87.0,4.9,9.6,4.0,5.6,6.0,4.0,9.0,8.0,J1,9.0,2.64,113.7,2.55
+female,group D,some college,standard,19.0,China,3.0,84307.0,Family,0.0,Yes,Off-campus,18.0,89.0,7.5,2.4,4.0,8.0,10.0,3.0,4.0,5.0,F1,4.0,3.77,94.4,2.61
+female,group E,some college,standard,21.0,South Korea,1.0,132728.0,Scholarship,29.0,Yes,Off-campus,37.0,74.0,7.1,8.8,0.0,13.1,10.0,2.0,4.0,1.0,J1,2.0,2.1,90.4,2.33
+female,group D,some high school,standard,27.0,India,0.0,66733.0,Scholarship,0.0,No,On-campus,13.0,78.0,6.4,10.0,1.0,13.7,7.0,10.0,7.0,4.0,F1,3.0,2.27,114.3,1.8
+female,group B,high school,free/reduced,27.0,Germany,4.0,148202.0,Self-funded,18.0,No,On-campus,31.0,78.0,6.0,9.1,3.0,4.0,1.0,2.0,9.0,2.0,F1,4.0,2.16,95.0,2.43
+male,group D,some college,standard,20.0,India,0.0,115028.0,Family,2.0,No,With relatives,28.0,60.0,8.5,8.5,3.0,6.9,10.0,4.0,7.0,3.0,F1,10.0,3.69,80.7,2.38
+female,group C,associate's degree,standard,27.0,Other,4.0,136450.0,Loan,9.0,Yes,With relatives,17.0,86.0,4.1,5.0,3.0,8.2,4.0,2.0,1.0,3.0,F1,6.0,2.02,95.6,2.4
+male,group D,bachelor's degree,standard,18.0,China,2.0,31240.0,Self-funded,7.0,No,Off-campus,30.0,60.0,7.8,3.9,4.0,14.2,9.0,4.0,1.0,9.0,F1,5.0,3.72,106.2,2.9
+male,group C,master's degree,free/reduced,25.0,Brazil,3.0,118234.0,Loan,14.0,Yes,On-campus,33.0,60.0,8.5,7.9,0.0,15.0,1.0,3.0,4.0,10.0,F1,3.0,2.9,90.2,3.09
+male,group C,high school,standard,22.0,India,2.0,112493.0,Self-funded,9.0,Yes,With relatives,32.0,60.0,6.2,4.4,4.0,3.5,9.0,9.0,4.0,4.0,F1,10.0,2.01,97.3,2.0
+male,group E,some college,standard,21.0,UK,1.0,145149.0,Scholarship,0.0,No,With relatives,32.0,60.0,6.8,3.4,4.0,10.9,8.0,7.0,1.0,2.0,F1,8.0,2.8,82.3,2.34
+male,group C,some high school,free/reduced,25.0,India,0.0,118344.0,Self-funded,28.0,No,With relatives,12.0,61.0,8.7,8.3,2.0,5.7,5.0,3.0,6.0,3.0,F1,8.0,2.37,103.5,2.17
+female,group C,high school,free/reduced,24.0,Germany,4.0,91363.0,Scholarship,17.0,Yes,Off-campus,27.0,60.0,5.1,4.5,0.0,0.1,6.0,8.0,10.0,3.0,F1,7.0,3.25,110.3,2.0
+female,group D,bachelor's degree,free/reduced,19.0,Germany,4.0,52762.0,Self-funded,1.0,Yes,On-campus,33.0,60.0,6.6,9.3,3.0,0.1,7.0,9.0,2.0,7.0,F1,3.0,3.36,96.5,2.58
+female,group C,associate's degree,standard,18.0,South Korea,0.0,28259.0,Family,18.0,No,With relatives,9.0,74.0,6.4,8.7,1.0,6.9,4.0,7.0,5.0,8.0,F1,1.0,2.98,96.8,2.34
+female,group C,associate's degree,standard,29.0,Germany,0.0,70139.0,Loan,12.0,Yes,On-campus,11.0,67.0,5.3,8.8,3.0,7.3,6.0,6.0,8.0,6.0,F1,5.0,2.08,83.5,1.86
+female,group C,some high school,standard,28.0,Nigeria,1.0,148775.0,Family,21.0,No,With relatives,31.0,60.0,8.1,8.2,4.0,0.3,7.0,4.0,3.0,4.0,Other,1.0,3.31,88.1,2.65
+male,group E,associate's degree,standard,21.0,China,2.0,34849.0,Self-funded,0.0,No,With relatives,6.0,61.0,8.5,9.0,0.0,10.3,6.0,5.0,9.0,6.0,J1,6.0,3.68,86.2,2.21
+female,group E,associate's degree,standard,25.0,China,4.0,101768.0,Self-funded,1.0,Yes,On-campus,29.0,88.0,7.9,8.4,0.0,4.4,6.0,8.0,7.0,1.0,F1,7.0,3.44,99.3,2.4
+male,group B,high school,standard,29.0,Brazil,1.0,126108.0,Self-funded,28.0,Yes,On-campus,13.0,69.0,5.0,6.8,0.0,8.4,2.0,3.0,9.0,10.0,F1,5.0,3.66,101.2,2.6
+female,group C,bachelor's degree,free/reduced,19.0,Brazil,2.0,109709.0,Scholarship,15.0,No,On-campus,31.0,83.0,4.4,4.4,2.0,4.5,5.0,2.0,1.0,8.0,J1,4.0,2.4,118.0,2.84
+male,group C,associate's degree,standard,20.0,China,1.0,74869.0,Loan,14.0,No,Off-campus,5.0,60.0,7.0,9.1,3.0,2.5,3.0,3.0,5.0,1.0,F1,2.0,3.78,82.9,2.3
+female,group D,high school,standard,29.0,UK,4.0,146888.0,Loan,12.0,No,With relatives,27.0,66.0,4.3,8.7,2.0,6.1,7.0,7.0,3.0,5.0,F1,5.0,2.64,104.0,2.24
+male,group E,bachelor's degree,standard,18.0,Brazil,0.0,83095.0,Self-funded,15.0,No,Off-campus,14.0,66.0,7.4,5.8,1.0,3.5,4.0,8.0,4.0,2.0,F1,9.0,2.03,101.1,1.98
+male,group A,associate's degree,standard,18.0,South Korea,0.0,137886.0,Self-funded,16.0,No,On-campus,29.0,92.0,6.7,2.3,4.0,8.0,1.0,1.0,4.0,6.0,F1,4.0,3.69,100.6,3.22
+male,group C,high school,standard,20.0,Germany,2.0,90910.0,Scholarship,20.0,No,With relatives,7.0,69.0,7.3,7.1,2.0,3.0,6.0,7.0,7.0,9.0,F1,2.0,3.88,114.9,2.38
+male,group D,associate's degree,free/reduced,28.0,China,3.0,106710.0,Family,28.0,No,Off-campus,10.0,82.0,7.0,2.4,2.0,7.6,6.0,9.0,10.0,5.0,Other,6.0,3.31,88.2,2.02
+female,group C,associate's degree,standard,22.0,Other,2.0,43567.0,Family,28.0,No,With relatives,10.0,77.0,6.1,9.4,4.0,2.4,7.0,3.0,8.0,4.0,F1,8.0,2.46,81.6,2.02
+female,group D,associate's degree,standard,29.0,Brazil,3.0,55292.0,Loan,6.0,No,Off-campus,6.0,95.0,5.0,9.7,0.0,10.1,8.0,3.0,10.0,2.0,F1,2.0,2.5,106.9,1.82
+female,group D,master's degree,standard,20.0,China,1.0,94813.0,Scholarship,23.0,No,On-campus,22.0,63.0,5.5,3.5,4.0,11.3,3.0,8.0,5.0,3.0,F1,9.0,2.93,93.8,2.22
+male,group E,some high school,free/reduced,18.0,Nigeria,1.0,117136.0,Self-funded,25.0,No,Off-campus,27.0,83.0,6.6,7.4,3.0,1.7,6.0,4.0,10.0,6.0,F1,7.0,3.8,80.7,2.6
+female,group A,some high school,standard,18.0,India,4.0,71631.0,Loan,16.0,No,With relatives,6.0,100.0,7.3,2.7,4.0,7.0,10.0,8.0,7.0,8.0,F1,2.0,2.3,90.1,1.99
+male,group C,high school,standard,25.0,Germany,3.0,29885.0,Scholarship,6.0,Yes,With relatives,16.0,67.0,7.9,7.8,0.0,1.1,2.0,5.0,3.0,8.0,F1,5.0,3.65,92.4,2.84
+female,group C,high school,free/reduced,27.0,China,4.0,79659.0,Family,12.0,No,With relatives,26.0,67.0,7.8,4.8,4.0,9.0,9.0,3.0,3.0,5.0,F1,5.0,2.58,104.7,2.45
+male,group C,master's degree,standard,28.0,India,0.0,74306.0,Scholarship,4.0,Yes,With relatives,24.0,72.0,8.9,7.4,2.0,4.0,2.0,4.0,3.0,5.0,J1,7.0,3.62,86.9,2.95
+male,group C,some high school,free/reduced,29.0,Brazil,3.0,86314.0,Family,25.0,Yes,On-campus,28.0,76.0,5.4,5.0,1.0,7.9,3.0,4.0,4.0,10.0,F1,5.0,3.84,96.5,3.04
+male,group B,bachelor's degree,free/reduced,29.0,India,2.0,85087.0,Scholarship,16.0,Yes,Off-campus,24.0,90.0,4.4,3.2,2.0,7.8,10.0,8.0,6.0,3.0,F1,6.0,2.85,99.3,2.03
+female,group B,associate's degree,standard,19.0,Germany,0.0,49165.0,Loan,2.0,No,On-campus,5.0,60.0,5.7,5.2,1.0,13.9,2.0,6.0,5.0,7.0,F1,9.0,2.73,98.4,2.19
+male,group D,some college,free/reduced,20.0,China,0.0,78929.0,Family,6.0,No,On-campus,5.0,62.0,7.7,2.9,4.0,8.2,9.0,7.0,8.0,6.0,F1,3.0,3.6,119.0,1.99
+male,group E,associate's degree,standard,19.0,Nigeria,2.0,87028.0,Loan,25.0,Yes,On-campus,21.0,60.0,6.2,6.6,3.0,8.7,1.0,9.0,5.0,1.0,F1,3.0,3.06,81.8,2.2
+female,group C,some college,free/reduced,20.0,UK,0.0,115998.0,Loan,16.0,No,With relatives,5.0,60.0,8.1,2.3,4.0,6.0,5.0,6.0,5.0,4.0,J1,8.0,3.37,118.0,2.19
+female,group C,associate's degree,standard,24.0,Brazil,3.0,69812.0,Family,6.0,No,With relatives,34.0,72.0,6.7,6.2,0.0,14.2,1.0,3.0,10.0,6.0,J1,10.0,3.25,103.3,2.77
+male,group C,master's degree,free/reduced,18.0,China,4.0,70500.0,Family,20.0,Yes,With relatives,7.0,67.0,8.6,9.1,4.0,11.7,5.0,3.0,2.0,6.0,F1,6.0,2.31,111.8,2.39
+female,group B,associate's degree,free/reduced,27.0,Germany,0.0,99151.0,Self-funded,0.0,No,Off-campus,15.0,70.0,8.7,8.7,1.0,4.3,8.0,3.0,5.0,3.0,F1,10.0,3.69,97.2,2.45
+male,group D,some high school,standard,25.0,Brazil,3.0,78643.0,Self-funded,16.0,No,With relatives,28.0,66.0,4.3,9.1,2.0,12.7,8.0,10.0,7.0,6.0,F1,3.0,2.39,98.2,1.93
+female,group D,some college,standard,27.0,South Korea,1.0,64900.0,Self-funded,29.0,No,Off-campus,26.0,75.0,6.3,9.4,3.0,6.5,8.0,2.0,2.0,10.0,F1,2.0,3.86,115.2,3.01
+female,group C,some college,standard,27.0,India,3.0,62946.0,Loan,16.0,No,With relatives,30.0,74.0,7.0,2.8,4.0,12.4,2.0,1.0,6.0,6.0,F1,2.0,2.5,115.8,2.79
+male,group C,bachelor's degree,standard,27.0,UK,4.0,27851.0,Loan,10.0,No,With relatives,17.0,90.0,5.3,3.0,4.0,12.3,8.0,10.0,7.0,9.0,J1,2.0,3.47,89.5,2.28
+female,group D,some college,free/reduced,19.0,Germany,3.0,36288.0,Self-funded,24.0,Yes,On-campus,5.0,80.0,6.0,6.5,2.0,2.8,5.0,1.0,5.0,9.0,F1,5.0,2.57,88.0,2.46
+male,group B,bachelor's degree,free/reduced,20.0,South Korea,2.0,92692.0,Loan,26.0,Yes,On-campus,28.0,60.0,7.4,9.2,3.0,10.5,1.0,4.0,9.0,2.0,F1,5.0,2.64,99.8,2.36
+male,group B,associate's degree,standard,26.0,Other,4.0,87580.0,Loan,28.0,Yes,On-campus,14.0,60.0,5.1,9.8,4.0,4.4,7.0,3.0,4.0,4.0,F1,1.0,2.62,116.0,2.12
+female,group E,bachelor's degree,free/reduced,24.0,China,1.0,27368.0,Family,2.0,No,Off-campus,39.0,100.0,7.0,2.4,4.0,4.5,6.0,5.0,10.0,9.0,F1,2.0,3.5,92.9,2.92
+female,group D,master's degree,free/reduced,21.0,Nigeria,2.0,105436.0,Family,14.0,Yes,Off-campus,28.0,71.0,7.5,4.8,1.0,4.4,5.0,9.0,1.0,4.0,F1,2.0,3.11,106.1,2.56
+male,group B,high school,free/reduced,27.0,Brazil,3.0,116136.0,Loan,28.0,Yes,With relatives,32.0,60.0,4.5,3.7,1.0,10.9,1.0,8.0,8.0,8.0,F1,4.0,3.77,108.3,2.63
+male,group D,bachelor's degree,free/reduced,22.0,India,4.0,66403.0,Self-funded,20.0,No,Off-campus,20.0,68.0,6.5,8.0,0.0,3.4,1.0,9.0,8.0,10.0,F1,7.0,2.61,111.1,2.4
+male,group B,some college,standard,19.0,Brazil,1.0,111170.0,Scholarship,10.0,No,With relatives,20.0,75.0,5.3,7.1,2.0,0.0,6.0,5.0,7.0,3.0,F1,3.0,3.38,102.6,2.26
+male,group A,bachelor's degree,standard,28.0,UK,2.0,29168.0,Self-funded,25.0,No,Off-campus,21.0,96.0,7.6,3.0,3.0,10.7,10.0,8.0,8.0,3.0,F1,5.0,3.51,96.1,2.21
+female,group C,some college,standard,25.0,China,1.0,106497.0,Scholarship,27.0,Yes,Off-campus,19.0,62.0,4.9,5.9,4.0,2.6,7.0,4.0,2.0,9.0,F1,9.0,2.3,118.7,2.37
+female,group C,high school,free/reduced,21.0,Brazil,3.0,69879.0,Self-funded,15.0,Yes,Off-campus,20.0,66.0,8.5,7.5,4.0,1.6,10.0,5.0,3.0,10.0,F1,5.0,2.8,104.5,2.51
+female,group E,high school,standard,26.0,India,1.0,79871.0,Family,24.0,No,On-campus,19.0,81.0,6.2,8.2,0.0,3.6,10.0,3.0,9.0,8.0,J1,9.0,2.97,109.1,2.28
+male,group A,associate's degree,free/reduced,22.0,China,0.0,129632.0,Loan,21.0,Yes,Off-campus,38.0,60.0,5.0,2.2,4.0,5.7,1.0,5.0,1.0,1.0,F1,1.0,2.71,93.8,2.65
+male,group A,some college,standard,26.0,Brazil,2.0,131623.0,Loan,27.0,Yes,On-campus,15.0,60.0,6.2,9.1,2.0,7.1,9.0,3.0,8.0,10.0,F1,9.0,2.64,106.8,2.19
+female,group B,high school,standard,21.0,Nigeria,1.0,109388.0,Family,8.0,No,On-campus,5.0,91.0,6.0,6.6,0.0,0.7,4.0,5.0,8.0,2.0,F1,5.0,3.37,90.3,2.16
+female,group B,some college,free/reduced,27.0,Germany,3.0,118646.0,Scholarship,23.0,No,Off-campus,19.0,60.0,6.1,8.5,2.0,14.6,5.0,5.0,7.0,3.0,F1,8.0,2.43,89.8,2.04
+female,group D,master's degree,standard,22.0,China,3.0,52174.0,Scholarship,23.0,No,With relatives,30.0,61.0,6.9,8.5,0.0,10.7,2.0,6.0,5.0,2.0,F1,5.0,3.42,108.6,2.57
+female,group D,some high school,standard,26.0,Germany,1.0,119751.0,Scholarship,0.0,No,With relatives,8.0,97.0,6.6,3.5,4.0,4.8,10.0,9.0,4.0,3.0,F1,6.0,3.87,100.9,2.17
+female,group E,some high school,standard,25.0,Other,3.0,112491.0,Family,28.0,No,With relatives,9.0,79.0,4.7,2.9,0.0,4.8,8.0,1.0,10.0,8.0,F1,8.0,3.13,107.3,2.2
+female,group D,bachelor's degree,free/reduced,20.0,China,4.0,26581.0,Scholarship,24.0,Yes,Off-campus,39.0,73.0,4.3,7.8,1.0,6.7,2.0,10.0,10.0,6.0,F1,2.0,3.22,90.8,2.42
+female,group D,associate's degree,standard,18.0,Nigeria,4.0,130155.0,Family,21.0,No,With relatives,17.0,75.0,7.6,3.3,3.0,9.4,3.0,6.0,10.0,7.0,F1,3.0,2.14,103.9,2.19
+female,group D,some college,standard,20.0,Germany,4.0,91853.0,Self-funded,15.0,Yes,On-campus,14.0,77.0,6.8,8.8,4.0,2.2,9.0,1.0,10.0,10.0,F1,9.0,3.73,97.8,2.52
+female,group C,associate's degree,standard,21.0,South Korea,0.0,84046.0,Self-funded,8.0,Yes,With relatives,15.0,76.0,5.8,7.8,3.0,2.8,2.0,6.0,6.0,10.0,J1,5.0,2.57,103.9,2.49
+female,group A,high school,standard,19.0,India,1.0,69678.0,Family,18.0,No,Off-campus,22.0,73.0,8.0,8.7,4.0,12.9,6.0,2.0,1.0,6.0,F1,5.0,3.23,91.6,2.85
+female,group C,bachelor's degree,free/reduced,18.0,South Korea,0.0,128392.0,Loan,11.0,Yes,With relatives,38.0,63.0,5.9,4.4,3.0,3.8,4.0,8.0,5.0,1.0,F1,9.0,3.96,108.6,2.56
+female,group C,some college,standard,24.0,Brazil,3.0,131250.0,Self-funded,18.0,No,On-campus,27.0,64.0,8.0,4.5,1.0,5.7,7.0,3.0,4.0,3.0,F1,10.0,3.19,112.2,2.54
+female,group A,some high school,standard,25.0,Nigeria,0.0,46649.0,Scholarship,21.0,Yes,Off-campus,11.0,66.0,5.5,7.4,3.0,13.1,6.0,10.0,4.0,1.0,F1,3.0,3.45,90.4,1.94
+male,group C,some college,free/reduced,24.0,South Korea,3.0,147795.0,Family,8.0,No,With relatives,7.0,60.0,4.4,2.3,0.0,9.9,10.0,6.0,7.0,10.0,F1,4.0,2.89,92.0,1.92
+male,group A,some high school,standard,22.0,China,3.0,108668.0,Scholarship,6.0,No,Off-campus,16.0,62.0,8.7,7.8,3.0,5.1,9.0,6.0,9.0,9.0,J1,7.0,2.12,106.4,2.02
+male,group E,bachelor's degree,standard,29.0,Brazil,2.0,102325.0,Scholarship,13.0,Yes,Off-campus,11.0,68.0,6.0,8.7,4.0,10.3,9.0,4.0,8.0,9.0,Other,2.0,3.6,107.8,2.28
+female,group E,high school,standard,18.0,Brazil,4.0,34567.0,Loan,28.0,Yes,Off-campus,30.0,76.0,8.0,5.3,2.0,0.3,10.0,5.0,8.0,5.0,F1,8.0,2.07,108.2,2.16
+female,group C,bachelor's degree,standard,24.0,South Korea,3.0,100404.0,Scholarship,18.0,No,With relatives,37.0,100.0,5.4,8.1,3.0,11.0,4.0,2.0,5.0,4.0,F1,5.0,3.4,107.3,3.0
+female,group C,bachelor's degree,standard,24.0,Other,2.0,109906.0,Loan,18.0,No,Off-campus,19.0,79.0,7.2,3.4,3.0,7.3,1.0,10.0,6.0,9.0,F1,1.0,2.05,95.7,2.37
+male,group B,high school,free/reduced,26.0,South Korea,4.0,128069.0,Self-funded,1.0,No,With relatives,6.0,60.0,8.4,4.6,3.0,12.2,2.0,10.0,2.0,9.0,F1,3.0,3.72,95.8,2.57
+male,group A,some high school,standard,20.0,Other,3.0,116019.0,Family,8.0,No,On-campus,11.0,60.0,4.2,9.8,4.0,14.3,8.0,8.0,3.0,3.0,F1,9.0,2.32,90.2,1.74
+female,group D,high school,standard,26.0,Nigeria,3.0,81944.0,Scholarship,12.0,No,With relatives,36.0,77.0,8.2,9.9,3.0,13.9,10.0,10.0,5.0,5.0,J1,5.0,3.03,86.3,2.37
+female,group D,some high school,standard,18.0,India,0.0,138428.0,Family,14.0,No,On-campus,8.0,82.0,6.9,6.1,4.0,13.6,8.0,7.0,2.0,3.0,F1,8.0,3.19,107.7,2.2
+female,group D,master's degree,standard,18.0,South Korea,0.0,98002.0,Scholarship,2.0,No,With relatives,24.0,60.0,7.0,9.5,4.0,7.7,2.0,10.0,3.0,10.0,F1,1.0,2.92,83.7,2.62
+female,group C,high school,standard,21.0,UK,4.0,48803.0,Family,10.0,No,Off-campus,36.0,60.0,6.6,6.2,2.0,5.4,4.0,6.0,4.0,2.0,F1,7.0,2.68,117.5,2.45
+female,group E,some college,standard,26.0,Other,3.0,38230.0,Scholarship,20.0,No,With relatives,32.0,78.0,8.4,4.3,0.0,7.0,1.0,7.0,6.0,1.0,F1,7.0,2.94,113.1,2.59
+male,group D,high school,free/reduced,23.0,South Korea,1.0,37862.0,Scholarship,13.0,No,Off-campus,17.0,60.0,4.2,4.1,4.0,10.3,7.0,1.0,5.0,10.0,F1,8.0,2.62,114.3,2.41
+male,group D,master's degree,free/reduced,28.0,Germany,0.0,63355.0,Scholarship,29.0,No,On-campus,5.0,89.0,5.3,9.4,1.0,13.3,4.0,5.0,10.0,2.0,F1,3.0,2.88,116.3,1.94
+male,group C,some high school,standard,20.0,China,4.0,51259.0,Scholarship,24.0,No,With relatives,39.0,72.0,8.4,3.4,3.0,3.1,8.0,7.0,4.0,8.0,F1,1.0,2.72,96.3,2.69
+female,group C,associate's degree,standard,18.0,UK,3.0,119075.0,Scholarship,7.0,No,Off-campus,34.0,84.0,7.8,6.6,1.0,13.8,9.0,1.0,2.0,8.0,F1,9.0,3.13,113.9,3.03
+female,group C,master's degree,free/reduced,21.0,UK,3.0,107445.0,Scholarship,17.0,Yes,On-campus,29.0,60.0,4.1,6.4,3.0,12.2,9.0,2.0,5.0,3.0,F1,1.0,2.48,86.3,2.15
+female,group E,some college,standard,29.0,Other,1.0,50795.0,Scholarship,18.0,Yes,On-campus,20.0,64.0,6.6,7.9,2.0,14.7,3.0,9.0,5.0,7.0,F1,6.0,3.98,80.9,2.57
+female,group B,associate's degree,standard,26.0,Germany,4.0,134604.0,Scholarship,15.0,No,With relatives,23.0,63.0,6.6,6.0,4.0,13.2,5.0,3.0,7.0,7.0,F1,9.0,3.0,111.4,2.5
+male,group D,some college,free/reduced,20.0,Germany,3.0,28770.0,Scholarship,1.0,No,On-campus,5.0,60.0,6.0,4.2,0.0,4.2,6.0,6.0,1.0,2.0,F1,2.0,2.39,83.0,1.94
+female,group C,some college,standard,29.0,Brazil,0.0,31093.0,Family,7.0,No,Off-campus,9.0,60.0,5.5,3.4,4.0,1.6,6.0,7.0,4.0,9.0,F1,4.0,2.95,119.5,2.21
+male,group C,bachelor's degree,standard,26.0,Other,1.0,66571.0,Loan,21.0,Yes,On-campus,26.0,90.0,7.4,7.0,3.0,1.7,10.0,9.0,5.0,3.0,F1,2.0,3.73,107.0,2.36
+female,group C,associate's degree,standard,24.0,India,4.0,20193.0,Scholarship,5.0,No,On-campus,28.0,77.0,5.0,7.8,0.0,4.4,8.0,5.0,8.0,2.0,F1,4.0,2.04,110.1,1.95
+female,group A,associate's degree,standard,29.0,China,1.0,120311.0,Loan,11.0,No,Off-campus,8.0,93.0,8.0,6.6,4.0,9.2,6.0,4.0,8.0,3.0,F1,2.0,3.36,89.8,2.31
+female,group C,high school,standard,21.0,Nigeria,0.0,37569.0,Scholarship,14.0,Yes,On-campus,22.0,68.0,8.0,7.9,0.0,12.1,6.0,2.0,1.0,2.0,F1,1.0,3.1,107.0,2.63
+female,group E,bachelor's degree,standard,20.0,UK,4.0,137082.0,Scholarship,24.0,No,On-campus,20.0,60.0,6.1,3.1,3.0,13.5,4.0,3.0,5.0,8.0,F1,3.0,2.34,81.7,2.44
+male,group D,bachelor's degree,standard,27.0,Nigeria,1.0,31190.0,Family,7.0,No,On-campus,22.0,78.0,5.4,9.1,2.0,9.4,7.0,5.0,10.0,5.0,F1,8.0,3.63,113.5,2.28
+male,group D,master's degree,standard,22.0,South Korea,2.0,82824.0,Self-funded,3.0,No,On-campus,26.0,81.0,5.4,6.7,2.0,0.1,8.0,2.0,1.0,3.0,Other,5.0,2.74,86.8,2.54
+male,group C,associate's degree,free/reduced,22.0,South Korea,0.0,62752.0,Self-funded,14.0,No,Off-campus,6.0,73.0,6.4,3.0,4.0,2.8,3.0,4.0,1.0,5.0,F1,4.0,2.59,107.9,2.41
+female,group C,high school,free/reduced,20.0,Nigeria,0.0,52327.0,Family,27.0,No,On-campus,25.0,61.0,7.6,5.7,1.0,1.5,7.0,1.0,2.0,8.0,F1,5.0,3.66,89.0,2.93
+male,group B,bachelor's degree,free/reduced,29.0,South Korea,0.0,62070.0,Loan,19.0,No,Off-campus,33.0,63.0,5.8,8.8,3.0,5.4,3.0,4.0,2.0,7.0,F1,6.0,3.28,82.7,2.91
+male,group C,high school,free/reduced,26.0,India,2.0,105925.0,Self-funded,24.0,No,On-campus,30.0,60.0,7.1,9.2,4.0,7.5,8.0,7.0,9.0,6.0,F1,6.0,3.8,99.3,2.37
+male,group A,some college,standard,21.0,Germany,2.0,60197.0,Family,16.0,No,On-campus,25.0,96.0,5.9,4.1,4.0,0.7,1.0,3.0,4.0,1.0,F1,5.0,3.26,86.8,2.79
+female,group E,bachelor's degree,free/reduced,28.0,South Korea,3.0,22261.0,Family,12.0,No,On-campus,21.0,60.0,5.5,7.7,2.0,5.2,1.0,10.0,3.0,10.0,F1,6.0,3.48,109.2,2.66
+male,group D,some college,standard,22.0,Brazil,1.0,138424.0,Self-funded,17.0,No,On-campus,20.0,97.0,4.1,2.8,0.0,2.7,6.0,8.0,1.0,1.0,F1,9.0,3.67,89.5,2.44
+male,group B,associate's degree,free/reduced,21.0,South Korea,3.0,113905.0,Loan,1.0,Yes,Off-campus,35.0,70.0,4.0,2.3,3.0,9.7,10.0,6.0,2.0,1.0,F1,5.0,2.11,93.7,2.06
+male,group D,associate's degree,standard,22.0,China,1.0,46512.0,Family,12.0,No,Off-campus,13.0,60.0,5.1,6.5,0.0,7.0,9.0,6.0,6.0,10.0,F1,6.0,3.55,102.7,2.25
+male,group D,some college,free/reduced,24.0,India,2.0,26716.0,Scholarship,12.0,Yes,Off-campus,35.0,60.0,6.0,7.6,3.0,7.4,4.0,1.0,9.0,8.0,J1,4.0,3.23,91.4,2.76
+female,group C,some high school,standard,26.0,China,2.0,106795.0,Loan,21.0,No,With relatives,18.0,60.0,8.3,8.4,1.0,6.4,6.0,5.0,5.0,8.0,F1,3.0,2.14,95.1,2.31
+male,group D,some college,standard,24.0,China,3.0,48933.0,Loan,14.0,No,On-campus,6.0,64.0,8.0,4.7,2.0,14.3,5.0,3.0,4.0,7.0,F1,6.0,3.02,112.6,2.43
+male,group B,high school,standard,22.0,Brazil,4.0,127225.0,Self-funded,19.0,Yes,On-campus,18.0,60.0,5.3,2.1,1.0,3.2,1.0,10.0,5.0,6.0,J1,5.0,2.16,87.2,2.1
+female,group B,bachelor's degree,standard,27.0,India,3.0,24378.0,Self-funded,28.0,No,Off-campus,37.0,74.0,5.2,5.8,4.0,7.7,6.0,1.0,9.0,4.0,J1,4.0,3.47,83.3,2.64
+female,group C,high school,standard,27.0,India,1.0,60583.0,Scholarship,26.0,Yes,With relatives,39.0,88.0,5.1,2.1,2.0,11.0,9.0,8.0,7.0,1.0,F1,5.0,3.09,93.1,2.24
+male,group D,some high school,standard,24.0,Other,3.0,132082.0,Family,9.0,No,On-campus,24.0,84.0,5.7,2.7,4.0,8.4,3.0,7.0,8.0,9.0,F1,7.0,3.91,97.0,2.74
+male,group A,high school,standard,27.0,India,0.0,105371.0,Self-funded,28.0,No,Off-campus,6.0,74.0,6.5,4.6,1.0,13.9,3.0,7.0,4.0,1.0,F1,1.0,2.37,101.7,1.98
+female,group B,high school,free/reduced,22.0,India,1.0,49033.0,Self-funded,2.0,No,On-campus,23.0,80.0,6.2,5.5,3.0,5.7,2.0,10.0,8.0,4.0,F1,1.0,3.21,94.9,2.3
+female,group D,some high school,standard,20.0,India,1.0,44000.0,Loan,18.0,Yes,On-campus,22.0,92.0,5.1,4.2,4.0,7.0,4.0,10.0,6.0,3.0,Other,1.0,2.42,111.6,2.11
+male,group E,some college,standard,24.0,Brazil,4.0,131032.0,Self-funded,2.0,Yes,Off-campus,20.0,76.0,4.7,6.7,0.0,1.3,10.0,10.0,5.0,7.0,F1,2.0,3.23,81.6,2.09
+female,group D,associate's degree,standard,28.0,South Korea,2.0,95868.0,Self-funded,21.0,No,Off-campus,8.0,74.0,4.1,2.4,3.0,9.1,3.0,4.0,7.0,5.0,F1,9.0,3.45,97.3,2.28
+male,group D,high school,standard,28.0,Other,1.0,62604.0,Self-funded,13.0,No,On-campus,16.0,60.0,4.8,3.2,3.0,4.3,2.0,6.0,6.0,5.0,J1,5.0,3.44,95.3,2.34
+female,group D,associate's degree,free/reduced,19.0,China,2.0,88336.0,Self-funded,7.0,No,On-campus,33.0,88.0,7.5,7.6,1.0,2.4,1.0,9.0,3.0,4.0,F1,9.0,3.63,105.9,2.92
+female,group B,some high school,free/reduced,29.0,India,3.0,115074.0,Loan,26.0,No,Off-campus,11.0,81.0,5.2,3.1,1.0,8.2,3.0,3.0,5.0,1.0,F1,5.0,3.71,118.7,2.42
+female,group E,high school,standard,26.0,UK,0.0,115655.0,Scholarship,22.0,No,On-campus,18.0,79.0,6.3,7.1,2.0,8.0,10.0,9.0,9.0,5.0,J1,7.0,2.15,100.4,1.73
+male,group B,high school,standard,27.0,South Korea,4.0,93869.0,Scholarship,29.0,No,On-campus,16.0,65.0,7.0,2.4,2.0,1.1,6.0,4.0,7.0,4.0,J1,6.0,2.69,119.5,2.16
+female,group B,bachelor's degree,standard,27.0,South Korea,2.0,25410.0,Family,3.0,No,Off-campus,39.0,81.0,8.4,5.3,0.0,10.5,9.0,5.0,4.0,10.0,J1,2.0,3.37,92.1,3.0
+female,group D,associate's degree,standard,29.0,China,1.0,103375.0,Self-funded,26.0,Yes,On-campus,9.0,70.0,8.4,3.4,3.0,9.4,5.0,7.0,7.0,8.0,F1,3.0,3.0,81.2,2.29
+female,group E,high school,free/reduced,18.0,Brazil,2.0,76044.0,Loan,27.0,Yes,On-campus,21.0,62.0,7.7,2.9,0.0,2.8,3.0,6.0,5.0,2.0,F1,5.0,2.38,86.6,2.23
+female,group B,high school,standard,23.0,Nigeria,1.0,83315.0,Family,19.0,No,With relatives,36.0,60.0,4.2,6.5,0.0,7.0,5.0,10.0,2.0,8.0,F1,4.0,3.11,95.8,2.55
+female,group D,some college,standard,24.0,Nigeria,2.0,116055.0,Family,10.0,Yes,Off-campus,14.0,79.0,6.9,9.4,1.0,10.8,5.0,8.0,6.0,1.0,F1,6.0,2.81,92.7,2.03
+male,group C,some high school,free/reduced,25.0,South Korea,1.0,91344.0,Scholarship,25.0,No,With relatives,21.0,60.0,7.9,2.4,0.0,7.9,5.0,8.0,7.0,4.0,Other,8.0,2.78,83.9,2.14
+female,group A,high school,standard,27.0,Germany,3.0,26796.0,Loan,10.0,No,With relatives,9.0,80.0,4.1,5.4,0.0,5.9,7.0,8.0,8.0,3.0,F1,8.0,3.62,97.3,1.92
+female,group D,some college,standard,26.0,Germany,1.0,106716.0,Loan,26.0,Yes,With relatives,13.0,86.0,6.7,7.7,4.0,4.8,5.0,3.0,6.0,5.0,F1,3.0,2.82,93.5,2.41
+female,group A,associate's degree,standard,19.0,China,1.0,74245.0,Loan,29.0,Yes,On-campus,37.0,70.0,8.3,5.7,2.0,9.2,7.0,10.0,8.0,5.0,F1,4.0,2.05,84.9,2.15
+female,group B,some high school,standard,28.0,Nigeria,0.0,63056.0,Scholarship,10.0,No,On-campus,22.0,79.0,6.4,8.5,2.0,14.1,9.0,6.0,7.0,5.0,F1,1.0,2.12,91.8,2.03
+female,group B,some college,standard,27.0,South Korea,1.0,37709.0,Scholarship,1.0,No,With relatives,13.0,67.0,4.0,3.4,3.0,10.1,5.0,7.0,2.0,4.0,F1,2.0,3.71,115.5,2.32
+male,group C,associate's degree,free/reduced,19.0,Brazil,0.0,139664.0,Scholarship,29.0,No,With relatives,33.0,67.0,4.1,9.7,2.0,1.1,2.0,9.0,6.0,8.0,F1,9.0,3.92,92.1,2.7
+male,group D,some high school,standard,22.0,Nigeria,4.0,78557.0,Scholarship,16.0,No,With relatives,18.0,66.0,6.1,5.1,3.0,6.9,5.0,10.0,9.0,3.0,F1,10.0,3.38,108.6,1.97
+female,group D,associate's degree,free/reduced,22.0,South Korea,0.0,37543.0,Scholarship,8.0,No,On-campus,29.0,60.0,4.8,4.7,4.0,13.4,8.0,10.0,6.0,4.0,F1,10.0,2.73,104.5,1.95
+male,group D,associate's degree,standard,23.0,South Korea,3.0,57418.0,Self-funded,27.0,No,With relatives,19.0,87.0,7.3,9.0,2.0,1.4,4.0,4.0,4.0,1.0,J1,2.0,3.88,97.1,2.67
+male,group C,some college,free/reduced,20.0,India,0.0,114611.0,Self-funded,27.0,No,With relatives,10.0,77.0,7.5,6.5,4.0,14.8,2.0,5.0,7.0,7.0,F1,6.0,3.33,89.6,2.53
+male,group C,some high school,standard,25.0,Brazil,4.0,123291.0,Loan,1.0,No,Off-campus,33.0,66.0,4.9,6.1,2.0,14.2,10.0,8.0,3.0,1.0,F1,7.0,3.69,94.8,2.25
+female,group D,some college,free/reduced,18.0,India,3.0,133504.0,Family,28.0,No,Off-campus,19.0,71.0,8.4,7.8,2.0,1.2,3.0,1.0,5.0,2.0,F1,6.0,3.53,103.7,2.71
+female,group C,high school,standard,23.0,China,2.0,123001.0,Loan,23.0,Yes,On-campus,33.0,69.0,6.2,6.6,4.0,14.0,9.0,6.0,1.0,7.0,J1,8.0,2.76,94.0,2.58
+male,group D,associate's degree,standard,21.0,India,2.0,116038.0,Family,14.0,No,Off-campus,8.0,63.0,4.7,3.3,0.0,5.4,9.0,4.0,10.0,1.0,F1,9.0,2.96,88.6,1.62
+female,group C,some high school,free/reduced,18.0,UK,0.0,36724.0,Scholarship,15.0,No,Off-campus,22.0,60.0,7.8,7.4,0.0,12.7,8.0,5.0,3.0,3.0,F1,8.0,2.37,84.7,2.19
+female,group C,some college,free/reduced,24.0,India,0.0,23828.0,Family,24.0,Yes,Off-campus,20.0,73.0,7.9,3.1,0.0,6.3,8.0,5.0,8.0,6.0,F1,5.0,2.58,115.2,2.21
+female,group B,bachelor's degree,free/reduced,26.0,UK,4.0,136656.0,Loan,3.0,Yes,On-campus,15.0,85.0,7.2,8.4,0.0,6.6,8.0,2.0,9.0,6.0,F1,8.0,3.56,97.6,2.45
+male,group C,some college,standard,21.0,Nigeria,4.0,37087.0,Loan,7.0,No,Off-campus,18.0,74.0,8.3,9.9,2.0,9.5,8.0,8.0,9.0,6.0,F1,10.0,3.79,105.0,2.28
+male,group D,associate's degree,standard,21.0,Germany,1.0,32605.0,Family,8.0,No,On-campus,7.0,72.0,7.7,5.0,1.0,11.6,8.0,2.0,10.0,2.0,F1,10.0,3.45,99.6,2.05
+female,group C,high school,free/reduced,23.0,Other,4.0,51337.0,Self-funded,25.0,No,With relatives,22.0,76.0,8.4,5.6,4.0,0.5,1.0,4.0,2.0,2.0,F1,9.0,2.93,114.9,2.75
+male,group D,associate's degree,free/reduced,29.0,Other,1.0,25482.0,Scholarship,25.0,Yes,Off-campus,24.0,60.0,6.2,2.4,1.0,8.9,6.0,5.0,4.0,6.0,Other,8.0,2.17,101.9,2.27
+female,group C,some college,standard,20.0,South Korea,3.0,85333.0,Scholarship,4.0,Yes,On-campus,29.0,78.0,7.7,2.1,1.0,2.8,9.0,1.0,5.0,10.0,F1,2.0,2.11,99.2,2.67
+female,group C,associate's degree,standard,29.0,Other,0.0,112541.0,Loan,15.0,No,Off-campus,17.0,84.0,9.0,9.4,3.0,5.2,8.0,6.0,3.0,5.0,F1,2.0,2.75,117.0,2.43
+female,group D,high school,standard,23.0,UK,3.0,108296.0,Self-funded,12.0,No,With relatives,8.0,77.0,7.6,3.0,0.0,5.2,3.0,2.0,1.0,7.0,F1,3.0,2.93,108.8,2.75
+female,group B,some college,standard,24.0,Brazil,4.0,70952.0,Family,29.0,No,On-campus,18.0,64.0,4.6,5.6,2.0,7.0,1.0,5.0,6.0,7.0,F1,7.0,3.22,84.5,2.5
+female,group E,some college,standard,28.0,India,3.0,25463.0,Scholarship,6.0,No,On-campus,37.0,78.0,6.6,8.5,0.0,5.0,2.0,6.0,10.0,5.0,F1,9.0,2.01,87.1,2.4
+female,group C,some high school,standard,27.0,UK,3.0,132164.0,Self-funded,25.0,No,On-campus,32.0,82.0,6.9,9.1,0.0,1.6,2.0,8.0,2.0,8.0,F1,8.0,3.98,111.5,3.11
+male,group D,associate's degree,free/reduced,27.0,Brazil,3.0,90448.0,Scholarship,19.0,No,With relatives,12.0,75.0,4.9,6.2,1.0,2.2,7.0,9.0,9.0,10.0,F1,9.0,2.73,113.4,1.99
+male,group D,some college,free/reduced,20.0,Germany,4.0,24648.0,Self-funded,16.0,No,With relatives,38.0,61.0,8.8,6.5,3.0,0.5,6.0,6.0,1.0,6.0,F1,6.0,3.7,101.8,2.99
+female,group D,high school,standard,24.0,Other,3.0,53623.0,Self-funded,2.0,No,With relatives,9.0,72.0,4.9,7.4,0.0,7.1,2.0,5.0,9.0,5.0,F1,1.0,3.07,102.2,2.16
+male,group B,high school,standard,20.0,Germany,1.0,79156.0,Loan,4.0,No,On-campus,9.0,68.0,4.9,9.7,4.0,14.3,8.0,4.0,7.0,4.0,F1,4.0,2.26,105.3,1.81
+male,group B,high school,standard,19.0,Other,4.0,55634.0,Scholarship,18.0,No,With relatives,35.0,60.0,8.6,6.8,4.0,1.7,9.0,2.0,10.0,7.0,F1,6.0,3.6,97.6,2.63
+female,group C,some high school,free/reduced,29.0,India,3.0,64602.0,Family,11.0,No,Off-campus,13.0,60.0,6.3,6.5,0.0,14.2,7.0,2.0,2.0,4.0,F1,6.0,3.42,107.2,2.44
+male,group B,some college,standard,27.0,China,4.0,134598.0,Loan,28.0,No,With relatives,36.0,66.0,4.3,2.1,1.0,11.0,4.0,7.0,6.0,5.0,F1,8.0,3.05,84.3,2.46
+female,group E,master's degree,standard,21.0,India,2.0,69334.0,Loan,26.0,Yes,On-campus,37.0,99.0,7.0,2.6,1.0,9.6,1.0,5.0,8.0,5.0,F1,1.0,3.03,118.5,2.91
+male,group E,some college,standard,29.0,Nigeria,1.0,88648.0,Family,6.0,No,Off-campus,7.0,75.0,7.0,6.6,2.0,9.7,4.0,7.0,2.0,1.0,F1,2.0,2.17,110.0,2.02
+male,group D,associate's degree,free/reduced,25.0,UK,3.0,42054.0,Loan,27.0,Yes,With relatives,34.0,78.0,4.3,9.5,3.0,12.4,4.0,1.0,5.0,1.0,J1,2.0,3.31,105.2,2.67
+male,group A,high school,free/reduced,26.0,South Korea,2.0,90028.0,Self-funded,8.0,No,Off-campus,16.0,60.0,8.9,8.9,1.0,1.6,8.0,1.0,6.0,3.0,Other,6.0,3.82,92.7,2.48
+male,group E,some college,free/reduced,24.0,China,2.0,42207.0,Self-funded,27.0,No,Off-campus,33.0,90.0,6.7,9.9,2.0,7.6,4.0,5.0,3.0,3.0,Other,7.0,2.19,86.4,2.61
+female,group C,associate's degree,standard,18.0,India,4.0,100650.0,Scholarship,5.0,No,On-campus,7.0,60.0,6.8,6.2,4.0,10.5,4.0,2.0,2.0,2.0,J1,2.0,2.53,96.4,2.23
+female,group E,associate's degree,free/reduced,20.0,Brazil,2.0,119821.0,Scholarship,28.0,Yes,Off-campus,30.0,76.0,6.6,8.3,4.0,8.8,2.0,8.0,6.0,2.0,F1,5.0,3.8,106.5,2.6
+female,group C,bachelor's degree,free/reduced,29.0,China,1.0,101554.0,Family,25.0,No,Off-campus,34.0,74.0,7.1,8.7,4.0,12.5,10.0,3.0,3.0,6.0,F1,6.0,2.57,105.3,2.58
+female,group D,associate's degree,standard,26.0,UK,1.0,41386.0,Scholarship,16.0,No,On-campus,13.0,77.0,5.3,7.2,0.0,1.1,7.0,1.0,2.0,1.0,F1,4.0,3.31,95.3,2.39
+female,group C,some high school,standard,29.0,Other,0.0,103276.0,Self-funded,15.0,No,On-campus,30.0,63.0,5.4,4.7,3.0,10.4,4.0,2.0,1.0,6.0,F1,1.0,3.07,104.5,2.84
+female,group D,some college,free/reduced,18.0,China,1.0,79518.0,Family,22.0,No,On-campus,6.0,89.0,6.6,5.8,2.0,8.0,6.0,10.0,8.0,5.0,Other,3.0,3.19,112.5,2.0
+female,group C,associate's degree,standard,26.0,Other,2.0,72781.0,Family,2.0,No,Off-campus,7.0,82.0,8.0,8.9,3.0,5.7,3.0,10.0,1.0,6.0,F1,10.0,2.83,81.1,2.4
+female,group A,bachelor's degree,standard,25.0,UK,1.0,72780.0,Scholarship,20.0,No,Off-campus,8.0,72.0,4.2,4.4,0.0,5.1,7.0,7.0,5.0,5.0,F1,9.0,2.6,98.0,1.9
+female,group D,associate's degree,standard,18.0,India,4.0,81440.0,Self-funded,25.0,Yes,Off-campus,29.0,78.0,7.0,9.4,2.0,9.3,6.0,6.0,6.0,7.0,F1,6.0,2.1,110.3,2.39
+male,group C,high school,free/reduced,23.0,UK,0.0,64199.0,Family,3.0,Yes,On-campus,17.0,66.0,8.0,3.8,2.0,13.4,3.0,8.0,3.0,1.0,J1,2.0,3.49,101.8,2.38
+female,group E,bachelor's degree,standard,22.0,China,2.0,81035.0,Self-funded,9.0,No,With relatives,39.0,81.0,4.8,8.0,1.0,7.4,4.0,7.0,7.0,3.0,J1,9.0,3.49,106.1,2.58
+female,group B,some high school,standard,23.0,Brazil,0.0,28210.0,Self-funded,4.0,No,Off-campus,27.0,67.0,4.1,7.0,3.0,12.4,10.0,10.0,2.0,6.0,F1,4.0,3.34,100.7,2.22
+male,group A,bachelor's degree,standard,27.0,Germany,2.0,64363.0,Self-funded,20.0,Yes,With relatives,13.0,84.0,5.6,8.0,3.0,6.0,5.0,8.0,7.0,1.0,J1,8.0,3.29,119.7,2.05
+female,group D,some college,standard,29.0,China,4.0,131175.0,Scholarship,21.0,Yes,On-campus,6.0,64.0,6.9,5.5,1.0,1.5,9.0,3.0,2.0,7.0,F1,10.0,2.49,82.2,2.2
+female,group B,some high school,free/reduced,22.0,UK,0.0,98279.0,Loan,29.0,Yes,Off-campus,35.0,63.0,4.7,9.5,4.0,0.9,6.0,6.0,5.0,4.0,F1,7.0,2.04,99.6,2.2
+male,group A,bachelor's degree,free/reduced,23.0,Germany,3.0,80348.0,Loan,9.0,No,With relatives,6.0,72.0,6.1,7.1,0.0,0.8,4.0,7.0,7.0,3.0,F1,3.0,3.62,83.7,2.12
+male,group D,high school,standard,22.0,UK,2.0,75284.0,Family,11.0,No,Off-campus,36.0,60.0,6.8,4.3,3.0,5.7,7.0,10.0,3.0,10.0,F1,8.0,2.98,86.4,2.6
+male,group C,some college,standard,28.0,Brazil,3.0,127628.0,Self-funded,9.0,No,Off-campus,22.0,60.0,7.0,7.1,1.0,5.1,2.0,1.0,4.0,9.0,F1,4.0,2.61,95.3,2.8
+male,group D,high school,standard,29.0,UK,0.0,129835.0,Scholarship,28.0,No,Off-campus,17.0,87.0,5.4,4.3,2.0,10.8,4.0,1.0,1.0,1.0,F1,2.0,2.2,86.2,2.46
+female,group D,associate's degree,free/reduced,22.0,India,3.0,92124.0,Self-funded,12.0,No,With relatives,9.0,61.0,6.0,4.3,1.0,11.1,5.0,7.0,3.0,8.0,Other,5.0,2.13,118.5,2.11
+male,group C,some college,standard,21.0,South Korea,3.0,88847.0,Self-funded,10.0,Yes,On-campus,14.0,84.0,7.9,5.2,4.0,0.8,4.0,3.0,9.0,1.0,F1,1.0,2.7,117.9,2.21
+female,group E,some high school,standard,20.0,Other,0.0,42432.0,Scholarship,21.0,Yes,Off-campus,29.0,85.0,8.7,8.8,0.0,3.3,4.0,3.0,10.0,5.0,F1,8.0,3.61,93.4,2.77
+female,group D,some college,standard,20.0,Other,4.0,146252.0,Loan,15.0,Yes,On-campus,38.0,100.0,8.3,6.0,4.0,4.1,9.0,5.0,5.0,10.0,F1,8.0,3.84,105.6,3.15
+male,group D,master's degree,standard,21.0,China,3.0,84089.0,Self-funded,7.0,No,On-campus,34.0,81.0,6.8,7.4,2.0,8.2,2.0,6.0,8.0,8.0,F1,3.0,3.79,101.4,2.94
+female,group B,some high school,standard,26.0,South Korea,3.0,75398.0,Self-funded,7.0,No,With relatives,11.0,70.0,6.1,5.1,2.0,2.2,6.0,2.0,2.0,6.0,F1,1.0,3.84,112.6,2.66
+female,group B,associate's degree,free/reduced,19.0,UK,4.0,119291.0,Loan,26.0,Yes,With relatives,10.0,94.0,5.7,4.1,2.0,2.0,8.0,3.0,3.0,7.0,F1,4.0,3.82,105.1,2.65
+male,group C,associate's degree,standard,26.0,Brazil,3.0,23321.0,Scholarship,24.0,No,On-campus,7.0,78.0,4.6,9.6,2.0,14.2,8.0,6.0,7.0,8.0,F1,9.0,3.05,80.0,2.07
+female,group C,associate's degree,standard,18.0,China,3.0,101348.0,Family,7.0,No,Off-campus,17.0,96.0,4.5,6.8,1.0,12.1,7.0,3.0,10.0,6.0,F1,9.0,2.44,110.5,2.16
+female,group C,high school,standard,18.0,UK,3.0,57383.0,Loan,12.0,No,With relatives,7.0,76.0,7.4,9.5,2.0,2.7,10.0,5.0,4.0,6.0,F1,1.0,3.6,109.9,2.29
+male,group E,associate's degree,free/reduced,22.0,Germany,1.0,133816.0,Family,26.0,Yes,Off-campus,30.0,73.0,5.3,3.6,2.0,6.1,4.0,9.0,9.0,6.0,F1,7.0,2.43,100.4,2.17
+female,group C,some college,free/reduced,23.0,Nigeria,4.0,98682.0,Family,1.0,No,Off-campus,28.0,72.0,5.3,3.2,1.0,5.3,7.0,3.0,7.0,5.0,J1,6.0,2.53,116.1,2.31
+male,group D,some high school,free/reduced,23.0,UK,3.0,143053.0,Loan,29.0,No,Off-campus,10.0,60.0,9.0,8.8,2.0,11.9,10.0,6.0,1.0,8.0,F1,7.0,2.47,116.3,2.24
+female,group B,some high school,free/reduced,20.0,South Korea,4.0,99190.0,Self-funded,29.0,Yes,On-campus,16.0,90.0,4.9,7.4,4.0,7.7,6.0,5.0,4.0,2.0,F1,7.0,3.03,101.0,2.28
+male,group C,high school,standard,24.0,China,2.0,72893.0,Family,11.0,No,Off-campus,6.0,60.0,4.7,3.5,4.0,1.9,6.0,5.0,10.0,7.0,F1,8.0,2.64,104.3,1.83
+male,group B,some college,standard,26.0,South Korea,2.0,55820.0,Family,9.0,Yes,On-campus,15.0,60.0,4.5,4.2,3.0,11.1,2.0,6.0,6.0,4.0,F1,8.0,2.31,119.9,2.05
+male,group E,some college,standard,28.0,China,3.0,141262.0,Scholarship,11.0,No,On-campus,38.0,74.0,6.9,8.4,4.0,6.0,8.0,6.0,6.0,1.0,F1,10.0,2.91,92.0,2.34
+female,group E,associate's degree,standard,29.0,UK,4.0,86262.0,Self-funded,10.0,No,Off-campus,30.0,75.0,7.1,5.6,0.0,3.9,8.0,1.0,10.0,5.0,Other,2.0,3.75,93.0,2.61
+male,group E,some high school,standard,27.0,India,4.0,23760.0,Family,14.0,No,Off-campus,22.0,60.0,5.8,7.4,0.0,5.6,7.0,9.0,6.0,3.0,F1,4.0,3.14,87.3,2.02
+female,group D,high school,free/reduced,25.0,Germany,4.0,42190.0,Scholarship,15.0,No,Off-campus,25.0,92.0,6.7,4.5,0.0,7.5,9.0,5.0,5.0,4.0,F1,4.0,3.76,115.8,2.58
+male,group C,some college,standard,23.0,UK,1.0,87411.0,Self-funded,16.0,No,Off-campus,26.0,60.0,7.9,5.0,1.0,5.1,8.0,1.0,3.0,7.0,F1,10.0,2.39,109.8,2.58
+female,group B,associate's degree,free/reduced,29.0,Other,2.0,43377.0,Loan,25.0,No,On-campus,34.0,77.0,8.1,9.9,4.0,3.6,9.0,8.0,2.0,5.0,F1,8.0,2.33,84.2,2.44
+male,group A,some high school,free/reduced,25.0,South Korea,4.0,66737.0,Loan,1.0,No,Off-campus,34.0,60.0,8.8,4.0,0.0,6.0,9.0,7.0,3.0,4.0,F1,3.0,3.15,119.3,2.49
+female,group C,some college,standard,29.0,Nigeria,4.0,89569.0,Scholarship,17.0,No,Off-campus,12.0,89.0,8.1,6.1,3.0,0.3,6.0,7.0,9.0,1.0,F1,3.0,2.93,109.2,2.02
+male,group D,some high school,standard,22.0,Nigeria,1.0,58211.0,Loan,11.0,No,On-campus,38.0,60.0,6.8,8.8,1.0,11.6,2.0,5.0,3.0,6.0,F1,2.0,3.32,114.0,2.94
+female,group E,some college,free/reduced,25.0,Brazil,1.0,102909.0,Family,18.0,No,With relatives,13.0,60.0,4.9,3.9,3.0,2.6,7.0,1.0,3.0,10.0,J1,1.0,3.59,81.9,2.65
+male,group C,master's degree,standard,27.0,China,4.0,23744.0,Self-funded,25.0,No,With relatives,24.0,60.0,4.5,5.3,4.0,0.7,3.0,9.0,1.0,6.0,F1,8.0,3.5,100.2,2.54
+male,group C,associate's degree,standard,29.0,South Korea,0.0,145566.0,Family,22.0,No,On-campus,29.0,79.0,4.3,6.9,2.0,9.8,7.0,9.0,2.0,7.0,J1,9.0,3.88,107.9,2.64
+female,group B,some college,free/reduced,21.0,Brazil,4.0,44995.0,Family,17.0,No,With relatives,23.0,66.0,7.3,5.8,3.0,11.6,9.0,8.0,3.0,1.0,J1,9.0,2.8,101.7,2.07
+male,group D,associate's degree,standard,27.0,South Korea,4.0,36977.0,Loan,29.0,No,On-campus,9.0,71.0,8.0,5.7,2.0,12.2,10.0,5.0,2.0,4.0,J1,8.0,2.41,106.7,2.08
+male,group C,high school,free/reduced,25.0,Other,1.0,149508.0,Family,16.0,No,Off-campus,15.0,60.0,6.5,4.9,1.0,7.4,10.0,3.0,8.0,9.0,F1,5.0,3.1,112.7,2.21
+male,group D,bachelor's degree,standard,27.0,China,1.0,117938.0,Loan,29.0,No,Off-campus,19.0,73.0,4.3,6.7,3.0,3.1,2.0,8.0,6.0,10.0,F1,1.0,2.22,95.0,2.32
+female,group A,associate's degree,free/reduced,29.0,UK,4.0,54542.0,Self-funded,5.0,No,With relatives,12.0,60.0,6.7,7.0,3.0,11.1,6.0,1.0,7.0,6.0,F1,9.0,2.58,113.9,2.23
+female,group C,high school,standard,19.0,UK,4.0,30651.0,Self-funded,24.0,No,Off-campus,23.0,84.0,8.7,7.2,1.0,10.5,6.0,3.0,1.0,2.0,F1,6.0,2.42,86.5,2.6
+female,group C,associate's degree,standard,29.0,Nigeria,4.0,119239.0,Family,14.0,No,With relatives,27.0,73.0,7.0,2.6,1.0,3.7,9.0,7.0,6.0,4.0,Other,7.0,2.79,90.8,2.19
+male,group B,some college,free/reduced,29.0,UK,1.0,98931.0,Scholarship,2.0,No,With relatives,31.0,60.0,8.0,7.0,0.0,13.6,9.0,4.0,2.0,6.0,F1,8.0,2.22,81.7,2.46
+male,group D,associate's degree,standard,22.0,UK,4.0,115344.0,Loan,5.0,No,Off-campus,36.0,79.0,8.0,9.6,4.0,1.6,5.0,7.0,6.0,4.0,F1,5.0,2.06,94.6,2.42
+male,group D,high school,standard,26.0,Other,4.0,122112.0,Loan,2.0,No,Off-campus,30.0,75.0,8.7,6.3,3.0,14.7,5.0,5.0,3.0,10.0,F1,6.0,3.31,95.2,3.03
+male,group C,some college,standard,21.0,India,3.0,36715.0,Family,29.0,No,With relatives,31.0,64.0,7.9,7.7,3.0,12.9,9.0,6.0,7.0,7.0,F1,7.0,3.22,112.2,2.44
+female,group C,bachelor's degree,free/reduced,28.0,Nigeria,0.0,64409.0,Loan,28.0,No,Off-campus,23.0,60.0,7.7,6.5,1.0,10.3,8.0,7.0,3.0,3.0,F1,7.0,3.42,106.1,2.33
+male,group B,some college,standard,23.0,Brazil,2.0,44306.0,Loan,0.0,No,On-campus,33.0,84.0,5.2,8.8,1.0,14.1,7.0,10.0,9.0,6.0,F1,2.0,3.32,97.5,2.29
+male,group D,some high school,standard,18.0,Germany,0.0,39086.0,Scholarship,29.0,Yes,Off-campus,37.0,69.0,4.3,9.4,4.0,10.8,8.0,7.0,3.0,4.0,F1,1.0,2.23,106.1,2.25
+male,group E,some college,standard,26.0,India,3.0,34376.0,Scholarship,12.0,Yes,Off-campus,23.0,72.0,6.6,3.5,1.0,2.9,6.0,7.0,7.0,3.0,F1,8.0,2.58,82.1,2.11
+male,group C,master's degree,free/reduced,18.0,Brazil,2.0,81350.0,Family,27.0,Yes,On-campus,23.0,77.0,4.6,5.5,2.0,6.6,3.0,7.0,4.0,3.0,F1,5.0,2.26,87.2,2.22
+female,group C,some high school,standard,22.0,China,4.0,91425.0,Scholarship,20.0,No,Off-campus,37.0,90.0,8.8,5.1,2.0,1.1,7.0,7.0,8.0,2.0,F1,10.0,3.69,105.1,2.62
+male,group C,associate's degree,free/reduced,21.0,India,3.0,123358.0,Family,25.0,Yes,Off-campus,20.0,60.0,5.4,5.2,2.0,5.8,8.0,3.0,2.0,3.0,F1,2.0,3.49,105.7,2.4
+female,group E,associate's degree,standard,29.0,Other,4.0,56636.0,Self-funded,13.0,Yes,With relatives,27.0,95.0,8.3,3.0,2.0,11.1,8.0,3.0,8.0,10.0,F1,3.0,2.4,111.0,2.66
+male,group D,some college,standard,20.0,Brazil,1.0,106120.0,Family,12.0,No,Off-campus,11.0,60.0,5.9,8.5,4.0,5.8,1.0,7.0,9.0,1.0,F1,6.0,2.68,96.1,1.88
+male,group E,bachelor's degree,free/reduced,23.0,China,3.0,134889.0,Self-funded,26.0,No,Off-campus,30.0,68.0,5.6,2.3,3.0,5.0,7.0,2.0,8.0,3.0,J1,10.0,3.93,108.9,2.53
+female,group D,some college,free/reduced,19.0,Nigeria,1.0,71649.0,Family,3.0,No,On-campus,36.0,60.0,8.7,6.2,2.0,8.9,3.0,2.0,6.0,9.0,J1,6.0,3.19,107.4,3.04
+male,group B,some college,standard,20.0,Germany,3.0,54610.0,Loan,6.0,No,With relatives,16.0,77.0,5.8,7.3,1.0,13.1,2.0,3.0,10.0,4.0,Other,8.0,3.6,118.5,2.44
+female,group C,high school,free/reduced,22.0,China,3.0,30058.0,Scholarship,21.0,Yes,With relatives,12.0,72.0,6.0,3.7,2.0,0.7,2.0,4.0,1.0,3.0,F1,5.0,2.53,88.6,2.42
+female,group D,some high school,standard,26.0,UK,1.0,144876.0,Self-funded,9.0,No,With relatives,9.0,60.0,4.5,9.2,4.0,5.8,8.0,6.0,7.0,8.0,J1,5.0,2.42,102.1,1.86
+male,group D,some high school,standard,19.0,South Korea,2.0,148265.0,Family,6.0,No,Off-campus,32.0,81.0,7.4,8.7,1.0,2.4,9.0,8.0,1.0,1.0,J1,7.0,3.57,104.1,2.53
+female,group B,high school,standard,27.0,China,0.0,94637.0,Scholarship,20.0,No,With relatives,9.0,62.0,5.4,5.8,2.0,10.4,3.0,10.0,7.0,5.0,J1,10.0,3.37,119.9,2.02
+male,group D,some college,standard,25.0,China,4.0,98033.0,Family,14.0,No,On-campus,30.0,63.0,6.9,5.3,3.0,1.6,3.0,10.0,2.0,1.0,F1,5.0,3.36,88.0,2.45
+female,group B,high school,standard,19.0,Germany,3.0,90194.0,Scholarship,14.0,No,With relatives,9.0,72.0,7.0,3.9,1.0,10.0,6.0,7.0,8.0,7.0,Other,9.0,3.11,100.9,2.14
+female,group C,high school,standard,28.0,South Korea,4.0,96917.0,Scholarship,3.0,No,On-campus,26.0,75.0,7.6,7.8,1.0,4.3,10.0,4.0,2.0,5.0,F1,6.0,3.13,93.8,2.56
+male,group B,high school,standard,22.0,UK,1.0,84200.0,Family,22.0,No,With relatives,19.0,62.0,7.7,3.1,3.0,3.0,1.0,2.0,3.0,2.0,F1,7.0,3.47,101.0,2.73
+female,group D,some high school,standard,24.0,Brazil,4.0,125848.0,Self-funded,22.0,Yes,With relatives,17.0,71.0,6.6,7.4,1.0,14.0,6.0,2.0,3.0,1.0,F1,8.0,2.54,89.3,2.28
+male,group A,some college,free/reduced,25.0,Brazil,1.0,126022.0,Self-funded,5.0,Yes,On-campus,32.0,60.0,5.7,8.7,2.0,0.3,3.0,4.0,1.0,7.0,F1,5.0,2.71,81.9,2.8
+male,group B,high school,standard,18.0,China,4.0,66619.0,Loan,23.0,Yes,With relatives,37.0,60.0,8.2,3.8,1.0,6.6,4.0,6.0,5.0,1.0,F1,4.0,3.74,102.9,2.67
+male,group D,bachelor's degree,standard,23.0,Other,0.0,37154.0,Scholarship,19.0,Yes,With relatives,27.0,73.0,5.5,8.9,2.0,0.3,9.0,3.0,5.0,3.0,F1,8.0,2.62,93.4,2.25
+female,group B,some high school,free/reduced,18.0,Other,0.0,39539.0,Loan,25.0,No,With relatives,37.0,67.0,6.5,2.3,3.0,7.3,3.0,6.0,10.0,6.0,F1,10.0,3.09,87.3,2.54
+female,group C,bachelor's degree,free/reduced,19.0,South Korea,0.0,145381.0,Loan,4.0,Yes,Off-campus,22.0,78.0,6.0,9.3,0.0,7.5,1.0,5.0,5.0,6.0,J1,9.0,3.41,93.0,2.75
+male,group B,some college,standard,18.0,South Korea,0.0,80058.0,Family,19.0,No,On-campus,34.0,65.0,8.3,2.9,3.0,4.8,3.0,5.0,9.0,7.0,F1,1.0,4.0,82.0,2.87
+female,group B,some high school,free/reduced,28.0,UK,0.0,82068.0,Family,11.0,Yes,With relatives,30.0,60.0,6.2,7.2,2.0,2.0,7.0,2.0,6.0,1.0,F1,3.0,2.87,118.0,2.3
+female,group B,high school,standard,22.0,Germany,0.0,97313.0,Family,0.0,Yes,On-campus,20.0,72.0,5.9,4.0,4.0,5.6,7.0,8.0,6.0,7.0,F1,4.0,2.86,103.2,2.21
+female,group C,some college,free/reduced,27.0,Nigeria,1.0,119932.0,Scholarship,27.0,No,On-campus,17.0,60.0,7.4,8.7,3.0,10.1,5.0,5.0,3.0,2.0,F1,7.0,3.69,112.6,2.44
+female,group A,some college,standard,26.0,Brazil,3.0,50373.0,Family,7.0,Yes,On-campus,37.0,79.0,7.0,6.1,4.0,11.7,1.0,2.0,5.0,6.0,F1,6.0,3.61,96.9,3.18
+male,group E,associate's degree,standard,23.0,Germany,4.0,53154.0,Family,0.0,No,With relatives,30.0,85.0,4.5,3.1,4.0,8.0,8.0,7.0,10.0,8.0,F1,10.0,3.46,116.1,2.37
+female,group D,associate's degree,free/reduced,28.0,India,0.0,26031.0,Scholarship,4.0,No,With relatives,5.0,60.0,6.5,6.6,2.0,8.8,10.0,9.0,7.0,5.0,F1,10.0,2.93,99.3,1.67
+female,group B,master's degree,standard,28.0,Brazil,1.0,113533.0,Scholarship,21.0,Yes,On-campus,6.0,90.0,7.7,5.3,2.0,3.0,8.0,9.0,3.0,10.0,F1,1.0,2.65,103.0,2.3
+female,group B,high school,free/reduced,18.0,Germany,1.0,91975.0,Self-funded,5.0,Yes,Off-campus,10.0,85.0,9.0,7.3,0.0,4.3,10.0,1.0,2.0,3.0,F1,4.0,3.22,99.7,2.5
+female,group C,associate's degree,standard,18.0,Brazil,1.0,42785.0,Family,28.0,No,On-campus,28.0,60.0,7.1,9.1,1.0,2.4,10.0,7.0,5.0,8.0,F1,6.0,3.75,109.3,2.49
+male,group C,bachelor's degree,standard,19.0,Nigeria,3.0,98928.0,Family,20.0,Yes,Off-campus,22.0,81.0,5.9,5.3,3.0,3.7,10.0,9.0,3.0,8.0,F1,3.0,3.77,102.7,2.47
+female,group B,some high school,standard,26.0,India,4.0,138696.0,Family,2.0,Yes,On-campus,31.0,60.0,5.1,4.3,2.0,3.4,2.0,6.0,5.0,4.0,Other,2.0,2.22,90.9,2.34
+female,group E,some high school,free/reduced,20.0,Other,3.0,48669.0,Self-funded,14.0,Yes,On-campus,12.0,79.0,8.4,2.1,3.0,7.8,10.0,1.0,9.0,8.0,F1,2.0,2.86,85.8,2.32
+female,group B,some college,standard,18.0,Other,2.0,114475.0,Family,4.0,Yes,On-campus,32.0,60.0,8.1,6.6,4.0,8.4,3.0,2.0,10.0,5.0,F1,10.0,2.93,104.2,2.59
+male,group C,associate's degree,free/reduced,22.0,Nigeria,1.0,137154.0,Self-funded,27.0,No,With relatives,14.0,65.0,5.2,5.2,1.0,14.2,4.0,4.0,1.0,5.0,F1,4.0,3.96,99.6,2.66
+female,group C,master's degree,free/reduced,24.0,UK,2.0,22282.0,Loan,23.0,No,Off-campus,21.0,65.0,5.0,5.0,0.0,2.9,1.0,4.0,4.0,3.0,F1,1.0,3.36,83.8,2.56
+female,group B,high school,standard,23.0,India,0.0,54624.0,Self-funded,13.0,No,Off-campus,33.0,62.0,7.6,3.5,3.0,9.6,4.0,2.0,10.0,7.0,F1,10.0,2.81,95.8,2.61
+female,group D,some college,free/reduced,29.0,China,0.0,68438.0,Loan,17.0,Yes,On-campus,10.0,66.0,5.6,5.4,1.0,12.3,5.0,8.0,5.0,9.0,F1,2.0,2.05,100.6,2.04
+male,group D,high school,free/reduced,18.0,Germany,3.0,109900.0,Family,15.0,Yes,With relatives,18.0,74.0,5.5,9.9,0.0,8.4,3.0,2.0,2.0,9.0,F1,10.0,3.13,113.1,2.86
+male,group E,some high school,standard,22.0,India,4.0,87534.0,Loan,5.0,No,With relatives,26.0,84.0,4.8,4.4,3.0,3.8,10.0,3.0,2.0,1.0,F1,2.0,2.19,83.0,2.19
+female,group B,high school,standard,22.0,UK,2.0,51705.0,Self-funded,24.0,No,Off-campus,10.0,60.0,5.3,6.8,1.0,3.9,2.0,4.0,1.0,1.0,F1,4.0,3.67,93.9,2.44
+female,group E,associate's degree,free/reduced,23.0,UK,4.0,58244.0,Scholarship,23.0,No,With relatives,30.0,68.0,6.1,8.2,2.0,0.6,6.0,9.0,8.0,10.0,F1,4.0,3.51,112.9,2.51
+male,group D,high school,standard,20.0,Nigeria,3.0,94964.0,Loan,13.0,No,Off-campus,16.0,70.0,7.7,8.0,3.0,4.6,8.0,10.0,2.0,5.0,Other,1.0,2.92,105.9,2.19
+female,group E,associate's degree,free/reduced,22.0,Brazil,0.0,57437.0,Loan,26.0,No,Off-campus,39.0,84.0,5.7,4.6,1.0,11.2,7.0,1.0,3.0,1.0,F1,7.0,2.86,91.6,2.71
+male,group E,some college,standard,24.0,India,4.0,97872.0,Family,23.0,No,Off-campus,18.0,60.0,5.6,6.9,0.0,0.7,1.0,8.0,2.0,4.0,F1,7.0,3.79,113.8,2.56
+female,group C,associate's degree,standard,22.0,Germany,4.0,94878.0,Self-funded,7.0,No,With relatives,26.0,60.0,5.4,9.0,1.0,3.3,4.0,5.0,4.0,1.0,Other,10.0,2.58,99.7,2.23
+male,group C,some high school,standard,22.0,India,0.0,139006.0,Loan,28.0,No,Off-campus,27.0,73.0,6.4,2.1,2.0,10.6,3.0,7.0,1.0,2.0,J1,10.0,2.5,99.9,2.47
+male,group C,some high school,standard,22.0,South Korea,2.0,125368.0,Loan,6.0,No,Off-campus,11.0,80.0,4.9,5.5,3.0,11.7,6.0,8.0,3.0,2.0,F1,10.0,3.88,119.1,2.24
+female,group E,associate's degree,standard,27.0,Brazil,0.0,92982.0,Loan,7.0,Yes,On-campus,29.0,94.0,6.4,3.8,3.0,6.8,9.0,5.0,5.0,4.0,F1,1.0,3.62,117.9,2.61
+female,group B,some college,standard,27.0,Germany,4.0,70583.0,Loan,12.0,No,Off-campus,17.0,85.0,7.5,5.1,3.0,10.5,9.0,8.0,10.0,8.0,F1,8.0,3.64,94.3,2.27
+female,group C,some college,standard,20.0,Other,2.0,58392.0,Scholarship,5.0,No,Off-campus,25.0,76.0,4.1,5.3,2.0,5.8,7.0,10.0,1.0,2.0,F1,10.0,2.39,85.6,2.05
+male,group A,some college,free/reduced,18.0,Germany,2.0,27461.0,Self-funded,17.0,No,On-campus,14.0,81.0,4.0,8.0,0.0,2.4,9.0,8.0,4.0,9.0,F1,7.0,2.29,93.0,2.05
+female,group D,some college,free/reduced,22.0,China,0.0,120123.0,Family,1.0,No,On-campus,13.0,74.0,4.4,2.8,3.0,6.0,8.0,9.0,6.0,9.0,F1,7.0,2.05,81.2,1.88
+female,group E,high school,free/reduced,26.0,Nigeria,4.0,30516.0,Family,7.0,No,With relatives,19.0,60.0,6.7,6.1,0.0,8.7,5.0,2.0,4.0,2.0,F1,6.0,2.47,80.8,2.28
+male,group C,high school,standard,18.0,China,3.0,99285.0,Scholarship,10.0,Yes,Off-campus,6.0,75.0,8.3,6.5,1.0,14.2,9.0,3.0,7.0,1.0,F1,4.0,3.55,95.8,2.1
+male,group B,bachelor's degree,standard,20.0,Germany,4.0,37514.0,Self-funded,0.0,No,With relatives,29.0,60.0,4.0,6.0,0.0,1.0,7.0,1.0,7.0,10.0,F1,8.0,2.48,117.6,2.47
+male,group A,some high school,standard,21.0,Brazil,1.0,148657.0,Loan,21.0,No,With relatives,17.0,60.0,8.7,7.9,0.0,7.6,5.0,4.0,6.0,10.0,F1,2.0,3.46,114.9,2.69
+male,group A,high school,free/reduced,18.0,India,3.0,141251.0,Scholarship,28.0,No,On-campus,38.0,60.0,4.5,5.1,3.0,4.9,8.0,5.0,9.0,9.0,F1,7.0,2.5,100.5,2.31
+female,group C,master's degree,standard,18.0,Other,2.0,120962.0,Self-funded,5.0,No,With relatives,38.0,64.0,8.2,9.6,4.0,7.6,7.0,1.0,2.0,2.0,F1,3.0,2.79,102.6,2.76
+male,group E,some high school,standard,25.0,India,3.0,56268.0,Loan,15.0,No,Off-campus,39.0,84.0,6.4,5.9,4.0,0.4,9.0,8.0,10.0,8.0,F1,3.0,3.97,80.2,2.61
+female,group C,high school,standard,19.0,Brazil,2.0,110486.0,Scholarship,26.0,No,On-campus,7.0,80.0,7.3,6.6,2.0,4.7,10.0,2.0,8.0,3.0,F1,7.0,2.49,88.6,1.93
+male,group B,some high school,standard,29.0,Germany,2.0,120424.0,Self-funded,19.0,No,Off-campus,10.0,86.0,6.6,8.6,2.0,12.3,1.0,1.0,8.0,1.0,Other,3.0,2.75,81.0,2.35
+female,group A,bachelor's degree,standard,25.0,UK,3.0,56788.0,Family,11.0,No,Off-campus,23.0,60.0,6.4,4.2,4.0,8.3,9.0,2.0,10.0,1.0,F1,5.0,2.6,110.2,1.91
+male,group D,bachelor's degree,free/reduced,24.0,India,2.0,95749.0,Family,10.0,No,On-campus,7.0,70.0,8.2,2.6,1.0,6.8,7.0,5.0,4.0,10.0,F1,8.0,2.22,85.8,2.29
+female,group B,high school,free/reduced,27.0,UK,2.0,81049.0,Self-funded,28.0,No,Off-campus,22.0,72.0,7.8,7.7,3.0,4.3,1.0,9.0,6.0,2.0,J1,4.0,2.98,114.8,2.34
+female,group C,some high school,standard,27.0,India,1.0,82493.0,Family,26.0,Yes,On-campus,13.0,91.0,6.4,5.9,3.0,4.5,1.0,9.0,6.0,7.0,F1,7.0,2.76,105.7,2.42
+female,group A,some high school,standard,19.0,India,4.0,56027.0,Self-funded,28.0,No,Off-campus,16.0,90.0,4.6,9.2,1.0,5.7,5.0,2.0,5.0,6.0,J1,7.0,3.39,89.2,2.62
+female,group D,bachelor's degree,free/reduced,23.0,Other,4.0,113547.0,Loan,9.0,Yes,On-campus,9.0,90.0,4.6,9.9,1.0,12.5,8.0,2.0,1.0,2.0,F1,2.0,3.64,86.3,2.45
+male,group E,some college,free/reduced,23.0,Nigeria,1.0,62849.0,Self-funded,2.0,No,With relatives,7.0,60.0,8.0,5.2,4.0,14.5,9.0,3.0,3.0,4.0,F1,8.0,3.09,105.1,2.2
+female,group B,high school,free/reduced,20.0,Nigeria,3.0,120127.0,Loan,12.0,No,Off-campus,15.0,87.0,6.6,5.3,2.0,6.6,6.0,7.0,7.0,2.0,F1,10.0,2.06,116.0,1.93
+female,group C,some high school,free/reduced,28.0,South Korea,0.0,37858.0,Scholarship,26.0,No,On-campus,34.0,60.0,6.4,5.3,1.0,5.9,10.0,3.0,8.0,1.0,F1,10.0,3.24,108.7,2.2
+male,group C,high school,standard,19.0,China,0.0,104162.0,Self-funded,2.0,No,Off-campus,8.0,67.0,7.4,4.6,2.0,12.7,8.0,1.0,2.0,3.0,F1,9.0,2.11,93.9,2.15
+female,group C,associate's degree,free/reduced,29.0,Brazil,0.0,99003.0,Scholarship,14.0,Yes,Off-campus,9.0,68.0,8.3,8.3,0.0,6.4,6.0,6.0,3.0,4.0,J1,6.0,3.23,103.5,2.32
+female,group C,some high school,standard,18.0,Brazil,1.0,72395.0,Family,15.0,Yes,Off-campus,5.0,69.0,7.1,8.1,3.0,8.3,6.0,3.0,4.0,10.0,F1,5.0,3.37,92.4,2.56
+female,group D,some high school,free/reduced,23.0,Brazil,1.0,59758.0,Loan,28.0,No,On-campus,31.0,86.0,7.8,5.8,4.0,3.5,4.0,1.0,5.0,5.0,F1,1.0,2.4,120.0,2.81
+male,group B,some high school,standard,29.0,South Korea,2.0,74312.0,Self-funded,12.0,No,With relatives,32.0,60.0,7.8,2.4,3.0,11.2,5.0,4.0,3.0,5.0,F1,1.0,3.64,110.0,2.83
+female,group A,some college,free/reduced,22.0,Nigeria,0.0,88670.0,Scholarship,16.0,No,With relatives,33.0,60.0,5.8,4.5,4.0,8.0,2.0,1.0,5.0,7.0,F1,9.0,3.82,104.6,3.04
+female,group C,bachelor's degree,free/reduced,28.0,Germany,3.0,136758.0,Loan,2.0,Yes,With relatives,22.0,86.0,5.4,4.3,0.0,12.1,3.0,1.0,8.0,10.0,F1,4.0,3.63,96.9,2.93
+male,group A,bachelor's degree,standard,26.0,UK,3.0,102279.0,Loan,19.0,Yes,On-campus,16.0,60.0,8.0,8.5,3.0,11.7,3.0,2.0,8.0,8.0,F1,1.0,2.61,104.7,2.48
+female,group B,high school,standard,18.0,Other,0.0,35434.0,Family,10.0,Yes,With relatives,17.0,82.0,5.9,2.7,0.0,3.2,5.0,10.0,2.0,9.0,F1,10.0,3.17,93.7,2.52
+male,group B,some college,standard,24.0,UK,0.0,84047.0,Family,26.0,Yes,On-campus,6.0,60.0,8.5,8.4,4.0,10.7,5.0,8.0,6.0,7.0,F1,3.0,3.83,81.2,2.31
+female,group C,high school,standard,22.0,Germany,0.0,67775.0,Loan,20.0,No,Off-campus,20.0,64.0,4.3,7.4,1.0,12.0,6.0,2.0,4.0,5.0,F1,6.0,2.64,95.8,2.32
+male,group E,high school,standard,22.0,Other,1.0,95769.0,Loan,18.0,No,Off-campus,28.0,64.0,4.3,7.9,3.0,5.2,5.0,2.0,9.0,9.0,J1,8.0,3.64,117.2,2.64
+female,group A,high school,standard,19.0,South Korea,1.0,134682.0,Self-funded,21.0,No,With relatives,39.0,82.0,8.6,5.5,0.0,2.6,6.0,10.0,10.0,8.0,F1,10.0,2.02,105.1,2.34
+male,group B,associate's degree,free/reduced,28.0,Germany,1.0,86677.0,Loan,10.0,No,On-campus,26.0,60.0,7.2,7.4,3.0,0.0,8.0,10.0,2.0,10.0,F1,2.0,2.01,83.4,2.27
+female,group C,associate's degree,standard,20.0,Brazil,4.0,103555.0,Self-funded,29.0,Yes,Off-campus,15.0,77.0,5.9,6.9,3.0,6.8,2.0,8.0,8.0,9.0,F1,8.0,3.52,115.4,2.49
+female,group D,high school,free/reduced,24.0,China,3.0,148379.0,Loan,27.0,No,On-campus,33.0,60.0,7.8,8.2,3.0,5.3,4.0,6.0,1.0,10.0,F1,1.0,3.52,90.8,3.07
+male,group C,some high school,standard,23.0,India,3.0,105920.0,Family,15.0,Yes,On-campus,39.0,60.0,7.4,5.6,2.0,8.3,6.0,4.0,6.0,8.0,F1,2.0,3.58,89.8,2.87
+female,group B,high school,free/reduced,29.0,UK,2.0,128439.0,Self-funded,20.0,Yes,Off-campus,19.0,60.0,6.7,5.8,0.0,2.8,5.0,3.0,10.0,6.0,Other,8.0,3.86,91.9,2.43
+male,group B,some college,free/reduced,19.0,Nigeria,1.0,65734.0,Scholarship,2.0,No,On-campus,35.0,77.0,4.5,7.1,0.0,12.9,1.0,1.0,1.0,4.0,F1,7.0,2.24,103.1,2.88
+female,group D,some high school,free/reduced,23.0,Nigeria,4.0,121665.0,Family,21.0,Yes,Off-campus,20.0,65.0,8.1,2.9,3.0,3.9,9.0,3.0,2.0,9.0,F1,5.0,2.46,101.8,2.54
+male,group E,master's degree,standard,19.0,South Korea,4.0,108503.0,Self-funded,5.0,Yes,Off-campus,14.0,85.0,8.3,5.5,1.0,3.4,3.0,9.0,3.0,9.0,F1,10.0,3.81,99.7,2.81
+male,group C,master's degree,standard,19.0,Other,3.0,60603.0,Self-funded,13.0,No,Off-campus,36.0,85.0,4.9,9.8,3.0,7.2,2.0,5.0,9.0,10.0,F1,2.0,2.35,108.7,2.7
+male,group D,high school,standard,19.0,Nigeria,1.0,96708.0,Scholarship,23.0,No,On-campus,6.0,60.0,8.3,2.3,2.0,7.5,9.0,6.0,5.0,10.0,F1,9.0,3.36,92.7,2.29
+female,group C,high school,standard,28.0,Brazil,2.0,101926.0,Self-funded,17.0,No,Off-campus,28.0,72.0,8.4,4.5,4.0,3.2,7.0,5.0,10.0,9.0,J1,5.0,3.06,111.3,2.52
+male,group D,associate's degree,standard,20.0,UK,1.0,88803.0,Loan,16.0,Yes,On-campus,27.0,75.0,6.7,4.5,2.0,4.1,5.0,1.0,10.0,10.0,F1,8.0,2.17,87.0,2.55
+male,group C,master's degree,standard,19.0,Germany,0.0,59332.0,Scholarship,3.0,Yes,Off-campus,6.0,67.0,7.3,7.1,1.0,2.5,6.0,10.0,2.0,3.0,F1,4.0,2.57,111.3,1.93
+female,group A,high school,standard,21.0,Brazil,1.0,111703.0,Family,22.0,No,Off-campus,35.0,68.0,5.9,2.8,3.0,10.8,4.0,1.0,10.0,3.0,F1,9.0,3.04,106.6,2.52
+female,group E,some college,standard,26.0,South Korea,0.0,41312.0,Family,14.0,Yes,With relatives,30.0,85.0,5.4,7.0,0.0,11.6,1.0,4.0,5.0,6.0,F1,10.0,3.7,107.3,2.98
+male,group E,some high school,standard,23.0,Brazil,0.0,113376.0,Loan,10.0,No,With relatives,33.0,67.0,7.6,2.8,3.0,6.9,4.0,3.0,5.0,6.0,F1,7.0,3.42,99.3,2.88
+male,group C,some high school,standard,18.0,Germany,2.0,104526.0,Family,25.0,Yes,With relatives,7.0,64.0,8.3,2.8,1.0,10.7,9.0,8.0,1.0,6.0,J1,2.0,3.24,106.7,2.23
+female,group B,bachelor's degree,standard,25.0,China,3.0,64179.0,Self-funded,2.0,No,On-campus,18.0,97.0,7.3,7.8,0.0,11.0,1.0,7.0,3.0,5.0,F1,3.0,2.99,83.2,2.73
+male,group B,some college,free/reduced,29.0,South Korea,1.0,91442.0,Self-funded,2.0,Yes,On-campus,29.0,68.0,6.6,4.6,2.0,2.1,10.0,7.0,5.0,5.0,J1,2.0,2.6,114.1,2.18
+female,group C,bachelor's degree,standard,24.0,China,0.0,134332.0,Loan,15.0,No,Off-campus,5.0,79.0,4.8,9.8,4.0,14.5,3.0,8.0,9.0,2.0,F1,5.0,2.24,82.2,1.69
+male,group B,high school,standard,27.0,India,1.0,137961.0,Family,4.0,No,Off-campus,7.0,60.0,4.3,2.3,4.0,12.3,5.0,10.0,10.0,7.0,F1,2.0,2.82,85.9,1.7
+male,group C,associate's degree,free/reduced,20.0,China,3.0,60379.0,Family,20.0,No,Off-campus,30.0,73.0,6.2,5.6,3.0,3.1,7.0,7.0,1.0,4.0,F1,5.0,2.06,103.1,2.34
+female,group C,associate's degree,standard,18.0,India,3.0,37297.0,Loan,28.0,Yes,Off-campus,22.0,62.0,4.2,2.9,2.0,2.8,9.0,10.0,8.0,3.0,F1,9.0,2.42,109.6,1.61
+female,group E,master's degree,free/reduced,22.0,India,4.0,22011.0,Scholarship,9.0,No,On-campus,13.0,86.0,6.8,4.8,1.0,1.9,6.0,2.0,1.0,8.0,Other,2.0,2.86,83.1,2.75
+male,group D,bachelor's degree,free/reduced,21.0,China,3.0,136130.0,Family,18.0,No,Off-campus,27.0,60.0,5.9,10.0,4.0,2.1,3.0,4.0,9.0,4.0,F1,9.0,2.84,116.8,2.32
+female,group C,some college,standard,27.0,South Korea,2.0,140234.0,Scholarship,24.0,No,Off-campus,25.0,71.0,7.8,9.1,2.0,11.2,7.0,6.0,6.0,4.0,F1,7.0,2.09,118.9,2.17
+male,group C,associate's degree,standard,25.0,Other,0.0,64014.0,Family,3.0,No,With relatives,5.0,93.0,5.5,2.4,3.0,7.0,4.0,3.0,1.0,8.0,J1,7.0,3.18,104.2,2.71
+male,group D,some college,standard,18.0,Germany,4.0,132094.0,Family,28.0,Yes,Off-campus,25.0,82.0,7.0,6.5,0.0,11.7,3.0,3.0,8.0,1.0,F1,5.0,3.1,99.2,2.48
+male,group C,high school,free/reduced,27.0,Brazil,2.0,31738.0,Family,28.0,Yes,Off-campus,31.0,60.0,6.7,7.2,3.0,11.2,7.0,6.0,5.0,9.0,J1,8.0,2.16,109.7,2.39
+male,group B,associate's degree,standard,18.0,Brazil,1.0,114333.0,Family,18.0,No,Off-campus,10.0,60.0,4.0,3.7,3.0,9.1,7.0,1.0,7.0,7.0,F1,7.0,3.89,93.1,2.35
+male,group E,associate's degree,free/reduced,29.0,Germany,0.0,67498.0,Self-funded,10.0,Yes,On-campus,32.0,74.0,4.4,3.2,2.0,10.3,4.0,1.0,7.0,2.0,F1,6.0,2.2,99.7,2.36
+male,group C,associate's degree,free/reduced,21.0,UK,3.0,147792.0,Scholarship,1.0,No,With relatives,21.0,60.0,5.5,9.2,4.0,0.3,7.0,5.0,7.0,6.0,J1,2.0,3.71,116.6,2.34
+male,group B,high school,standard,25.0,UK,0.0,31120.0,Scholarship,9.0,No,Off-campus,7.0,60.0,8.4,9.8,2.0,4.7,2.0,1.0,6.0,8.0,F1,6.0,2.0,118.2,2.4
+female,group C,some college,standard,22.0,India,1.0,136517.0,Family,28.0,No,Off-campus,16.0,72.0,4.7,9.9,0.0,9.6,1.0,10.0,8.0,5.0,J1,2.0,3.76,117.1,2.27
+male,group B,associate's degree,standard,19.0,India,4.0,28767.0,Family,10.0,No,With relatives,16.0,84.0,7.6,8.3,2.0,0.1,2.0,8.0,9.0,6.0,F1,1.0,2.04,90.5,2.17
+male,group E,associate's degree,free/reduced,23.0,South Korea,4.0,42852.0,Scholarship,24.0,No,Off-campus,6.0,90.0,8.9,7.3,1.0,0.5,4.0,2.0,2.0,10.0,J1,9.0,3.52,89.3,3.01
+female,group C,bachelor's degree,free/reduced,22.0,Nigeria,4.0,99239.0,Self-funded,19.0,Yes,On-campus,26.0,62.0,8.0,4.8,3.0,12.8,8.0,6.0,7.0,8.0,F1,5.0,2.72,91.9,2.34
+male,group C,some college,free/reduced,19.0,China,3.0,20929.0,Loan,15.0,Yes,Off-campus,27.0,64.0,5.2,3.4,4.0,10.3,3.0,10.0,2.0,6.0,F1,10.0,3.48,97.7,2.56
+male,group D,some college,standard,28.0,India,2.0,97487.0,Loan,18.0,No,On-campus,34.0,82.0,8.5,2.6,0.0,4.0,10.0,10.0,6.0,9.0,J1,10.0,2.8,92.6,2.46
+male,group C,some high school,standard,28.0,Brazil,2.0,138387.0,Scholarship,22.0,Yes,On-campus,9.0,61.0,4.5,7.5,3.0,10.3,6.0,5.0,2.0,9.0,F1,4.0,2.14,95.0,2.17
+female,group D,some high school,standard,28.0,South Korea,0.0,111575.0,Family,23.0,Yes,Off-campus,13.0,72.0,6.3,8.3,2.0,11.9,6.0,10.0,10.0,9.0,F1,8.0,3.54,104.8,2.14
+female,group D,associate's degree,standard,20.0,China,3.0,146155.0,Family,10.0,No,With relatives,25.0,76.0,8.4,8.6,1.0,4.6,9.0,4.0,6.0,6.0,J1,5.0,2.14,110.5,2.31
+male,group C,bachelor's degree,standard,26.0,South Korea,4.0,134149.0,Self-funded,13.0,No,On-campus,15.0,64.0,7.2,9.3,2.0,0.5,9.0,1.0,2.0,9.0,F1,7.0,3.84,109.4,2.78
+female,group E,bachelor's degree,standard,24.0,China,4.0,115040.0,Loan,1.0,No,With relatives,9.0,70.0,6.1,9.0,3.0,14.0,4.0,3.0,1.0,3.0,J1,3.0,2.1,112.6,2.25
+female,group B,high school,free/reduced,24.0,China,1.0,37438.0,Self-funded,22.0,Yes,Off-campus,39.0,73.0,5.5,10.0,0.0,5.2,9.0,4.0,7.0,5.0,F1,8.0,2.96,81.3,2.46
+male,group D,bachelor's degree,free/reduced,28.0,Germany,1.0,68515.0,Loan,27.0,Yes,On-campus,31.0,60.0,5.9,4.0,4.0,1.6,6.0,2.0,3.0,2.0,F1,8.0,3.45,81.9,2.62
+female,group E,associate's degree,standard,23.0,India,4.0,25744.0,Scholarship,4.0,Yes,Off-campus,6.0,60.0,6.5,8.1,3.0,7.4,2.0,2.0,4.0,8.0,F1,3.0,2.79,111.6,2.5
+female,group C,associate's degree,standard,25.0,Other,4.0,103820.0,Loan,26.0,No,With relatives,28.0,76.0,5.6,6.7,0.0,11.5,10.0,2.0,6.0,4.0,F1,9.0,2.43,101.3,2.25
+female,group E,associate's degree,standard,21.0,South Korea,3.0,62417.0,Self-funded,4.0,No,Off-campus,35.0,100.0,8.8,4.1,3.0,3.3,6.0,1.0,5.0,6.0,F1,8.0,3.52,103.1,3.18
+male,group C,high school,free/reduced,25.0,Other,2.0,125284.0,Self-funded,18.0,No,Off-campus,37.0,72.0,8.7,9.9,1.0,4.0,2.0,10.0,4.0,6.0,F1,1.0,3.57,82.1,2.89
+female,group D,some college,free/reduced,21.0,South Korea,1.0,27069.0,Self-funded,20.0,No,On-campus,34.0,65.0,8.4,9.2,2.0,3.6,8.0,2.0,9.0,5.0,F1,8.0,3.85,90.2,2.68
+male,group D,high school,free/reduced,25.0,Germany,2.0,62359.0,Scholarship,11.0,No,Off-campus,32.0,60.0,6.1,3.0,4.0,14.9,4.0,6.0,6.0,1.0,F1,4.0,2.75,105.5,2.26
+female,group E,some college,standard,26.0,Brazil,3.0,39799.0,Loan,17.0,No,Off-campus,35.0,85.0,7.5,2.2,0.0,3.0,5.0,3.0,6.0,7.0,F1,6.0,3.01,114.4,2.89
+female,group E,associate's degree,standard,20.0,Other,4.0,118746.0,Loan,3.0,No,Off-campus,15.0,92.0,8.5,7.5,4.0,8.6,8.0,10.0,2.0,10.0,J1,10.0,2.73,116.7,2.5
+female,group A,master's degree,free/reduced,20.0,Brazil,2.0,113762.0,Self-funded,21.0,No,On-campus,27.0,67.0,8.3,6.8,4.0,13.9,8.0,5.0,6.0,8.0,F1,9.0,2.51,100.0,2.44
+male,group D,some high school,standard,28.0,UK,4.0,140906.0,Loan,16.0,No,With relatives,6.0,74.0,6.1,9.5,4.0,2.2,6.0,1.0,7.0,1.0,F1,5.0,3.5,101.8,2.19
+female,group E,associate's degree,standard,19.0,India,4.0,90188.0,Family,9.0,No,With relatives,31.0,62.0,4.6,3.9,0.0,14.6,4.0,8.0,8.0,10.0,J1,7.0,2.68,113.3,2.38
+female,group E,some high school,free/reduced,27.0,India,0.0,109859.0,Family,19.0,No,Off-campus,39.0,60.0,4.4,2.7,0.0,14.2,1.0,4.0,8.0,7.0,F1,1.0,2.86,101.5,2.67
+male,group B,high school,free/reduced,20.0,Nigeria,2.0,142521.0,Family,5.0,No,On-campus,6.0,60.0,6.9,4.1,4.0,13.3,7.0,9.0,9.0,4.0,Other,9.0,2.81,100.7,1.68
+female,group B,some high school,free/reduced,20.0,Germany,2.0,127674.0,Loan,24.0,No,Off-campus,25.0,78.0,7.2,2.2,2.0,3.2,8.0,4.0,10.0,6.0,F1,6.0,3.43,116.2,2.41
+male,group D,associate's degree,standard,22.0,Brazil,4.0,27597.0,Scholarship,13.0,No,With relatives,9.0,60.0,8.2,2.3,3.0,9.5,9.0,2.0,3.0,9.0,F1,4.0,3.84,111.6,2.63
+female,group D,some high school,standard,22.0,China,3.0,67093.0,Scholarship,10.0,No,On-campus,25.0,78.0,5.5,9.3,4.0,11.4,2.0,3.0,10.0,5.0,F1,6.0,3.33,116.4,2.55
+male,group D,master's degree,standard,19.0,South Korea,0.0,57226.0,Scholarship,10.0,Yes,With relatives,33.0,84.0,4.8,4.8,1.0,14.8,1.0,5.0,7.0,8.0,F1,5.0,2.94,88.7,2.8
+female,group C,master's degree,standard,29.0,India,4.0,92127.0,Scholarship,28.0,Yes,With relatives,24.0,78.0,5.9,5.3,4.0,2.7,4.0,10.0,7.0,5.0,F1,3.0,3.56,101.0,2.36
+female,group A,high school,free/reduced,27.0,Other,1.0,134650.0,Family,17.0,No,On-campus,24.0,60.0,5.8,2.1,0.0,11.5,5.0,6.0,1.0,2.0,J1,7.0,3.28,113.7,2.43
+female,group D,bachelor's degree,free/reduced,23.0,South Korea,1.0,111369.0,Family,26.0,No,On-campus,29.0,100.0,4.7,4.2,3.0,5.1,10.0,7.0,8.0,4.0,F1,3.0,2.12,84.4,2.03
+female,group D,some high school,free/reduced,22.0,South Korea,0.0,97362.0,Self-funded,22.0,Yes,Off-campus,6.0,84.0,7.4,8.4,1.0,2.6,1.0,4.0,4.0,2.0,F1,2.0,2.19,111.8,2.28
+male,group D,some college,standard,23.0,Nigeria,3.0,46417.0,Loan,21.0,No,Off-campus,36.0,77.0,6.5,6.9,3.0,6.3,5.0,7.0,5.0,7.0,F1,4.0,2.08,87.3,2.51
+male,group B,high school,standard,18.0,Brazil,4.0,38693.0,Loan,17.0,Yes,With relatives,30.0,60.0,7.6,8.0,3.0,11.9,6.0,10.0,6.0,7.0,F1,7.0,2.91,112.3,2.33
+female,group D,some college,standard,22.0,India,2.0,99674.0,Scholarship,23.0,Yes,On-campus,10.0,84.0,5.8,5.6,1.0,7.0,3.0,3.0,3.0,3.0,F1,5.0,3.65,104.5,2.6
+female,group C,bachelor's degree,free/reduced,26.0,South Korea,0.0,140956.0,Family,22.0,No,On-campus,7.0,75.0,5.6,4.5,4.0,8.1,7.0,7.0,5.0,7.0,J1,9.0,2.63,87.7,2.05
+male,group E,bachelor's degree,standard,29.0,India,3.0,135598.0,Scholarship,10.0,Yes,Off-campus,37.0,64.0,6.4,5.9,4.0,14.9,6.0,4.0,10.0,1.0,F1,10.0,2.77,98.9,2.22
+male,group D,bachelor's degree,free/reduced,27.0,China,2.0,139028.0,Self-funded,20.0,Yes,With relatives,5.0,60.0,8.4,4.6,4.0,6.0,4.0,8.0,5.0,1.0,F1,7.0,3.82,107.3,2.13
+female,group A,some college,standard,19.0,Nigeria,1.0,147517.0,Loan,11.0,No,With relatives,9.0,84.0,4.2,8.7,2.0,9.2,3.0,9.0,1.0,9.0,F1,9.0,3.67,105.4,2.6
+female,group C,bachelor's degree,standard,18.0,China,1.0,73161.0,Loan,4.0,No,Off-campus,17.0,61.0,8.0,4.4,4.0,5.5,5.0,7.0,3.0,6.0,J1,9.0,3.33,97.1,2.48
+female,group C,bachelor's degree,free/reduced,27.0,India,2.0,141316.0,Scholarship,22.0,No,On-campus,23.0,62.0,5.8,7.3,1.0,5.9,3.0,8.0,3.0,5.0,Other,2.0,2.53,116.0,2.32
+female,group B,associate's degree,free/reduced,28.0,UK,0.0,22169.0,Self-funded,8.0,No,Off-campus,16.0,61.0,8.3,3.1,2.0,10.4,10.0,8.0,1.0,6.0,F1,1.0,2.23,100.8,2.1
+female,group E,some college,standard,26.0,Other,1.0,104092.0,Loan,26.0,No,Off-campus,29.0,70.0,8.0,7.5,4.0,14.1,9.0,2.0,7.0,6.0,Other,4.0,2.03,100.2,2.34
+male,group E,bachelor's degree,standard,27.0,India,4.0,42052.0,Self-funded,24.0,Yes,Off-campus,39.0,100.0,5.7,9.3,2.0,8.1,9.0,9.0,1.0,1.0,F1,4.0,2.21,82.5,2.36
+female,group C,high school,standard,26.0,Brazil,2.0,91849.0,Self-funded,8.0,No,Off-campus,16.0,61.0,7.5,6.9,1.0,11.5,6.0,6.0,7.0,5.0,Other,2.0,2.59,116.9,2.1
+female,group C,associate's degree,standard,26.0,South Korea,2.0,93851.0,Scholarship,21.0,Yes,On-campus,34.0,77.0,4.8,6.5,4.0,1.3,6.0,4.0,4.0,9.0,F1,3.0,3.1,87.1,2.81
+male,group B,some college,standard,23.0,South Korea,1.0,28036.0,Family,9.0,No,Off-campus,9.0,96.0,8.5,9.7,0.0,3.2,4.0,5.0,9.0,4.0,F1,3.0,2.13,101.1,2.15
+male,group D,high school,free/reduced,25.0,China,0.0,51778.0,Scholarship,21.0,No,On-campus,38.0,70.0,6.0,7.0,1.0,7.5,4.0,10.0,7.0,3.0,F1,5.0,2.27,112.1,2.19
+female,group C,high school,free/reduced,28.0,Other,4.0,47734.0,Family,18.0,No,Off-campus,26.0,60.0,6.3,4.1,3.0,0.3,2.0,5.0,5.0,1.0,F1,1.0,2.36,88.6,2.26
+male,group D,high school,standard,18.0,Nigeria,0.0,43173.0,Self-funded,0.0,Yes,With relatives,17.0,66.0,7.5,4.3,3.0,3.8,10.0,7.0,7.0,2.0,F1,9.0,3.26,101.1,1.96
+female,group B,associate's degree,free/reduced,27.0,UK,3.0,50403.0,Family,6.0,No,On-campus,7.0,65.0,8.1,7.6,1.0,7.8,4.0,9.0,9.0,3.0,F1,8.0,3.23,89.6,1.94
+male,group D,high school,free/reduced,21.0,Germany,3.0,86321.0,Self-funded,3.0,Yes,With relatives,24.0,70.0,5.2,7.9,3.0,0.2,8.0,7.0,10.0,4.0,F1,8.0,3.1,110.4,1.99
+male,group E,some high school,standard,18.0,Other,1.0,91675.0,Loan,0.0,Yes,Off-campus,35.0,64.0,7.3,4.4,1.0,4.0,10.0,9.0,6.0,7.0,J1,3.0,2.5,102.6,2.21
+male,group E,associate's degree,free/reduced,25.0,South Korea,1.0,26344.0,Loan,14.0,No,Off-campus,9.0,60.0,6.0,4.8,0.0,7.7,2.0,4.0,1.0,6.0,F1,2.0,2.74,114.2,2.47
+female,group D,high school,free/reduced,18.0,Brazil,1.0,38800.0,Loan,7.0,Yes,Off-campus,28.0,61.0,5.8,9.9,1.0,8.6,9.0,10.0,6.0,8.0,F1,1.0,2.19,115.8,2.0
+male,group E,associate's degree,free/reduced,20.0,Other,3.0,45372.0,Scholarship,11.0,No,On-campus,37.0,60.0,7.5,2.8,4.0,13.9,1.0,10.0,1.0,9.0,F1,6.0,2.45,105.9,2.82
+female,group C,some high school,free/reduced,21.0,China,0.0,81516.0,Scholarship,21.0,Yes,With relatives,12.0,60.0,5.9,5.2,4.0,9.7,2.0,4.0,4.0,6.0,Other,10.0,3.8,109.0,2.6
+male,group C,some college,free/reduced,25.0,China,0.0,40538.0,Self-funded,21.0,No,On-campus,28.0,74.0,5.7,2.5,2.0,6.2,2.0,6.0,8.0,7.0,J1,1.0,3.96,102.0,2.75
+male,group D,some college,free/reduced,23.0,Germany,1.0,83918.0,Loan,17.0,No,On-campus,24.0,60.0,8.2,8.6,3.0,14.0,6.0,8.0,5.0,4.0,F1,5.0,3.3,95.4,2.34
+male,group D,associate's degree,free/reduced,27.0,Brazil,4.0,34973.0,Scholarship,14.0,No,Off-campus,20.0,71.0,4.5,2.7,3.0,11.8,7.0,9.0,5.0,2.0,F1,9.0,3.83,105.9,2.13
+male,group C,bachelor's degree,free/reduced,29.0,Nigeria,0.0,91155.0,Loan,16.0,No,With relatives,16.0,75.0,7.4,7.4,1.0,3.0,3.0,1.0,10.0,9.0,F1,9.0,3.29,116.3,2.68
+male,group C,associate's degree,standard,24.0,Other,3.0,120240.0,Scholarship,28.0,No,Off-campus,17.0,87.0,5.2,2.5,3.0,2.0,9.0,1.0,8.0,9.0,F1,4.0,2.07,96.7,2.26
+male,group D,some college,free/reduced,25.0,Brazil,2.0,79500.0,Family,13.0,No,On-campus,29.0,63.0,4.1,7.4,4.0,10.1,5.0,8.0,8.0,4.0,F1,7.0,3.99,92.6,2.31
+male,group A,associate's degree,standard,19.0,Nigeria,2.0,56575.0,Family,13.0,No,Off-campus,36.0,60.0,4.8,8.7,0.0,8.4,5.0,7.0,1.0,3.0,J1,7.0,2.2,95.5,2.35
+female,group E,high school,free/reduced,27.0,Brazil,2.0,125455.0,Loan,17.0,No,With relatives,28.0,60.0,7.0,5.2,1.0,11.8,4.0,9.0,5.0,10.0,F1,4.0,3.37,97.4,2.65
+male,group D,some college,standard,28.0,Brazil,4.0,62261.0,Self-funded,19.0,No,Off-campus,13.0,81.0,7.5,6.2,3.0,11.1,9.0,3.0,5.0,6.0,F1,5.0,2.51,82.9,2.28
+male,group D,some high school,standard,25.0,India,1.0,130659.0,Scholarship,17.0,No,With relatives,27.0,68.0,4.1,5.2,4.0,9.4,8.0,10.0,8.0,3.0,F1,9.0,2.78,99.9,1.83
+male,group C,master's degree,free/reduced,20.0,China,3.0,47716.0,Scholarship,15.0,No,With relatives,17.0,66.0,4.2,4.4,2.0,14.8,4.0,5.0,1.0,1.0,F1,7.0,3.29,99.8,2.34
+female,group D,master's degree,standard,24.0,Other,4.0,23236.0,Family,0.0,No,Off-campus,36.0,91.0,8.5,8.4,3.0,8.0,4.0,3.0,7.0,4.0,F1,7.0,2.87,103.5,2.84
+male,group C,high school,standard,20.0,Brazil,3.0,35848.0,Family,22.0,No,On-campus,19.0,66.0,4.4,4.2,0.0,1.7,2.0,5.0,7.0,1.0,F1,10.0,2.5,94.5,2.06
+male,group A,some high school,free/reduced,24.0,Other,3.0,22352.0,Self-funded,26.0,No,Off-campus,9.0,62.0,8.5,7.8,0.0,12.4,9.0,10.0,9.0,2.0,F1,7.0,2.67,104.5,1.58
+female,group B,high school,standard,28.0,Germany,1.0,21932.0,Self-funded,10.0,Yes,On-campus,26.0,68.0,5.1,3.6,3.0,3.8,3.0,1.0,2.0,3.0,J1,9.0,2.68,115.1,2.64
+female,group C,associate's degree,standard,29.0,Brazil,2.0,96449.0,Self-funded,14.0,Yes,On-campus,20.0,61.0,7.7,4.0,3.0,11.7,4.0,4.0,3.0,8.0,F1,5.0,3.92,118.2,2.87
+male,group B,high school,standard,19.0,South Korea,1.0,28556.0,Loan,11.0,No,Off-campus,14.0,82.0,5.5,4.7,4.0,14.4,7.0,6.0,4.0,10.0,F1,6.0,3.6,103.3,2.59
+female,group D,some college,free/reduced,27.0,China,4.0,106836.0,Family,7.0,Yes,On-campus,28.0,60.0,8.3,6.7,3.0,10.5,10.0,2.0,1.0,4.0,Other,3.0,2.92,81.7,2.57
+male,group B,some high school,free/reduced,23.0,South Korea,4.0,25498.0,Loan,21.0,No,On-campus,22.0,60.0,7.5,5.6,2.0,8.9,8.0,7.0,7.0,4.0,F1,1.0,2.4,118.8,1.98
+female,group E,high school,free/reduced,20.0,Other,4.0,96118.0,Family,19.0,No,Off-campus,22.0,75.0,6.0,8.0,4.0,6.9,8.0,8.0,10.0,10.0,F1,2.0,3.62,108.2,2.33
+male,group E,high school,standard,20.0,Other,1.0,70098.0,Family,29.0,No,Off-campus,11.0,73.0,4.4,3.7,1.0,5.5,4.0,1.0,3.0,9.0,F1,8.0,2.31,93.4,2.5
+female,group D,some college,standard,26.0,China,3.0,84386.0,Scholarship,5.0,Yes,Off-campus,8.0,77.0,7.7,2.1,2.0,5.3,7.0,4.0,3.0,7.0,F1,1.0,2.42,85.9,2.33
+female,group E,some high school,free/reduced,24.0,Other,3.0,132169.0,Family,2.0,Yes,On-campus,30.0,74.0,7.1,8.2,4.0,9.5,10.0,4.0,3.0,2.0,F1,10.0,2.73,85.7,2.36
+male,group C,high school,standard,22.0,South Korea,0.0,29569.0,Family,27.0,No,With relatives,9.0,60.0,4.0,8.6,4.0,11.3,1.0,5.0,8.0,3.0,F1,7.0,3.76,86.7,2.18
+female,group C,some college,standard,29.0,Brazil,4.0,136127.0,Loan,23.0,No,On-campus,20.0,69.0,4.0,2.5,0.0,10.2,6.0,4.0,9.0,4.0,F1,5.0,2.26,81.8,1.94
+male,group E,associate's degree,standard,27.0,Brazil,3.0,146060.0,Family,25.0,No,With relatives,39.0,60.0,8.0,6.9,4.0,3.0,6.0,9.0,10.0,4.0,F1,6.0,2.24,116.1,2.11
+male,group C,some college,standard,24.0,India,0.0,76882.0,Loan,29.0,No,Off-campus,30.0,87.0,5.3,5.0,2.0,7.4,6.0,7.0,2.0,10.0,F1,8.0,2.99,101.6,2.81
+female,group D,master's degree,standard,26.0,Germany,3.0,90393.0,Self-funded,12.0,No,With relatives,22.0,100.0,7.2,8.4,3.0,11.9,2.0,2.0,10.0,8.0,J1,4.0,2.55,108.0,2.72
+female,group D,high school,standard,18.0,Other,4.0,20340.0,Family,12.0,No,Off-campus,33.0,63.0,6.3,9.0,2.0,7.1,8.0,1.0,10.0,10.0,F1,6.0,3.14,113.1,2.62
+male,group C,high school,standard,24.0,South Korea,2.0,63949.0,Family,1.0,No,Off-campus,27.0,81.0,8.3,8.8,1.0,8.0,5.0,9.0,1.0,10.0,J1,3.0,2.9,111.7,2.84
+female,group A,some college,standard,23.0,Other,4.0,102302.0,Loan,4.0,Yes,With relatives,18.0,60.0,8.6,8.2,4.0,11.6,5.0,1.0,9.0,6.0,F1,7.0,2.87,115.3,2.43
+female,group D,some high school,free/reduced,27.0,Other,1.0,82443.0,Self-funded,16.0,No,Off-campus,19.0,60.0,9.0,4.2,4.0,9.9,2.0,6.0,6.0,3.0,F1,2.0,2.22,118.7,2.25
+female,group E,associate's degree,standard,29.0,Nigeria,3.0,111668.0,Scholarship,5.0,No,With relatives,37.0,100.0,4.8,8.5,4.0,6.1,4.0,2.0,9.0,9.0,F1,8.0,2.28,97.6,2.78
+female,group C,some high school,free/reduced,26.0,India,3.0,94027.0,Self-funded,1.0,No,Off-campus,29.0,76.0,8.3,6.3,4.0,13.4,9.0,4.0,6.0,10.0,F1,7.0,3.64,118.0,2.83
+male,group D,some college,standard,18.0,South Korea,1.0,20138.0,Loan,3.0,Yes,On-campus,25.0,60.0,5.3,2.4,0.0,2.4,9.0,6.0,2.0,8.0,F1,8.0,3.77,108.9,2.56
+female,group D,some college,standard,21.0,South Korea,1.0,20358.0,Self-funded,21.0,No,On-campus,21.0,70.0,7.0,5.7,0.0,14.9,6.0,5.0,1.0,9.0,F1,2.0,2.47,82.8,2.62
+male,group A,some high school,standard,26.0,Other,2.0,139619.0,Loan,25.0,No,Off-campus,27.0,68.0,6.5,9.5,3.0,1.8,9.0,6.0,8.0,5.0,F1,3.0,2.23,107.3,2.03
+male,group C,some college,standard,21.0,India,3.0,95250.0,Loan,10.0,No,Off-campus,21.0,63.0,4.1,9.1,4.0,0.2,4.0,3.0,3.0,3.0,F1,4.0,2.11,107.5,2.22
+female,group E,associate's degree,standard,27.0,Brazil,3.0,105376.0,Scholarship,7.0,Yes,With relatives,18.0,76.0,8.7,2.8,1.0,13.4,1.0,5.0,1.0,4.0,J1,9.0,3.22,116.2,2.84
+female,group B,bachelor's degree,standard,20.0,South Korea,2.0,119931.0,Family,11.0,No,On-campus,33.0,84.0,4.4,8.0,3.0,3.7,2.0,2.0,8.0,5.0,F1,5.0,3.43,94.9,2.8
+female,group D,bachelor's degree,standard,26.0,Brazil,0.0,50654.0,Loan,7.0,No,With relatives,24.0,100.0,7.4,8.4,4.0,10.9,1.0,7.0,1.0,9.0,F1,6.0,2.75,103.4,3.04
+male,group C,some high school,standard,19.0,India,2.0,45879.0,Loan,10.0,No,Off-campus,34.0,72.0,7.9,4.2,0.0,12.2,8.0,3.0,8.0,9.0,F1,1.0,3.36,80.5,2.77
+female,group A,high school,free/reduced,21.0,Brazil,4.0,101532.0,Scholarship,21.0,No,Off-campus,23.0,60.0,8.0,5.8,1.0,12.9,9.0,1.0,1.0,3.0,Other,4.0,3.43,93.3,2.63
+female,group D,some college,free/reduced,23.0,China,3.0,75778.0,Loan,19.0,No,With relatives,17.0,65.0,4.7,7.7,3.0,14.9,10.0,8.0,9.0,7.0,J1,4.0,3.87,82.5,2.03
+female,group A,some college,standard,19.0,Nigeria,1.0,57772.0,Family,7.0,No,Off-campus,22.0,63.0,6.2,5.5,1.0,4.4,6.0,8.0,9.0,6.0,J1,10.0,2.13,100.9,1.93
+female,group C,some college,standard,25.0,UK,4.0,78478.0,Scholarship,28.0,No,On-campus,27.0,82.0,8.1,2.9,4.0,10.7,2.0,3.0,9.0,4.0,F1,8.0,2.38,112.7,2.53
+male,group B,some college,free/reduced,25.0,South Korea,3.0,84353.0,Family,7.0,No,With relatives,37.0,62.0,5.5,7.6,2.0,1.7,6.0,7.0,3.0,5.0,F1,8.0,2.14,88.3,2.36
+male,group C,associate's degree,standard,18.0,Germany,2.0,46762.0,Family,25.0,Yes,On-campus,22.0,65.0,6.3,9.3,1.0,6.1,9.0,9.0,4.0,10.0,F1,10.0,3.74,101.1,2.47
+male,group D,high school,standard,29.0,Nigeria,4.0,33283.0,Scholarship,29.0,No,On-campus,13.0,60.0,5.4,7.2,1.0,12.7,3.0,8.0,5.0,2.0,F1,6.0,3.59,88.2,2.15
+female,group C,associate's degree,standard,20.0,UK,3.0,83922.0,Loan,16.0,Yes,On-campus,37.0,95.0,6.3,8.2,0.0,5.5,9.0,3.0,6.0,7.0,J1,8.0,3.15,84.8,2.8
+female,group B,high school,free/reduced,27.0,Brazil,0.0,59420.0,Family,19.0,No,With relatives,36.0,60.0,8.4,4.9,4.0,8.9,2.0,2.0,9.0,4.0,F1,9.0,2.17,100.4,2.55
+male,group D,some high school,standard,26.0,South Korea,0.0,75568.0,Family,19.0,Yes,Off-campus,21.0,78.0,6.3,3.5,1.0,7.6,5.0,10.0,4.0,2.0,Other,5.0,2.55,83.2,2.09
+male,group B,some high school,standard,22.0,Brazil,1.0,105090.0,Family,22.0,Yes,On-campus,23.0,85.0,6.8,7.1,4.0,9.7,2.0,7.0,6.0,6.0,F1,1.0,2.6,103.5,2.52
+female,group A,some college,standard,23.0,China,3.0,40219.0,Family,15.0,No,On-campus,31.0,87.0,6.0,4.6,0.0,14.6,7.0,7.0,1.0,2.0,J1,1.0,3.12,81.3,2.56
+female,group C,some high school,standard,21.0,India,0.0,77169.0,Scholarship,13.0,Yes,On-campus,10.0,75.0,6.3,8.9,4.0,0.8,10.0,9.0,2.0,10.0,F1,2.0,2.52,84.3,2.14
+male,group A,high school,standard,27.0,South Korea,2.0,120455.0,Scholarship,29.0,No,Off-campus,39.0,60.0,4.1,3.0,0.0,8.6,9.0,5.0,8.0,2.0,F1,2.0,2.15,102.0,1.96
+female,group C,associate's degree,standard,19.0,UK,3.0,94965.0,Self-funded,10.0,Yes,Off-campus,38.0,60.0,5.4,5.5,0.0,12.9,7.0,4.0,4.0,7.0,F1,5.0,3.46,103.7,2.74
+male,group E,some high school,standard,28.0,UK,2.0,66840.0,Self-funded,6.0,No,With relatives,24.0,75.0,6.2,5.2,3.0,7.2,5.0,8.0,10.0,1.0,F1,7.0,2.6,81.2,1.93
+female,group A,some high school,free/reduced,25.0,China,2.0,64695.0,Family,15.0,No,Off-campus,29.0,60.0,7.2,9.5,4.0,1.2,4.0,4.0,7.0,7.0,F1,7.0,2.9,102.9,2.58
+female,group D,some college,free/reduced,28.0,China,0.0,125209.0,Loan,12.0,No,With relatives,8.0,86.0,6.3,3.2,2.0,8.4,4.0,4.0,4.0,10.0,F1,4.0,2.26,113.5,2.49
+male,group E,high school,free/reduced,23.0,Other,3.0,104754.0,Family,26.0,No,With relatives,14.0,81.0,5.7,2.1,3.0,5.0,10.0,2.0,9.0,5.0,F1,4.0,3.61,108.9,2.23
+female,group B,some high school,standard,22.0,South Korea,4.0,97988.0,Loan,14.0,Yes,With relatives,14.0,82.0,5.9,3.9,0.0,2.3,8.0,1.0,9.0,1.0,F1,10.0,3.13,85.2,2.11
+female,group D,associate's degree,free/reduced,26.0,Brazil,0.0,78342.0,Family,23.0,No,With relatives,28.0,76.0,5.2,8.6,2.0,12.7,10.0,4.0,4.0,6.0,F1,3.0,3.8,103.7,2.59
+female,group D,bachelor's degree,free/reduced,18.0,Germany,0.0,134516.0,Self-funded,15.0,Yes,With relatives,25.0,72.0,8.6,3.7,1.0,7.8,10.0,7.0,8.0,7.0,F1,2.0,2.99,106.9,2.27
+male,group A,high school,standard,22.0,UK,3.0,38951.0,Self-funded,26.0,No,On-campus,15.0,63.0,6.6,3.9,1.0,14.0,10.0,9.0,6.0,1.0,J1,3.0,3.88,81.5,1.91
+female,group E,master's degree,standard,23.0,UK,3.0,21307.0,Loan,20.0,No,Off-campus,31.0,99.0,4.1,3.0,3.0,12.1,10.0,9.0,1.0,9.0,J1,8.0,3.78,114.2,2.76
+male,group C,high school,free/reduced,22.0,China,2.0,100388.0,Family,22.0,No,On-campus,20.0,60.0,4.1,7.7,2.0,10.4,10.0,10.0,7.0,7.0,F1,1.0,3.15,116.3,1.87
+female,group C,high school,free/reduced,23.0,Nigeria,3.0,110768.0,Loan,23.0,Yes,With relatives,30.0,71.0,8.9,2.6,4.0,0.1,1.0,1.0,1.0,1.0,F1,4.0,3.87,114.0,3.17
+female,group D,some college,standard,23.0,China,2.0,55428.0,Self-funded,8.0,No,Off-campus,34.0,78.0,5.1,4.6,2.0,6.4,5.0,5.0,3.0,3.0,F1,7.0,2.65,113.0,2.53

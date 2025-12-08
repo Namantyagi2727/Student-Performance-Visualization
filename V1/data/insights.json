@@ -21,8 +21,8 @@
     "homesickness_level"
   ],
   "model_insights": {
-    "best_model": "ElasticNetCV",
-    "best_r2": 0.9999078701903041,
+    "best_model": "Linear Regression",
+    "best_r2": 0.9999069439957385,
     "improvement_over_baseline": "Feature analysis shows study hours and previous GPA are strongest predictors"
   }
 }

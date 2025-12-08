@@ -10,8 +10,8 @@ import json
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.linear_model import LinearRegression, ElasticNetCV, Ridge, Lasso, BayesianRidge
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.inspection import permutation_importance
@@ -30,7 +30,7 @@ except Exception:
     HAVE_SHAP = False
 
 # Load dataset
-df = pd.read_csv("/Users/naman/Downloads/VisML/VISML/Student_Performance_Data.csv")
+df = pd.read_csv("Student_Performance_Data.csv")
 
 print("📊 Starting data generation for visualizations...")
 print(f"Dataset shape: {df.shape}")
@@ -141,12 +141,7 @@ print("5️⃣ Training ML models...")
 
 models = {
     "Linear Regression": LinearRegression(),
-    "Ridge": Ridge(alpha=1.0),
-    "Lasso": Lasso(alpha=0.01),
-    "ElasticNetCV": ElasticNetCV(l1_ratio=[0.1, 0.5, 0.9], alphas=[1e-3, 1e-2, 1e-1, 1.0], cv=5, random_state=42),
-    "BayesianRidge": BayesianRidge(),
     "Random Forest": RandomForestRegressor(n_estimators=200, random_state=42),
-    "ExtraTrees": ExtraTreesRegressor(n_estimators=200, random_state=42),
     "Gradient Boosting": GradientBoostingRegressor(random_state=42),
     "SVR": SVR(kernel='rbf'),
     "KNN Regressor": KNeighborsRegressor(n_neighbors=5)
@@ -296,35 +291,16 @@ best_model_name = min(results, key=lambda k: results[k]['rmse_test'])
 best_model = results[best_model_name]['model']
 
 print(f"   Best Model: {best_model_name}")
-# Compute feature importance with fallbacks for different model types
+
+# Feature importance for tree-based models
 feature_importance = {}
-try:
-    # Tree-based models
-    if hasattr(best_model, 'feature_importances_'):
-        importances = np.array(best_model.feature_importances_)
-        indices = np.argsort(importances)[::-1]
-        for idx in indices:
-            feature_importance[X.columns[idx]] = float(importances[idx])
-    # Linear models (use absolute coefficients)
-    elif hasattr(best_model, 'coef_'):
-        coefs = np.abs(np.array(best_model.coef_))
-        # handle multi-output or 2D coefs by averaging
-        if coefs.ndim > 1:
-            coefs = np.mean(coefs, axis=0)
-        for i, val in enumerate(coefs):
-            feature_importance[X.columns[i]] = float(val)
-    # Fallback: permutation importance for any estimator
-    else:
-        try:
-            perm = permutation_importance(best_model, X_test, y_test, n_repeats=10, random_state=42, n_jobs=-1)
-            importances = perm.importances_mean
-            for i, val in enumerate(importances):
-                feature_importance[X.columns[i]] = float(val)
-        except Exception:
-            # leave feature_importance empty on failure
-            pass
-except Exception:
-    feature_importance = {}
+
+if hasattr(best_model, 'feature_importances_'):
+    importances = best_model.feature_importances_
+    indices = np.argsort(importances)[::-1][:15]  # Top 15
+    
+    for i, idx in enumerate(indices):
+        feature_importance[X.columns[idx]] = float(importances[idx])
 
 # Save best model info
 best_model_info = {
@@ -341,36 +317,6 @@ best_model_info = {
 
 with open("data/best_model_info.json", "w") as f:
     json.dump(best_model_info, f, indent=2)
-
-# ==========================================================================
-# OPTIONAL: SHAP EXPLANATIONS (if `shap` is installed)
-# Moved here after `best_model` is defined so we can compute explanations.
-# ==========================================================================
-if HAVE_SHAP:
-    try:
-        print('\n🔬 Computing SHAP values for best model (this may take a few moments)...')
-        try:
-            import shap
-            # Use an appropriate explainer for the model
-            explainer = shap.Explainer(best_model, X_train)
-            shap_vals = explainer(X)
-            # shap_vals.values shape: (n_samples, n_features)
-            mean_abs_shap = np.mean(np.abs(shap_vals.values), axis=0)
-            shap_summary = {col: float(val) for col, val in zip(X.columns, mean_abs_shap)}
-            with open('data/shap_summary.json', 'w') as f:
-                json.dump({'shap_summary': shap_summary}, f, indent=2)
-            # Save small sample of per-sample shap values (first 200)
-            sample_shap = shap_vals.values[:200].tolist()
-            with open('data/shap_values_sample.json', 'w') as f:
-                json.dump({'feature_names': X.columns.tolist(), 'shap_values_sample': sample_shap}, f, indent=2)
-            print('   SHAP summary saved')
-        except Exception as e:
-            print('   SHAP computation failed:', e)
-    except Exception as e:
-        print('   SHAP not available or failed:', e)
-else:
-    print('\nℹ️ SHAP package not installed. To compute SHAP explanations, install `shap` in your virtualenv and re-run this script:')
-    print('   python -m pip install shap')
 
 # ============================================================================
 # 7. KEY INSIGHTS

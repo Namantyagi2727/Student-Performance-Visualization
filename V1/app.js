@@ -684,41 +684,6 @@ document.addEventListener('DOMContentLoaded', function() {
         createSHAPChart();
         populateFactorsLists();
 
-        // Update hero stats and dataset overview from generated data
-        function updateHeroAndOverview() {
-            // Hero
-            const heroStudents = document.getElementById('hero-students');
-            const heroFeatures = document.getElementById('hero-features');
-            const heroModels = document.getElementById('hero-models');
-            const heroBestR2 = document.getElementById('hero-best-r2');
-
-            try {
-                const totalRecords = (sampleData.basicStats && sampleData.basicStats.total_records) || (sampleData.points && sampleData.points.length) || null;
-                const totalFeatures = (sampleData.basicStats && sampleData.basicStats.total_features) || (sampleData.numeric_features && sampleData.numeric_features.length) || Object.keys(sampleData.featureImportance || {}).length || null;
-                const modelCount = sampleData.modelPerformance ? Object.keys(sampleData.modelPerformance).length : null;
-                let bestR2 = null;
-                if (sampleData.modelPerformance) {
-                    const best = Object.entries(sampleData.modelPerformance).reduce((acc, [k,v]) => (v.r2 && v.r2 > (acc[1]||0)) ? [k, v.r2] : acc, [null, 0]);
-                    bestR2 = best[1] || null;
-                }
-
-                if (heroStudents && totalRecords != null) heroStudents.textContent = totalRecords;
-                if (heroFeatures && totalFeatures != null) heroFeatures.textContent = totalFeatures;
-                if (heroModels && modelCount != null) heroModels.textContent = modelCount;
-                if (heroBestR2 && bestR2 != null) heroBestR2.textContent = Number(bestR2).toFixed(2);
-            } catch (e) { /* ignore */ }
-
-            // Dataset overview cards
-            const dsTotalRecords = document.getElementById('ds-total-records');
-            const dsTotalFeatures = document.getElementById('ds-total-features');
-            const dsTarget = document.getElementById('ds-target-variable');
-            if (dsTotalRecords && sampleData.basicStats && sampleData.basicStats.total_records) dsTotalRecords.textContent = sampleData.basicStats.total_records;
-            if (dsTotalFeatures && sampleData.basicStats && sampleData.basicStats.total_features) dsTotalFeatures.textContent = sampleData.basicStats.total_features;
-            if (dsTarget && sampleData.basicStats && sampleData.basicStats.target_variable) dsTarget.textContent = sampleData.basicStats.target_variable;
-        }
-
-        updateHeroAndOverview();
-
         function createSHAPChart() {
             const container = document.getElementById('shap-summary');
             if (!container) return;

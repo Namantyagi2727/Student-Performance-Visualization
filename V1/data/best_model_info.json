@@ -1,0 +1,11 @@
+{
+  "name": "Linear Regression",
+  "rmse_train": 0.0028325028276851047,
+  "rmse_test": 0.0029710458261629174,
+  "r2_train": 0.9999140690199123,
+  "r2_test": 0.9999069439957385,
+  "feature_importance": {},
+  "feature_count": 26,
+  "training_samples": 749,
+  "test_samples": 250
+}

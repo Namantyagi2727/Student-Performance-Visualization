@@ -369,6 +369,112 @@ function createDistributionChart() {
         .text('Semester GPA Distribution');
 }
 
+function drawVerticalBarChart(container, data, opts = {}) {
+    const margin = {top: 40, right: 10, bottom: 80, left: 50};
+    const width = Math.max(420, container.clientWidth) - margin.left - margin.right;
+    const height = 360 - margin.top - margin.bottom;
+
+    const svg = d3.select(container).append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+        .style('background', '#ffffff');
+
+    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x = d3.scaleBand().domain(data.map(d => d.name)).range([0, width]).padding(0.2);
+    const yMax = opts.maxY !== undefined ? opts.maxY : d3.max(data, d => d.value) * 1.1;
+    const y = d3.scaleLinear().domain([0, yMax]).range([height, 0]).nice();
+
+    g.append('g').attr('transform', `translate(0,${height})`).call(d3.axisBottom(x)).selectAll('text')
+        .attr('transform', 'rotate(-35)')
+        .style('text-anchor', 'end');
+
+    g.append('g').call(d3.axisLeft(y));
+
+    g.selectAll('.bar')
+        .data(data)
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .attr('x', d => x(d.name))
+        .attr('y', d => y(d.value))
+        .attr('width', x.bandwidth())
+        .attr('height', d => height - y(d.value))
+        .attr('fill', d => {
+            if (opts.yLabel && opts.yLabel.toLowerCase().includes('r²')) return d.value > 0.8 ? '#10b981' : d.value > 0.7 ? '#f59e0b' : '#ef4444';
+            return d.value < 0.4 ? '#10b981' : d.value < 0.6 ? '#f59e0b' : '#ef4444';
+        });
+
+    // Title
+    svg.append('text')
+        .attr('x', (width + margin.left + margin.right) / 2)
+        .attr('y', margin.top / 2)
+        .attr('text-anchor', 'middle')
+        .style('font-size', '16px')
+        .style('font-weight', '700')
+        .text(opts.title || '');
+}
+
+function createModelR2Chart() {
+    const container = document.getElementById('r2-chart');
+    if (!container) return;
+    container.innerHTML = '';
+    if (!sampleData.modelPerformance) {
+        container.innerHTML = '<p class="muted">Model performance data not available.</p>';
+        return;
+    }
+    const models = Object.keys(sampleData.modelPerformance);
+    const data = models.map(m => ({name: m, value: sampleData.modelPerformance[m].r2 || 0}));
+    drawVerticalBarChart(container, data, {title: 'R² Score Comparison', yLabel: 'R² Score', maxY: 1});
+}
+
+function createModelRMSEChart() {
+    const container = document.getElementById('rmse-chart');
+    if (!container) return;
+    container.innerHTML = '';
+    if (!sampleData.modelPerformance) {
+        container.innerHTML = '<p class="muted">Model performance data not available.</p>';
+        return;
+    }
+    const models = Object.keys(sampleData.modelPerformance);
+    const data = models.map(m => ({name: m, value: sampleData.modelPerformance[m].rmse != null ? sampleData.modelPerformance[m].rmse : 0}));
+    drawVerticalBarChart(container, data, {title: 'RMSE Comparison', yLabel: 'RMSE (lower better)'});
+}
+
+function createSHAPChart() {
+    const container = document.getElementById('shap-summary');
+    if (!container) return;
+    container.innerHTML = '';
+    if (!sampleData.shap_summary) {
+        container.innerHTML = '<p class="muted">No SHAP summary found. Run `generate_viz_data.py` with the `shap` package installed to generate SHAP summaries.</p>';
+        return;
+    }
+
+    const entries = Object.entries(sampleData.shap_summary).map(([k,v]) => ({key: k, value: v}));
+    entries.sort((a,b)=>b.value - a.value);
+    const top = entries.slice(0,10);
+
+    const margin = {top: 24, right: 20, bottom: 30, left: 180};
+    const width = Math.max(520, container.clientWidth) - margin.left - margin.right;
+    const height = Math.min(360, top.length * 32) - margin.top - margin.bottom;
+
+    const svg = d3.select(container)
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+        .style('background', '#ffffff');
+
+    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+    const x = d3.scaleLinear().domain([0, d3.max(top, d=>d.value)]).range([0,width]).nice();
+    const y = d3.scaleBand().domain(top.map(d=>d.key)).range([0,height]).padding(0.15);
+    g.append('g').call(d3.axisLeft(y).tickFormat(d=>d.replace(/_/g,' '))).selectAll('text').style('font-family','system-ui');
+    g.append('g').attr('transform', `translate(0,${height})`).call(d3.axisBottom(x));
+    g.selectAll('.bar').data(top).enter().append('rect').attr('y', d=>y(d.key)).attr('height', y.bandwidth()).attr('x', 0).attr('width', d=>x(d.value)).attr('fill','#7c3aed').attr('rx',4);
+    g.selectAll('.label').data(top).enter().append('text').attr('x', d=>x(d.value)+6).attr('y', d=>y(d.key)+y.bandwidth()/2).attr('dy','0.35em').text(d=>d.value.toFixed(3)).style('font-weight',700).style('fill','#1e293b');
+}
+
 // -----------------------------
 // Filtering & Embedding helpers
 // -----------------------------
@@ -676,6 +782,9 @@ document.addEventListener('DOMContentLoaded', function() {
         createDistributionChart();
         createFeatureImportanceChart();
         populateFactorsLists();
+        createModelR2Chart();
+        createModelRMSEChart();
+        createSHAPChart();
 
         // Update hero stats and dataset overview from generated data
         function updateHeroAndOverview() {
@@ -711,49 +820,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateHeroAndOverview();
-        // Update model cards on the page with values from `sampleData.modelPerformance` or show fallbacks
-        function updateModelCards() {
-            const perf = sampleData.modelPerformance || null;
-            const cards = document.querySelectorAll('.model-card');
-            cards.forEach(card => {
-                const titleEl = card.querySelector('h4');
-                const metrics = Array.from(card.querySelectorAll('.metric'));
-                const title = titleEl ? titleEl.textContent.trim().toLowerCase() : '';
-
-                // Find matching model key
-                let matchKey = null;
-                if (perf) {
-                    for (const k of Object.keys(perf)) {
-                        const kl = k.toLowerCase();
-                        if (title.includes(kl) || kl.includes(title.split(' ')[0])) { matchKey = k; break; }
-                    }
-                }
-
-                metrics.forEach(metric => {
-                    const label = metric.querySelector('.label');
-                    const valueEl = metric.querySelector('.value');
-                    if (!valueEl) return;
-                    let out = 'Not available';
-                    if (matchKey && perf && perf[matchKey]) {
-                        const m = perf[matchKey];
-                        const lt = label ? label.textContent.toLowerCase() : '';
-                        if (lt.includes('r²') || lt.includes('r2') || lt.includes('r² score')) {
-                            out = (m.r2 != null) ? Number(m.r2).toFixed(3) : 'Not available';
-                        } else if (lt.includes('rmse')) {
-                            out = (m.rmse != null) ? Number(m.rmse).toFixed(3) : 'Not available';
-                        } else if (lt.includes('mae')) {
-                            out = (m.mae != null) ? Number(m.mae).toFixed(3) : 'Not available';
-                        } else {
-                            // fallback: try r2 then rmse
-                            out = (m.r2 != null) ? Number(m.r2).toFixed(3) : (m.rmse != null ? Number(m.rmse).toFixed(3) : 'Not available');
-                        }
-                    }
-                    valueEl.textContent = out;
-                });
-            });
-        }
-
-        updateModelCards();
+        // Model cards removed from HTML; dynamic update omitted.
 
         // Chart type toggle event
         const chartTypeToggle = document.getElementById('chart-type-toggle');

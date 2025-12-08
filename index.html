@@ -141,7 +141,27 @@
             <div class="subsection">
                 <h3>Feature Correlation with GPA</h3>
                 <p class="description">Which factors are most strongly associated with semester GPA?</p>
+                <div class="filters">
+                    <label for="filter-gender">Filter by Gender:</label>
+                    <select id="filter-gender">
+                        <option value="all">All</option>
+                    </select>
+
+                    <label for="filter-country">Filter by Country:</label>
+                    <select id="filter-country">
+                        <option value="all">All</option>
+                    </select>
+
+                    <button id="filter-reset" class="btn">Reset Filters</button>
+                </div>
                 <div id="correlation-chart" class="chart-container"></div>
+            </div>
+
+            <!-- Embedding / Clusters -->
+            <div class="subsection">
+                <h3>Student Embedding (UMAP / t-SNE)</h3>
+                <p class="description">Visualize student clusters — brush to select students and link to other charts.</p>
+                <div id="embedding-plot" class="chart-container" style="min-height:420px;"></div>
             </div>
 
             <!-- Distribution Analysis -->
@@ -246,6 +266,12 @@
                 <h3>Feature Importance (Top 10)</h3>
                 <p class="description">Which features does our best model rely on most for predictions?</p>
                 <div id="feature-importance" class="chart-container"></div>
+            </div>
+
+            <div class="subsection">
+                <h3>SHAP Summary (Model Explainability)</h3>
+                <p class="description">If available, SHAP mean absolute values show per-feature contribution to predictions.</p>
+                <div id="shap-summary" class="chart-container"></div>
             </div>
 
             <!-- Model Interpretation -->

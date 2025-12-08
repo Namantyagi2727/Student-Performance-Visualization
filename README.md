@@ -29,6 +29,9 @@ This project builds a comprehensive visualization dashboard that:
 - Histograms for GPA distribution
 - Model performance comparisons
 - Real-time prediction tool
+ - UMAP / t-SNE embedding scatter (D3 + SVG) with brushing
+ - Interactive demographic filters (gender, country) with linked highlighting
+ - SHAP summary chart (if `shap` package installed and `generate_viz_data.py` is run)
 
 ### 4. Prediction Tool
 Adjust student characteristics to see predicted GPA:
@@ -65,6 +68,8 @@ VisML/
 │   ├── insights.json
 │   ├── sample_profiles.json
 │   └── categorical_analysis.json
+│   ├── points.json              # point-level data and embeddings for interactive plots
+│   └── embeddings.json          # saved embedding coordinates (UMAP / t-SNE)
 ├── models/                     # Saved ML models
 │   ├── best_model.pkl
 │   ├── scaler.pkl
@@ -78,6 +83,22 @@ VisML/
 ### Option 1: View Locally
 1. Open `index.html` in your web browser
 2. Interact with visualizations and prediction tool
+
+### To enable embeddings, SHAP and filtering (recommended)
+Run the Python data generator to create point-level JSON and embeddings. In a virtualenv:
+
+```bash
+cd /Users/naman/Downloads/VisML
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install pandas numpy scikit-learn joblib
+# Optional: install shap and umap for explainability and UMAP
+python -m pip install shap umap-learn
+python generate_viz_data.py
+```
+
+Reload the dashboard — embedding scatter, per-feature SHAP summary, and demographic filters will be enabled automatically.
 
 ### Option 2: Deploy on GitHub Pages
 1. Create a GitHub repository

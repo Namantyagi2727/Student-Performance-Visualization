@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import json
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
@@ -16,6 +16,18 @@ from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.inspection import permutation_importance
 import joblib
+import os
+from sklearn.manifold import TSNE
+try:
+    import umap.umap_ as umap
+    HAVE_UMAP = True
+except Exception:
+    HAVE_UMAP = False
+try:
+    import shap
+    HAVE_SHAP = True
+except Exception:
+    HAVE_SHAP = False
 
 # Load dataset
 df = pd.read_csv("Student_Performance_Data.csv")
@@ -88,6 +100,10 @@ for col in numeric_cols:
 
 with open("data/distributions.json", "w") as f:
     json.dump(distributions, f, indent=2)
+
+# Ensure output directories exist
+os.makedirs('data', exist_ok=True)
+os.makedirs('models', exist_ok=True)
 
 # ============================================================================
 # 4. DATA PREPROCESSING FOR ML
@@ -167,8 +183,104 @@ for name, model in models.items():
     print("✓")
 
 # Save model performance
+print("\n🔎 Running cross-validation for model robustness (5-fold)...")
+for perf in model_performance:
+    name = perf['name']
+    clf = results[name]['model']
+    try:
+        scores = cross_val_score(clf, X_scaled, y, cv=5, scoring='r2')
+        perf['cv_r2_mean'] = float(np.mean(scores))
+        perf['cv_r2_std'] = float(np.std(scores))
+    except Exception as e:
+        perf['cv_r2_mean'] = None
+        perf['cv_r2_std'] = None
+
 with open("data/model_performance.json", "w") as f:
     json.dump(model_performance, f, indent=2)
+
+# ==========================================================================
+# 11. EMBEDDINGS & POINT-LEVEL DATA FOR FRONT-END
+# ==========================================================================
+print("11️⃣ Generating embeddings and point-level JSON for front-end...")
+
+# Use scaled features for embeddings (X_scaled corresponds to X.columns)
+emb_matrix = X_scaled
+embedding_results = {}
+if HAVE_UMAP:
+    try:
+        reducer = umap.UMAP(n_components=2, random_state=42)
+        emb = reducer.fit_transform(emb_matrix)
+        embedding_results['umap'] = emb.tolist()
+        print('   UMAP embedding computed')
+    except Exception as e:
+        print('   UMAP failed:', e)
+
+# Always compute t-SNE (fallback)
+try:
+    tsne = TSNE(n_components=2, random_state=42, init='pca', learning_rate='auto')
+    emb_tsne = tsne.fit_transform(emb_matrix)
+    embedding_results['tsne'] = emb_tsne.tolist()
+    print('   t-SNE embedding computed')
+except Exception as e:
+    print('   t-SNE failed:', e)
+
+# Prepare point-level JSON (sample key features + embeddings)
+point_cols = ['semester_gpa'] + numeric_cols
+points = []
+for i, row in df.iterrows():
+    pt = { 'id': int(i) }
+    # Add categorical columns of interest
+    for c in ['gender', 'country_region']:
+        if c in df.columns:
+            pt[c] = row[c]
+    # Add numeric columns
+    for c in numeric_cols:
+        try:
+            pt[c] = float(row[c]) if not pd.isnull(row[c]) else None
+        except Exception:
+            pt[c] = None
+    # Add embeddings if available
+    if 'umap' in embedding_results:
+        pt['umap_x'], pt['umap_y'] = embedding_results['umap'][i]
+    if 'tsne' in embedding_results:
+        pt['tsne_x'], pt['tsne_y'] = embedding_results['tsne'][i]
+    points.append(pt)
+
+with open('data/points.json', 'w') as f:
+    json.dump({'points': points, 'numeric_features': numeric_cols}, f, indent=2)
+
+# Save embeddings summary
+with open('data/embeddings.json', 'w') as f:
+    json.dump({'embeddings': embedding_results}, f, indent=2)
+
+# ==========================================================================
+# 12. SHAP EXPLANATIONS (if available)
+# ==========================================================================
+if HAVE_SHAP:
+    try:
+        print('\n🔬 Computing SHAP values for best model (this may take a few moments)...')
+        # Use a TreeExplainer for tree-based models
+        if hasattr(best_model, 'predict'):
+            try:
+                explainer = shap.Explainer(best_model, X_train)
+                shap_vals = explainer(X)
+                # shap_vals.values shape: (n_samples, n_features)
+                mean_abs_shap = np.mean(np.abs(shap_vals.values), axis=0)
+                shap_summary = {col: float(val) for col, val in zip(X.columns, mean_abs_shap)}
+                with open('data/shap_summary.json', 'w') as f:
+                    json.dump({'shap_summary': shap_summary}, f, indent=2)
+                # Save small sample of per-sample shap values (first 200)
+                sample_shap = shap_vals.values[:200].tolist()
+                with open('data/shap_values_sample.json', 'w') as f:
+                    json.dump({'feature_names': X.columns.tolist(), 'shap_values_sample': sample_shap}, f, indent=2)
+                print('   SHAP summary saved')
+            except Exception as e:
+                print('   SHAP computation failed:', e)
+    except Exception as e:
+        print('   SHAP not available or failed:', e)
+else:
+    print('\nℹ️ SHAP package not installed. To compute SHAP explanations, install `shap` in your virtualenv and re-run this script:')
+    print('   python -m pip install shap')
 
 # ============================================================================
 # 6. BEST MODEL AND FEATURE IMPORTANCE

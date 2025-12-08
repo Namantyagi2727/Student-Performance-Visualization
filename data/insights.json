@@ -1,0 +1,28 @@
+{
+  "gpa_statistics": {
+    "mean": 2.404424424424424,
+    "median": 2.4,
+    "std": 0.30670569085958505,
+    "min": 1.57,
+    "max": 3.33
+  },
+  "strongest_positive_factors": [
+    "study_hours_per_week",
+    "prev_sem_gpa",
+    "social_support_score",
+    "sleep_hours_per_day",
+    "attendance_percentage"
+  ],
+  "strongest_negative_factors": [
+    "work_hours_per_week",
+    "age",
+    "stress_level",
+    "academic_pressure",
+    "homesickness_level"
+  ],
+  "model_insights": {
+    "best_model": "Linear Regression",
+    "best_r2": 0.9999069439957385,
+    "improvement_over_baseline": "Feature analysis shows study hours and previous GPA are strongest predictors"
+  }
+}

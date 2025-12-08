@@ -1,0 +1,35 @@
+[
+  {
+    "name": "High Performer",
+    "profile": {
+      "study_hours_per_week": 35,
+      "prev_sem_gpa": 3.8,
+      "attendance_percentage": 95,
+      "sleep_hours_per_day": 7,
+      "stress_level": 4,
+      "english_proficiency_score": 110
+    }
+  },
+  {
+    "name": "Average Performer",
+    "profile": {
+      "study_hours_per_week": 20,
+      "prev_sem_gpa": 2.8,
+      "attendance_percentage": 75,
+      "sleep_hours_per_day": 6,
+      "stress_level": 7,
+      "english_proficiency_score": 85
+    }
+  },
+  {
+    "name": "At Risk",
+    "profile": {
+      "study_hours_per_week": 8,
+      "prev_sem_gpa": 2.0,
+      "attendance_percentage": 50,
+      "sleep_hours_per_day": 5,
+      "stress_level": 9,
+      "english_proficiency_score": 70
+    }
+  }
+]

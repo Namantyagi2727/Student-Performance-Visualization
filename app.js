@@ -131,6 +131,8 @@ function loadDataFromJSON() {
                 if (key === 'correlations') {
                     // correlations.json structure: { gpa_correlations: {...}, ... }
                     if (json.gpa_correlations) sampleData.correlations = json.gpa_correlations;
+                    if (json.correlation_matrix) sampleData.correlation_matrix = json.correlation_matrix;
+                    if (json.correlation_columns) sampleData.correlation_columns = json.correlation_columns;
                 } else if (key === 'distributions') {
                     sampleData.gpaStats = json.semester_gpa || sampleData.gpaStats;
                 } else if (key === 'modelPerformance') {
@@ -183,80 +185,135 @@ function loadDataFromJSON() {
 
 
 function createCorrelationChart() {
-    // D3 horizontal bar chart for correlations
     const container = document.getElementById('correlation-chart');
     if (!container) return;
     container.innerHTML = '';
+    const chartType = document.getElementById('chart-type-toggle') ? document.getElementById('chart-type-toggle').value : 'bar';
 
-    const data = Object.entries(sampleData.correlations).map(([k, v]) => ({key: k, value: v}));
-    data.sort((a, b) => b.value - a.value);
-
-    const margin = {top: 24, right: 20, bottom: 30, left: 220};
-    const width = Math.max(600, container.clientWidth) - margin.left - margin.right;
-    const height = Math.min(500, data.length * 32) - margin.top - margin.bottom;
-
-    const svg = d3.select(container)
-        .append('svg')
-        .attr('width', width + margin.left + margin.right)
-        .attr('height', height + margin.top + margin.bottom)
-        .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
-        .style('background', '#ffffff');
-
-    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
-
-    const x = d3.scaleLinear()
-        .domain([d3.min(data, d => Math.min(-1, d.value)), d3.max(data, d => Math.max(1, d.value))])
-        .range([0, width]);
-
-    const y = d3.scaleBand()
-        .domain(data.map(d => d.key))
-        .range([0, height])
-        .padding(0.15);
-
-    // Axis
-    g.append('g').call(d3.axisLeft(y).tickFormat(d => d.replace(/_/g, ' '))).selectAll('text').style('font-family', 'system-ui');
-
-    g.append('g')
-        .attr('transform', `translate(0,${height})`)
-        .call(d3.axisBottom(x).ticks(6));
-
-    // Zero line
-    g.append('line')
-        .attr('x1', x(0))
-        .attr('x2', x(0))
-        .attr('y1', 0)
-        .attr('y2', height)
-        .attr('stroke', '#ddd')
-        .attr('stroke-width', 1);
-
-    // Bars
-    g.selectAll('.bar')
-        .data(data)
-        .enter()
-        .append('rect')
-        .attr('class', 'bar')
-        .attr('y', d => y(d.key))
-        .attr('height', y.bandwidth())
-        .attr('x', d => x(Math.min(0, d.value)))
-        .attr('width', d => Math.abs(x(d.value) - x(0)))
-        .attr('fill', d => d.value >= 0 ? '#10b981' : '#ef4444')
-        .attr('rx', 4)
-        .attr('ry', 4);
-
-    // Labels
-    g.selectAll('.label')
-        .data(data)
-        .enter()
-        .append('text')
-        .attr('class', 'label')
-        .attr('x', d => d.value >= 0 ? x(d.value) + 6 : x(d.value) - 6)
-        .attr('y', d => y(d.key) + y.bandwidth() / 2)
-        .attr('dy', '0.35em')
-        .attr('text-anchor', d => d.value >= 0 ? 'start' : 'end')
-        .text(d => d.value.toFixed(2))
-        .style('font-family', 'system-ui')
-        .style('font-weight', 700)
-        .style('fill', '#1e293b');
+    if (chartType === 'bar') {
+        const data = Object.entries(sampleData.correlations).map(([k, v]) => ({key: k, value: v}));
+        data.sort((a, b) => b.value - a.value);
+        const margin = {top: 24, right: 20, bottom: 30, left: 220};
+        const width = Math.max(600, container.clientWidth) - margin.left - margin.right;
+        const height = Math.min(500, data.length * 32) - margin.top - margin.bottom;
+        const svg = d3.select(container)
+            .append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+            .style('background', '#ffffff');
+        const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+        const x = d3.scaleLinear()
+            .domain([d3.min(data, d => Math.min(-1, d.value)), d3.max(data, d => Math.max(1, d.value))])
+            .range([0, width]);
+        const y = d3.scaleBand()
+            .domain(data.map(d => d.key))
+            .range([0, height])
+            .padding(0.15);
+        g.append('g').call(d3.axisLeft(y).tickFormat(d => d.replace(/_/g, ' '))).selectAll('text').style('font-family', 'system-ui');
+        g.append('g')
+            .attr('transform', `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(6));
+        g.append('line')
+            .attr('x1', x(0))
+            .attr('x2', x(0))
+            .attr('y1', 0)
+            .attr('y2', height)
+            .attr('stroke', '#ddd')
+            .attr('stroke-width', 1);
+        g.selectAll('.bar')
+            .data(data)
+            .enter()
+            .append('rect')
+            .attr('class', 'bar')
+            .attr('y', d => y(d.key))
+            .attr('height', y.bandwidth())
+            .attr('x', d => x(Math.min(0, d.value)))
+            .attr('width', d => Math.abs(x(d.value) - x(0)))
+            .attr('fill', d => d.value >= 0 ? '#10b981' : '#ef4444')
+            .attr('rx', 4)
+            .attr('ry', 4);
+        g.selectAll('.label')
+            .data(data)
+            .enter()
+            .append('text')
+            .attr('class', 'label')
+            .attr('x', d => d.value >= 0 ? x(d.value) + 6 : x(d.value) - 6)
+            .attr('y', d => y(d.key) + y.bandwidth() / 2)
+            .attr('dy', '0.35em')
+            .attr('text-anchor', d => d.value >= 0 ? 'start' : 'end')
+            .text(d => d.value.toFixed(2))
+            .style('font-family', 'system-ui')
+            .style('font-weight', 700)
+            .style('fill', '#1e293b');
+    } else if (chartType === 'heatmap') {
+        // Heatmap using correlation_matrix and correlation_columns
+        const matrix = sampleData.correlation_matrix || [];
+        const columns = sampleData.correlation_columns || [];
+        if (!matrix.length || !columns.length) {
+            container.innerHTML = '<div style="color:red">No correlation matrix data available.</div>';
+            return;
+        }
+        const size = Math.max(32, Math.min(48, Math.floor(container.clientWidth / columns.length)));
+        const margin = {top: 120, right: 40, bottom: 40, left: 120};
+        const width = columns.length * size;
+        const height = columns.length * size;
+        const svg = d3.select(container)
+            .append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+            .style('background', '#fff');
+        const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+        const color = d3.scaleSequential(d3.interpolateRdBu).domain([-1, 1]);
+        g.selectAll('rect')
+            .data(matrix.flatMap((row, i) => row.map((v, j) => ({x: j, y: i, value: v}))))
+            .enter()
+            .append('rect')
+            .attr('x', d => d.x * size)
+            .attr('y', d => d.y * size)
+            .attr('width', size)
+            .attr('height', size)
+            .attr('fill', d => color(d.value))
+            .attr('stroke', '#fff');
+        // Axis labels
+        g.selectAll('.col-label')
+            .data(columns)
+            .enter()
+            .append('text')
+            .attr('class', 'col-label')
+            .attr('x', (d, i) => i * size + size / 2)
+            .attr('y', -8)
+            .attr('text-anchor', 'end')
+            .attr('transform', (d, i) => `rotate(-45,${i * size + size / 2},-8)`)
+            .text(d => d.replace(/_/g, ' '))
+            .style('font-size', '13px')
+            .style('font-family', 'system-ui');
+        g.selectAll('.row-label')
+            .data(columns)
+            .enter()
+            .append('text')
+            .attr('class', 'row-label')
+            .attr('x', -8)
+            .attr('y', (d, i) => i * size + size / 2)
+            .attr('text-anchor', 'end')
+            .text(d => d.replace(/_/g, ' '))
+            .style('font-size', '13px')
+            .style('font-family', 'system-ui');
+        // Values
+        g.selectAll('.cell-label')
+            .data(matrix.flatMap((row, i) => row.map((v, j) => ({x: j, y: i, value: v}))))
+            .enter()
+            .append('text')
+            .attr('class', 'cell-label')
+            .attr('x', d => d.x * size + size / 2)
+            .attr('y', d => d.y * size + size / 2 + 4)
+            .attr('text-anchor', 'middle')
+            .text(d => d.value.toFixed(2))
+            .style('font-size', '11px')
+            .style('font-family', 'system-ui')
+            .style('fill', '#222');
+    }
 }
 
 function createDistributionChart() {
@@ -718,6 +775,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateHeroAndOverview();
+
+        // Chart type toggle event
+        const chartTypeToggle = document.getElementById('chart-type-toggle');
+        if (chartTypeToggle) {
+            chartTypeToggle.addEventListener('change', createCorrelationChart);
+        }
 
         function createSHAPChart() {
             const container = document.getElementById('shap-summary');

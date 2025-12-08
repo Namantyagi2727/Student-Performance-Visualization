@@ -258,35 +258,6 @@ with open('data/points.json', 'w') as f:
 with open('data/embeddings.json', 'w') as f:
     json.dump({'embeddings': embedding_results}, f, indent=2)
 
-# ==========================================================================
-# 12. SHAP EXPLANATIONS (if available)
-# ==========================================================================
-if HAVE_SHAP:
-    try:
-        print('\n🔬 Computing SHAP values for best model (this may take a few moments)...')
-        # Use a TreeExplainer for tree-based models
-        if hasattr(best_model, 'predict'):
-            try:
-                explainer = shap.Explainer(best_model, X_train)
-                shap_vals = explainer(X)
-                # shap_vals.values shape: (n_samples, n_features)
-                mean_abs_shap = np.mean(np.abs(shap_vals.values), axis=0)
-                shap_summary = {col: float(val) for col, val in zip(X.columns, mean_abs_shap)}
-                with open('data/shap_summary.json', 'w') as f:
-                    json.dump({'shap_summary': shap_summary}, f, indent=2)
-                # Save small sample of per-sample shap values (first 200)
-                sample_shap = shap_vals.values[:200].tolist()
-                with open('data/shap_values_sample.json', 'w') as f:
-                    json.dump({'feature_names': X.columns.tolist(), 'shap_values_sample': sample_shap}, f, indent=2)
-                print('   SHAP summary saved')
-            except Exception as e:
-                print('   SHAP computation failed:', e)
-    except Exception as e:
-        print('   SHAP not available or failed:', e)
-else:
-    print('\nℹ️ SHAP package not installed. To compute SHAP explanations, install `shap` in your virtualenv and re-run this script:')
-    print('   python -m pip install shap')
-
 # ============================================================================
 # 6. BEST MODEL AND FEATURE IMPORTANCE
 # ============================================================================

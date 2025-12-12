@@ -1,8 +1,8 @@
 {
-  "total_records": 999,
-  "total_features": 27,
+  "total_records": 1000,
+  "total_features": 25,
   "numeric_features": 18,
-  "categorical_features": 9,
+  "categorical_features": 7,
   "missing_values": 0,
   "target_variable": "semester_gpa",
   "numeric_features_list": [
@@ -27,9 +27,7 @@
   ],
   "categorical_features_list": [
     "gender",
-    "race/ethnicity",
     "parental level of education",
-    "lunch",
     "country_region",
     "financial_support",
     "scholarship_status",

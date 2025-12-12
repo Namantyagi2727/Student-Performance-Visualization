@@ -138,7 +138,7 @@ function loadDataFromJSON() {
                 } else if (key === 'modelPerformance') {
                     // expect an array of {name, r2_test, rmse_test, cv_r2_mean}
                     const perf = {};
-                    json.forEach(item => { perf[item.name] = {r2: item.r2_test || item.r2, rmse: item.rmse_test || item.rmse}; });
+                    json.forEach(item => { perf[item.name] = {r2: item.r2_test || item.r2, rmse: item.rmse_test || item.rmse, mae: item.mae_test || item.mae}; });
                     sampleData.modelPerformance = perf;
                 } else if (key === 'bestModelInfo') {
                     if (json.feature_importance) sampleData.featureImportance = json.feature_importance;
@@ -787,6 +787,35 @@ document.addEventListener('DOMContentLoaded', function() {
         createSHAPChart();
 
         // Update hero stats and dataset overview from generated data
+        function updateModelCards() {
+            if (!sampleData.modelPerformance) return;
+            
+            const models = Object.entries(sampleData.modelPerformance);
+            if (models.length === 0) return;
+            
+            // Sort by R² descending
+            models.sort((a, b) => (b[1].r2 || 0) - (a[1].r2 || 0));
+            
+            // Best model
+            const [bestName, bestMetrics] = models[0];
+            document.getElementById('best-model-name').textContent = bestName;
+            document.getElementById('best-model-r2').textContent = bestMetrics.r2 != null ? Number(bestMetrics.r2).toFixed(3) : 'Not available';
+            document.getElementById('best-model-rmse').textContent = bestMetrics.rmse != null ? Number(bestMetrics.rmse).toFixed(3) : 'Not available';
+            document.getElementById('best-model-mae').textContent = bestMetrics.mae != null ? Number(bestMetrics.mae).toFixed(3) : 'Not available';
+            document.getElementById('best-model-desc').textContent = `${bestName} achieved the best balance between accuracy and generalization.`;
+            
+            // Other models
+            for (let i = 1; i <= 2; i++) {
+                const model = models[i];
+                if (model) {
+                    const [name, metrics] = model;
+                    document.getElementById(`model-${i+1}-name`).textContent = name;
+                    document.getElementById(`model-${i+1}-r2`).textContent = metrics.r2 != null ? Number(metrics.r2).toFixed(3) : 'Not available';
+                    document.getElementById(`model-${i+1}-rmse`).textContent = metrics.rmse != null ? Number(metrics.rmse).toFixed(3) : 'Not available';
+                }
+            }
+        }
+
         function updateHeroAndOverview() {
             // Hero
             const heroStudents = document.getElementById('hero-students');
@@ -820,7 +849,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateHeroAndOverview();
-        // Model cards removed from HTML; dynamic update omitted.
+        updateModelCards();
 
         // Chart type toggle event
         const chartTypeToggle = document.getElementById('chart-type-toggle');

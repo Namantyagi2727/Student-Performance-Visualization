@@ -2,35 +2,18 @@
   "gender": {
     "unique_values": 2,
     "value_counts": {
-      "female": 517,
+      "female": 518,
       "male": 482
     },
     "avg_gpa_by_category": {
-      "female": 2.430522243713733,
-      "male": 2.3764315352697096
-    }
-  },
-  "race/ethnicity": {
-    "unique_values": 5,
-    "value_counts": {
-      "group C": 319,
-      "group D": 261,
-      "group B": 190,
-      "group E": 140,
-      "group A": 89
-    },
-    "avg_gpa_by_category": {
-      "group A": 2.381011235955056,
-      "group B": 2.390421052631579,
-      "group C": 2.4286833855799372,
-      "group D": 2.3882375478927202,
-      "group E": 2.413214285714286
+      "female": 2.658334555984556,
+      "male": 2.5614871369294607
     }
   },
   "parental level of education": {
     "unique_values": 6,
     "value_counts": {
-      "some college": 225,
+      "some college": 226,
       "associate's degree": 222,
       "high school": 196,
       "some high school": 179,
@@ -38,23 +21,12 @@
       "master's degree": 59
     },
     "avg_gpa_by_category": {
-      "associate's degree": 2.423918918918919,
-      "bachelor's degree": 2.42,
-      "high school": 2.336173469387755,
-      "master's degree": 2.4964406779661017,
-      "some college": 2.405733333333333,
-      "some high school": 2.412737430167598
-    }
-  },
-  "lunch": {
-    "unique_values": 2,
-    "value_counts": {
-      "standard": 645,
-      "free/reduced": 354
-    },
-    "avg_gpa_by_category": {
-      "free/reduced": 2.3870338983050847,
-      "standard": 2.413968992248062
+      "associate's degree": 2.6384274774774776,
+      "bachelor's degree": 2.6466813559322033,
+      "high school": 2.5072352040816326,
+      "master's degree": 2.714050847457627,
+      "some college": 2.6326278761061945,
+      "some high school": 2.6094625698324023
     }
   },
   "country_region": {
@@ -63,73 +35,73 @@
       "South Korea": 136,
       "Brazil": 132,
       "India": 131,
-      "Germany": 126,
+      "Germany": 127,
       "China": 126,
       "UK": 125,
       "Other": 117,
       "Nigeria": 106
     },
     "avg_gpa_by_category": {
-      "Brazil": 2.398939393939394,
-      "China": 2.3817460317460317,
-      "Germany": 2.392301587301587,
-      "India": 2.3816030534351147,
-      "Nigeria": 2.37811320754717,
-      "Other": 2.4398290598290595,
-      "South Korea": 2.467426470588235,
-      "UK": 2.38984
+      "Brazil": 2.567987121212121,
+      "China": 2.59395,
+      "Germany": 2.640781102362205,
+      "India": 2.588495419847328,
+      "Nigeria": 2.640033962264151,
+      "Other": 2.6190282051282052,
+      "South Korea": 2.7018301470588235,
+      "UK": 2.5412096
     }
   },
   "financial_support": {
     "unique_values": 4,
     "value_counts": {
-      "Family": 264,
+      "Family": 265,
       "Loan": 250,
       "Self-funded": 250,
       "Scholarship": 235
     },
     "avg_gpa_by_category": {
-      "Family": 2.3843560606060605,
-      "Loan": 2.41524,
-      "Scholarship": 2.3784680851063826,
-      "Self-funded": 2.4392
+      "Family": 2.576299245283019,
+      "Loan": 2.6078744,
+      "Scholarship": 2.6266744680851066,
+      "Self-funded": 2.6387908
     }
   },
   "scholarship_status": {
     "unique_values": 2,
     "value_counts": {
       "No": 679,
-      "Yes": 320
+      "Yes": 321
     },
     "avg_gpa_by_category": {
-      "No": 2.402459499263623,
-      "Yes": 2.40859375
+      "No": 2.6096537555228276,
+      "Yes": 2.615885358255452
     }
   },
   "housing_type": {
     "unique_values": 3,
     "value_counts": {
       "Off-campus": 363,
-      "On-campus": 327,
+      "On-campus": 328,
       "With relatives": 309
     },
     "avg_gpa_by_category": {
-      "Off-campus": 2.400661157024793,
-      "On-campus": 2.4062079510703365,
-      "With relatives": 2.406957928802589
+      "Off-campus": 2.613718732782369,
+      "On-campus": 2.6232143292682926,
+      "With relatives": 2.5969576051779932
     }
   },
   "visa_type": {
     "unique_values": 3,
     "value_counts": {
-      "F1": 793,
+      "F1": 794,
       "J1": 147,
       "Other": 59
     },
     "avg_gpa_by_category": {
-      "F1": 2.406670870113493,
-      "J1": 2.4075510204081634,
-      "Other": 2.366440677966102
+      "F1": 2.607321662468514,
+      "J1": 2.6489707482993197,
+      "Other": 2.5769830508474576
     }
   }
 }

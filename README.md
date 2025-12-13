@@ -5,7 +5,7 @@ An interactive machine learning visualization project for **CS-GY 9223: Visualiz
 ## 📊 Project Overview
 
 This project builds a comprehensive visualization dashboard that:
-- **Analyzes student performance data** (999 students, 27 features)
+- **Analyzes student performance data** (1000 students, 27 features)
  - **Trains 10 different ML models** to predict semester GPA
 - **Creates interactive visualizations** inspired by the UMAP tutorial website
 - **Provides interpretable insights** about factors affecting academic success
@@ -28,7 +28,7 @@ This project builds a comprehensive visualization dashboard that:
 Simple, interactive dashboard that visualizes a student performance dataset and ships precomputed ML results for fast, browser-only exploration.
 
 Why this project
-- Share interactive analytics for a tabular student dataset (999 records). The heavy ML work runs offline in Python and the results (JSON + pickled models) power the browser visualizations.
+- Share interactive analytics for a tabular student dataset (1000 records). The heavy ML work runs offline in Python and the results (JSON + pickled models) power the browser visualizations.
 
 What you'll find here (high level)
 - Clean visualizations: correlations, distributions, and an embedding scatter (UMAP / t-SNE).
@@ -73,7 +73,7 @@ Files to check
 Notes & tips
 - The generator will produce SHAP summaries only if the `shap` package is installed when you run it.
 - The dashboard is intentionally static (no backend). Regenerate `data/` when you change the CSV or model code.
-- The CSV used for this project contains 999 data rows (header excluded).
+- The CSV used for this project contains 1000 data rows (header excluded).
 
 Contributing
 - Fixes, improvements, or a minimal GitHub Actions workflow to auto-run the generator are welcome.
@@ -92,19 +92,19 @@ If you want this README expanded with a short architecture diagram, deployment s
 This project demonstrates key concepts from **Visualization for Machine Learning**:
 
 ### Visualization Techniques
-- ✅ Perception for Design (color theory, visual hierarchy)
-- ✅ Correlation heatmaps for feature relationships
-- ✅ Distribution charts for data exploration
-- ✅ Model performance visualization
-- ✅ Feature importance ranking
-- ✅ Interactive dashboards
+-  Perception for Design (color theory, visual hierarchy)
+-  Correlation heatmaps for feature relationships
+-  Distribution charts for data exploration
+-  Model performance visualization
+-  Feature importance ranking
+-  Interactive dashboards
 
 ### ML Model Interpretation
-- ✅ Model assessment (R², RMSE, MAE)
-- ✅ Feature importance analysis
-- ✅ Model comparison frameworks
-- ✅ Prediction interpretation
-- ✅ Visual analytics for model debugging
+-  Model assessment (R², RMSE, MAE)
+-  Feature importance analysis
+-  Model comparison frameworks
+-  Prediction interpretation
+-  Visual analytics for model debugging
 
 ### Best Practices Applied
 - Responsive design for all devices
